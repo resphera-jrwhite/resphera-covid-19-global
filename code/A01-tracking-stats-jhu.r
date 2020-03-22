@@ -144,7 +144,7 @@ theme(axis.text.x  = element_text(size=5, colour="black", angle=45, hjust=1, vju
       legend.text  = element_text(size=9, colour="black"),
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank(),
-      plot.margin = margin(0.8, 0.8, 0.8, 0.8, "cm")) +
+      plot.margin = margin(0.2, 0.2, 0.2, 0.2, "cm")) +
 xlab("Date") +
 ylab("Cumulative Deaths") +
 ggtitle(titleStr) +
