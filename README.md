@@ -1,12 +1,17 @@
-# Project Title (resphera-covid-19-global)
-### ______ Laboratory | ____
-This is a version-controlled codebase for the ___
+# COVID-19 Global Tracking Statisics (resphera-covid-19-global)
+### Resphera Biosciences | Baltimore, MD
+This repository contains code and analysis of COVID-19 global tracking statistics provided by the [Center for Systems Science and Engineering (CSSE)](https://systems.jhu.edu/) at the [Johns Hopkins Whiting School of Engineering](https://engineering.jhu.edu/).
 
+ #### Latest Results
+![Alt text align="left"](./analysis/A01-tracking-stats-jhu/covid-19.cumulative-deaths-by-date-log10.png?raw=true)
+![Alt text align="left"](./analysis/A01-tracking-stats-jhu/covid-19.cumulative-deaths-from-50th-death-log10.png?raw=true)
+
+#### Repository Structure
 * Top-level directory: `resphera-covid-19-global/`
 ```
 ./resphera-covid-19-global/
-├── analysis                        <-- contains analysis directory outputs
 ├── code                            <-- contains code for analysis
+├── analysis                        <-- contains analysis directory outputs
 ├── data                            <-- contains data that may be version controlled
 │   ├── final
 │   ├── processed
@@ -17,8 +22,6 @@ This is a version-controlled codebase for the ___
 └── source-materials                <-- misc materials
 ```
 
-## Authors
+#### Authors
 
 * **James Robert White PhD** - *Initial work* - [GitHub](https://github.com/resphera-jrwhite)
-
-
