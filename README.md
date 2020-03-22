@@ -22,3 +22,6 @@ This repository contains code and analysis of COVID-19 global tracking statistic
 #### Authors
 
 * **James Robert White PhD** - *Initial work* - [GitHub](https://github.com/resphera-jrwhite)
+
+#### Terms of Use
+This GitHub repo, including all data and analysis, is provided strictly for academic research purposes and should be considered informal and unofficial. These results should not be used for clinical guidance of any kind.
