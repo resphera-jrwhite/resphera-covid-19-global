@@ -7,15 +7,12 @@ This repository contains code and analysis of COVID-19 global tracking statistic
 ![Alt text align="left"](./analysis/A01-tracking-stats-jhu/covid-19.cumulative-deaths-from-50th-death-log10.png?raw=true)
 
 #### Repository Structure
-* Top-level directory: `resphera-covid-19-global/`
+* Top-level directory: `resphera-covid-19-global/` d d
 ```
 ./resphera-covid-19-global/
 ├── code                            <-- contains code for analysis
 ├── analysis                        <-- contains analysis directory outputs
 ├── data                            <-- contains data that may be version controlled
-│   ├── final
-│   ├── processed
-│   └── raw
 ├── external                        <-- too large to version control
 ├── literature
 ├── reports                         <-- dir for reports and presentations
