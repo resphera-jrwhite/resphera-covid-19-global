@@ -1,13 +1,13 @@
 # COVID-19 Global Tracking Statisics (resphera-covid-19-global)
 ### Resphera Biosciences | Baltimore, MD
-This repository contains code and analysis of COVID-19 global tracking statistics provided by the [Center for Systems Science and Engineering (CSSE)](https://systems.jhu.edu/) at the [Johns Hopkins Whiting School of Engineering](https://engineering.jhu.edu/).
+This repository contains code and analysis of COVID-19 global tracking statistics from the [Center for Systems Science and Engineering (CSSE)](https://systems.jhu.edu/) at the [Johns Hopkins Whiting School of Engineering](https://engineering.jhu.edu/).
 
  #### Latest Results
 ![Alt text align="left"](./analysis/A01-tracking-stats-jhu/covid-19.cumulative-deaths-by-date-log10.png?raw=true)
 ![Alt text align="left"](./analysis/A01-tracking-stats-jhu/covid-19.cumulative-deaths-from-50th-death-log10.png?raw=true)
 
 #### Repository Structure
-* Top-level directory: `resphera-covid-19-global/` d d
+* Top-level directory: `resphera-covid-19-global/`
 ```
 ./resphera-covid-19-global/
 ├── code                            <-- contains code for analysis
