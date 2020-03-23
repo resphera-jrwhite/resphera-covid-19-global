@@ -46,6 +46,9 @@ for (i in 1:nrow(odat)){
 
 odat[, 5:ncol(rawdat)] = apply(rawdat[, 5:ncol(rawdat)], 2,
                                function(x) as.numeric(as.character(x)))
+odat[, 5:ncol(odat)]   = apply(odat[ ,5:ncol(odat)], 2,
+                               function(x) { x[is.na(x)] <- 0; x })
+
 dat                    = odat[odat[,1]=="" | odat[,2]=="US", ]
 # china is not listed as a full country, sum by province to the country level --
 china                  = odat[odat[,2]=="China", ]
@@ -57,6 +60,7 @@ datusa                 = c("", "United States", "NA", "NA", colSums(usa[,5:ncol(
 dat                    = rbind(dat, datusa)
 dat[ , 5:ncol(dat)]    = apply(dat[ ,5:ncol(dat)], 2,
                                function(x) as.numeric(as.character(x)))
+
 # US -> USA ---
 dat[dat[,2]=="US",2] <- "USA"
 # remove countries with fewer than 50 deaths ---
