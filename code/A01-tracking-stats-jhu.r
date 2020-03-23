@@ -16,6 +16,7 @@ library(MASS)
 library(utils)
 library(reshape2)
 library(ggrepel)
+library(egg)
 # ------------------------------------------------------------------------
 # set the working directory as the location of the script ---
 setwd("/Users/jwhite/Desktop/resphera-covid-19-global/code")
@@ -106,117 +107,84 @@ colnames(visdat)      = c("Country.Region", "Date", "Cumulative.Deaths", "Days.f
 # remove data before feb for vis by country ---
 visdat                = visdat[grepl("^(2|3|4|5)",visdat[,2]),]
 visdat                = data.frame(visdat)
+visdat$DateFormatted  = as.Date(as.character(visdat$Date), tryFormats = c("%m/%d/%y"))
+
 # sort by most deaths ---
 aggres                = aggregate(Cumulative.Deaths ~ Country.Region, visdat, FUN=max)
 visdat$Country.Region = factor(visdat$Country.Region,levels=c(aggres[order(aggres[,2],decreasing=TRUE),1]))
 # adaptive color scheme ---
 colscheme    = c("#d72123", "#d87632", "#cac654", "#589A5D", "#4781A7", "#816fa3", "#d368a1", "grey50")
 adaptiveCols = colorRampPalette(colscheme)(length(levels(visdat$Country.Region)))
-# plot by country by date ---
-outfile1 = paste(analysisdir, "/covid-19.cumulative-deaths-by-date.png", sep="")
-p1 <- ggplot(visdat, aes(x=Date, y=Cumulative.Deaths, group=Country.Region)) +
-geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.9) +
-geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
-theme_bw() +
-scale_color_manual(values = adaptiveCols) +
-theme(axis.text.x  = element_text(size=5, colour="black", angle=45, hjust=1, vjust=1),
-      axis.text.y  = element_text(size=10, colour="black"),
-      axis.title.x = element_text(size=11, colour="black"),
-      axis.title.y = element_text(size=11, colour="black"),
-      plot.title   = element_text(size=11, colour="black"),
-      panel.grid.major = element_blank(),
-      panel.grid.minor = element_blank()) +
-xlab("Date") +
-ylab("Cumulative Deaths") +
-ggtitle(titleStr) +
-theme(aspect.ratio=0.75)
-ggsave(outfile1, plot=p1, height=4.8, width=8)
 
 # plot by country by date ---
 outfile1 = paste(analysisdir, "/covid-19.cumulative-deaths-by-date-log10.png", sep="")
-p1 <- ggplot(visdat, aes(x=Date, y=Cumulative.Deaths, group=Country.Region)) +
+p1 <- ggplot(visdat, aes(x=DateFormatted, y=Cumulative.Deaths, group=Country.Region, label=Label, color=Country.Region)) +
 geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.9) +
 geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
+geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
+                aes(label     = Label),
+                force         = 4,
+                nudge_x       = as.Date("2020-04-01"),
+                xlim          = c(as.Date("2020-03-25"), as.Date("2020-04-12")),
+                size          = 3,
+                segment.size  = 0.25) +
 theme_bw() +
 scale_color_manual(values = adaptiveCols) +
-theme(axis.text.x  = element_text(size=5, colour="black", angle=45, hjust=1, vjust=1),
-      axis.text.y  = element_text(size=10, colour="black"),
-      axis.title.x = element_text(size=11, colour="black"),
-      axis.title.y = element_text(size=11, colour="black"),
-      plot.title   = element_text(size=9, colour="black"),
-      legend.title = element_text(size=9, colour="black"),
-      legend.text  = element_text(size=9, colour="black"),
+theme(axis.text.x  = element_text(size=10, colour="black"),
+      axis.text.y  = element_text(size=11, colour="black"),
+      axis.title.x = element_text(size=12, colour="black"),
+      axis.title.y = element_text(size=12, colour="black"),
+      plot.title   = element_text(size=12, colour="black"),
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank(),
-      plot.margin = margin(0.2, 0.2, 0.2, 0.2, "cm")) +
+      legend.position  = "none") +
 xlab("Date") +
+scale_x_date(date_labels = "%b %d", date_breaks = "1 week") +
+expand_limits(x = as.Date("2020-04-10")) +
 ylab("Cumulative Deaths") +
 ggtitle(titleStr) +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
 theme(aspect.ratio=0.75)
-ggsave(outfile1, plot=p1, height=4.8, width=8)
-
-
-# --------------------------------------------------
-# plot by country post 50th death ---
-outfile1 = paste(analysisdir, "/covid-19.cumulative-deaths-from-50th-death.png", sep="")
-p1 <- ggplot(visdat, aes(x=Days.from.50th.Death, y=Cumulative.Deaths, group=Country.Region, label=Label, color=Country.Region)) +
-geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.9) +
-geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
-geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
-                aes(label     = Label),
-                nudge_x       = 35 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
-                nudge_y       = 100,
-                angle         = 0,
-                force         = 100,
-                size          = 3,
-                segment.size  = 0.25) +
-theme_bw() +
-scale_color_manual(values = adaptiveCols) +
-theme(axis.text.x  = element_text(size=12, colour="black"),
-      axis.text.y  = element_text(size=12, colour="black"),
-      axis.title.x = element_text(size=12, colour="black"),
-      axis.title.y = element_text(size=12, colour="black"),
-      plot.title   = element_text(size=12, colour="black"),
-      panel.grid.major = element_blank(),
-      panel.grid.minor = element_blank(),
-      legend.position  = "none") +
-xlab("Days from 50th Death") +
-ylab("Cumulative Deaths") +
-scale_x_continuous(breaks = seq(0, max(na.omit(visdat$Days.from.50th.Death)), by = 4)) +
-coord_cartesian(ylim = c(50, max(visdat$Cumulative.Deaths))) +
-ggtitle(titleStr) +
-theme(aspect.ratio=0.75)
-ggsave(outfile1, plot=p1, height=4.8, width=8)
+ggsave(outfile1, plot=p1, height=6, width=8)
 
 # plot by country post 50th death ---
 outfile1 = paste(analysisdir, "/covid-19.cumulative-deaths-from-50th-death-log10.png", sep="")
-p1 <- ggplot(visdat, aes(x=Days.from.50th.Death, y=Cumulative.Deaths, group=Country.Region, label=Label, color=Country.Region)) +
+p2 <- ggplot(visdat, aes(x=Days.from.50th.Death, y=Cumulative.Deaths, group=Country.Region, label=Label, color=Country.Region)) +
 geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.9) +
 geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
-                nudge_x       = 35 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
                 nudge_y       = 0,
+                nudge_x       = 35 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
+                xlim          = c(16,60),
+                force         = 100,
                 direction     = "x",
                 angle         = 0,
                 size          = 3,
-                segment.size  = 0.25) +
+                segment.size  = 0.25,
+                segment.alpha = 0.5) +
 theme_bw() +
 scale_color_manual(values = adaptiveCols) +
-theme(axis.text.x  = element_text(size=12, colour="black"),
-      axis.text.y  = element_text(size=12, colour="black"),
+theme(axis.text.x  = element_text(size=10, colour="black"),
+      axis.text.y  = element_text(size=11, colour="black"),
       axis.title.x = element_text(size=12, colour="black"),
       axis.title.y = element_text(size=12, colour="black"),
       plot.title   = element_text(size=12, colour="black"),
       panel.grid.major = element_blank(),
       panel.grid.minor = element_blank(),
       legend.position  = "none") +
-xlab("Days from 50th Death") +
+xlab(bquote("Days from 50"^"th"*" Death")) +
 ylab("Cumulative Deaths") +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
 coord_cartesian(ylim = c(45, max(visdat$Cumulative.Deaths))) +
 scale_x_continuous(breaks = seq(0, max(na.omit(visdat$Days.from.50th.Death)), by = 4)) +
 ggtitle(titleStr) +
 theme(aspect.ratio=0.75)
-ggsave(outfile1, plot=p1, height=6, width=8)
+ggsave(outfile1, plot=p2, height=6, width=8)
+
+
+# compile figures -------------------
+outfile1 = paste(analysisdir, "/covid-19.cumulative-deaths-two-panel.png", sep="")
+png(outfile1, height=10, width=6.67, units="in", res=250)
+ggarrange(p1, p2, ncol=1, nrow=2)
+dev.off()
