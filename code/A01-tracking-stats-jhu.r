@@ -30,7 +30,7 @@ analysisdir = paste("../analysis/", scriptPrefix, sep="")
 unlink(analysisdir, recursive=TRUE)
 dir.create(analysisdir)
 # ------------------------------------------------------------------------
-csvLoc   = "https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv"
+csvLoc   = "https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
 # ------------------------------------------------------------------------
 csvLocal = "../data/processed/time_series_19-covid-Deaths.csv"
 download.file(csvLoc,csvLocal)
@@ -56,9 +56,6 @@ china                  = odat[odat[,2]=="China", ]
 datchina               = c("", "China", "NA", "NA", colSums(china[,5:ncol(china)]))
 dat                    = rbind(dat, datchina)
 # USA is not listed as a full country, sum by province to the country level --
-usa                    = odat[odat[,2]=="US", ]
-datusa                 = c("", "United States", "NA", "NA", colSums(usa[,5:ncol(usa)]))
-dat                    = rbind(dat, datusa)
 dat[ , 5:ncol(dat)]    = apply(dat[ ,5:ncol(dat)], 2,
                                function(x) as.numeric(as.character(x)))
 
@@ -105,7 +102,7 @@ for (i in nrow(visdat):1){
 colnames(visdat)      = c("Country.Region", "Date", "Cumulative.Deaths", "Days.from.50th.Death", "LastInSeries", "Label")
 
 # remove data before feb for vis by country ---
-visdat                = visdat[grepl("^(2|3|4|5)",visdat[,2]),]
+# visdat                = visdat[grepl("^(2|3|4|5)",visdat[,2]),]
 visdat                = data.frame(visdat)
 visdat$DateFormatted  = as.Date(as.character(visdat$Date), tryFormats = c("%m/%d/%y"))
 
@@ -123,14 +120,15 @@ geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.9) +
 geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
-                force         = 4,
+                force         = 14,
                 nudge_x       = as.Date("2020-04-01"),
-                xlim          = c(as.Date("2020-03-25"), as.Date("2020-04-12")),
+                xlim          = c(as.Date("2020-03-25"), as.Date("2020-04-10")),
                 size          = 3,
-                segment.size  = 0.25) +
+                segment.size  = 0.25,
+                segment.alpha = 0.5) +
 theme_bw() +
 scale_color_manual(values = adaptiveCols) +
-theme(axis.text.x  = element_text(size=10, colour="black"),
+theme(axis.text.x  = element_text(size=9, colour="black"),
       axis.text.y  = element_text(size=11, colour="black"),
       axis.title.x = element_text(size=12, colour="black"),
       axis.title.y = element_text(size=12, colour="black"),
@@ -139,7 +137,7 @@ theme(axis.text.x  = element_text(size=10, colour="black"),
       panel.grid.minor = element_blank(),
       legend.position  = "none") +
 xlab("Date") +
-scale_x_date(date_labels = "%b %d", date_breaks = "1 week") +
+scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-02-24",NA))) +
 expand_limits(x = as.Date("2020-04-10")) +
 ylab("Cumulative Deaths") +
 ggtitle(titleStr) +
@@ -181,10 +179,3 @@ scale_x_continuous(breaks = seq(0, max(na.omit(visdat$Days.from.50th.Death)), by
 ggtitle(titleStr) +
 theme(aspect.ratio=0.75)
 ggsave(outfile1, plot=p2, height=6, width=8)
-
-
-# compile figures -------------------
-outfile1 = paste(analysisdir, "/covid-19.cumulative-deaths-two-panel.png", sep="")
-png(outfile1, height=10, width=6.67, units="in", res=250)
-ggarrange(p1, p2, ncol=1, nrow=2)
-dev.off()
