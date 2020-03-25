@@ -32,7 +32,7 @@ dir.create(analysisdir)
 # ------------------------------------------------------------------------
 csvLoc   = "https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
 # ------------------------------------------------------------------------
-csvLocal = "../data/processed/time_series_19-covid-Deaths.csv"
+csvLocal = "../data/processed/time_series_covid19_deaths_global.csv"
 download.file(csvLoc,csvLocal)
 # ------------------------------------------------------------------------
 rawdat                 = read.csv(csvLocal, header=FALSE, as.is=TRUE, sep=",")
@@ -153,9 +153,9 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_y       = 0,
-                nudge_x       = 35 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
-                xlim          = c(16,60),
-                force         = 100,
+                nudge_x       = 24 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
+                xlim          = c(22,60),
+                force         = 15,
                 direction     = "x",
                 angle         = 0,
                 size          = 3,
