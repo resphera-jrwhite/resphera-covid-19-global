@@ -87,6 +87,23 @@ for (i in 1:nrow(visdat)){
     from50[[visdat[i,1]]] = from50[[visdat[i,1]]] + 1
     visdat[i,4] = from50[[visdat[i,1]]]
   }
+  # fix data issues in JHU's dataset
+  if (as.character(visdat[i,1]) == "Italy" & as.character(visdat[i,2]) == "3/12/20"){
+    visdat[i,3] = 1016
+    print(visdat[i,])
+  }
+  if (as.character(visdat[i,1]) == "Spain" & as.character(visdat[i,2]) == "3/12/20"){
+    visdat[i,3] = 86
+    print(visdat[i,])
+  }
+  if (as.character(visdat[i,1]) == "France" & as.character(visdat[i,2]) == "3/18/20"){
+    visdat[i,3] = 175
+    print(visdat[i,])
+  }
+  if (as.character(visdat[i,1]) == "France" & as.character(visdat[i,2]) == "3/15/20"){
+    visdat[i,3] = 127
+    print(visdat[i,])
+  }
 }
 seen = list()
 for (i in nrow(visdat):1){
@@ -105,9 +122,6 @@ colnames(visdat)      = c("Country.Region", "Date", "Cumulative.Deaths", "Days.f
 # visdat                = visdat[grepl("^(2|3|4|5)",visdat[,2]),]
 visdat                = data.frame(visdat)
 visdat$DateFormatted  = as.Date(as.character(visdat$Date), tryFormats = c("%m/%d/%y"))
-
-# correct JHU data mistake for Italy on 2020-03-12 -- should be 1,016 ---
-visdat[visdat$Country.Region == "Italy" & visdat$DateFormatted == "2020-03-12","Cumulative.Deaths"] <- 1016
 
 # sort by most deaths ---
 aggres                = aggregate(Cumulative.Deaths ~ Country.Region, visdat, FUN=max)
