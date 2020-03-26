@@ -106,6 +106,9 @@ colnames(visdat)      = c("Country.Region", "Date", "Cumulative.Deaths", "Days.f
 visdat                = data.frame(visdat)
 visdat$DateFormatted  = as.Date(as.character(visdat$Date), tryFormats = c("%m/%d/%y"))
 
+# correct JHU data mistake for Italy on 2020-03-12 -- should be 1,016 ---
+visdat[visdat$Country.Region == "Italy" & visdat$DateFormatted == "2020-03-12","Cumulative.Deaths"] <- 1016
+
 # sort by most deaths ---
 aggres                = aggregate(Cumulative.Deaths ~ Country.Region, visdat, FUN=max)
 visdat$Country.Region = factor(visdat$Country.Region,levels=c(aggres[order(aggres[,2],decreasing=TRUE),1]))
@@ -120,7 +123,7 @@ geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.9) +
 geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
-                force         = 14,
+                force         = 18,
                 nudge_x       = as.Date("2020-04-01"),
                 xlim          = c(as.Date("2020-03-25"), as.Date("2020-04-10")),
                 size          = 3,
@@ -153,7 +156,7 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_y       = 0,
-                nudge_x       = 24 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
+                nudge_x       = 26 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
                 xlim          = c(22,60),
                 force         = 15,
                 direction     = "x",
