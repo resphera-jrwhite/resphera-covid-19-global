@@ -30,102 +30,18 @@ analysisdir = paste("../analysis/", scriptPrefix, sep="")
 unlink(analysisdir, recursive=TRUE)
 dir.create(analysisdir)
 # ------------------------------------------------------------------------
-csvLoc   = "https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
-# ------------------------------------------------------------------------
-csvLocal = "../data/processed/time_series_covid19_deaths_global.csv"
-download.file(csvLoc,csvLocal)
-# ------------------------------------------------------------------------
-rawdat                 = read.csv(csvLocal, header=FALSE, as.is=TRUE, sep=",")
-odat                   = rawdat
-# ------------------------------------------------------------------------
-# correct inconsistent naming scheme ---
-for (i in 1:nrow(odat)){
-  if (odat[i,1] == odat[i,2]){
-    odat[i,1] = ""
-  }
-}
-
-odat[, 5:ncol(rawdat)] = apply(rawdat[, 5:ncol(rawdat)], 2,
-                               function(x) as.numeric(as.character(x)))
-odat[, 5:ncol(odat)]   = apply(odat[ ,5:ncol(odat)], 2,
-                               function(x) { x[is.na(x)] <- 0; x })
-
-dat                    = odat[odat[,1]=="" | odat[,2]=="US", ]
-# china is not listed as a full country, sum by province to the country level --
-china                  = odat[odat[,2]=="China", ]
-datchina               = c("", "China", "NA", "NA", colSums(china[,5:ncol(china)]))
-dat                    = rbind(dat, datchina)
-# USA is not listed as a full country, sum by province to the country level --
-dat[ , 5:ncol(dat)]    = apply(dat[ ,5:ncol(dat)], 2,
-                               function(x) as.numeric(as.character(x)))
-
-# US -> USA ---
-dat[dat[,2]=="US",2] <- "USA"
-# remove countries with fewer than 50 deaths ---
-dat = dat[do.call(pmax, dat[,5:ncol(dat)]) >= 50,]
-# format columns ---
-dat[,2] = apply(dat[,1:2],1,paste,collapse=", ")
-dat[,2] = gsub("^, ", "", dat[,2])
-dat[,2] = gsub("Korea, South", "South Korea", dat[,2])
-
-# format for visualization ---
-visdat           = dat[,c(2,5:ncol(dat))]
-colnames(visdat) = rawdat[1,c(2,5:ncol(rawdat))]
-rownames(visdat) = visdat[,1]
-# melt data frame by Country (wide to long form) ---
-visdat           = melt(data = visdat, id.vars="Country/Region")
-# add to visdat, days from the 100th case, log the point last in the series
-from50       = list()
-visdat$Daysfrom50thDeath = array(NA,dim=c(nrow(visdat),1))
-visdat$LastInSeries      = array(NA,dim=c(nrow(visdat),1))
-visdat$Label             = array(NA,dim=c(nrow(visdat),1))
-for (i in 1:nrow(visdat)){
-  if (is.null(from50[[visdat[i,1]]]) & visdat[i,3] >= 50){
-    from50[[visdat[i,1]]] = 1
-    visdat[i,4] = from50[[visdat[i,1]]]
-  }else if (!is.null(from50[[visdat[i,1]]])){
-    from50[[visdat[i,1]]] = from50[[visdat[i,1]]] + 1
-    visdat[i,4] = from50[[visdat[i,1]]]
-  }
-  # fix data issues in JHU's dataset
-  if (as.character(visdat[i,1]) == "Italy" & as.character(visdat[i,2]) == "3/12/20"){
-    visdat[i,3] = 1016
-    print(visdat[i,])
-  }
-  if (as.character(visdat[i,1]) == "Spain" & as.character(visdat[i,2]) == "3/12/20"){
-    visdat[i,3] = 86
-    print(visdat[i,])
-  }
-  if (as.character(visdat[i,1]) == "France" & as.character(visdat[i,2]) == "3/18/20"){
-    visdat[i,3] = 175
-    print(visdat[i,])
-  }
-  if (as.character(visdat[i,1]) == "France" & as.character(visdat[i,2]) == "3/15/20"){
-    visdat[i,3] = 127
-    print(visdat[i,])
-  }
-}
-seen = list()
-for (i in nrow(visdat):1){
-  if (is.null(seen[[visdat[i,1]]])){
-    seen[[visdat[i,1]]] = 1
-    visdat[i,5] = "yes"
-    visdat[i,6] = paste(visdat[i,1], " (", visdat[i,3], ")", sep="")
-  }else if (!is.null(from50[[visdat[i,1]]])){
-    visdat[i,5] = "no"
-    visdat[i,6] = NA
-  }
-}
-colnames(visdat)      = c("Country.Region", "Date", "Cumulative.Deaths", "Days.from.50th.Death", "LastInSeries", "Label")
-
-# remove data before feb for vis by country ---
-# visdat                = visdat[grepl("^(2|3|4|5)",visdat[,2]),]
-visdat                = data.frame(visdat)
-visdat$DateFormatted  = as.Date(as.character(visdat$Date), tryFormats = c("%m/%d/%y"))
-
+# load data from A00 script
+visdat               = read.table(file="../analysis/A00-scrape-daily-reports/A00.covid19-long-form.txt", header=TRUE, sep="\t", quote="\"")
+visdat$DateFormatted = as.Date(as.character(visdat$DateFormatted))
+visdat$Label         = as.character(visdat$Label)
 # sort by most deaths ---
-aggres                = aggregate(Cumulative.Deaths ~ Country.Region, visdat, FUN=max)
-visdat$Country.Region = factor(visdat$Country.Region,levels=c(aggres[order(aggres[,2],decreasing=TRUE),1]))
+aggres = aggregate(Cumulative.Deaths ~ Country.Region, visdat, FUN=max)
+# select those places with >= 50 deaths
+aggres = aggres[aggres[,2]>=50,]
+visdat = visdat[visdat$Country.Region %in% aggres[,1],]
+visdat$Country.Region = as.character(visdat$Country.Region)
+visdat$Country.Region = factor(visdat$Country.Region,levels=c(as.character(aggres[order(aggres[,2],decreasing=TRUE),1])))
+
 # adaptive color scheme ---
 colscheme    = c("#d72123", "#d87632", "#cac654", "#589A5D", "#4781A7", "#816fa3", "#d368a1", "grey50")
 adaptiveCols = colorRampPalette(colscheme)(length(levels(visdat$Country.Region)))
@@ -137,8 +53,8 @@ geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.9) +
 geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
-                force         = 4,
-                xlim          = c(as.Date("2020-03-27"), as.Date("2020-04-10")),
+                force         = 3,
+                xlim          = c(as.Date("2020-03-28"), as.Date("2020-04-17")),
                 size          = 3,
                 segment.size  = 0.25,
                 segment.alpha = 0.5) +
@@ -153,8 +69,8 @@ theme(axis.text.x  = element_text(size=9, colour="black"),
       panel.grid.minor = element_blank(),
       legend.position  = "none") +
 xlab("Date") +
-scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-02-24",NA))) +
-expand_limits(x = as.Date("2020-04-12")) +
+scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-03-01",NA))) +
+expand_limits(x = as.Date("2020-04-17")) +
 ylab("Cumulative Deaths") +
 ggtitle(titleStr) +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
@@ -170,11 +86,11 @@ geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_y       = 0,
                 nudge_x       = 32 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
-                xlim          = c(22,60),
+                xlim          = c(22,58),
                 force         = 2,
                 direction     = "x",
                 angle         = 0,
-                size          = 3,
+                size          = 2,
                 segment.size  = 0.25,
                 segment.alpha = 0.5) +
 theme_bw() +
