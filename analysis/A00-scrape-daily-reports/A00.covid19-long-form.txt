@@ -54,7 +54,8 @@ Afghanistan	2020-03-23	1	NA	no	NA
 Afghanistan	2020-03-24	1	NA	no	NA
 Afghanistan	2020-03-25	2	NA	no	NA
 Afghanistan	2020-03-26	4	NA	no	NA
-Afghanistan	2020-03-27	4	NA	yes	Afghanistan (4)
+Afghanistan	2020-03-27	4	NA	no	NA
+Afghanistan	2020-03-28	4	NA	yes	Afghanistan (4)
 Alabama, USA	2020-02-01	0	NA	no	NA
 Alabama, USA	2020-02-02	0	NA	no	NA
 Alabama, USA	2020-02-03	0	NA	no	NA
@@ -110,7 +111,8 @@ Alabama, USA	2020-03-23	0	NA	no	NA
 Alabama, USA	2020-03-24	0	NA	no	NA
 Alabama, USA	2020-03-25	1	NA	no	NA
 Alabama, USA	2020-03-26	1	NA	no	NA
-Alabama, USA	2020-03-27	4	NA	yes	Alabama, USA (4)
+Alabama, USA	2020-03-27	4	NA	no	NA
+Alabama, USA	2020-03-28	4	NA	yes	Alabama, USA (4)
 Alaska, USA	2020-02-01	0	NA	no	NA
 Alaska, USA	2020-02-02	0	NA	no	NA
 Alaska, USA	2020-02-03	0	NA	no	NA
@@ -166,7 +168,8 @@ Alaska, USA	2020-03-23	0	NA	no	NA
 Alaska, USA	2020-03-24	0	NA	no	NA
 Alaska, USA	2020-03-25	1	NA	no	NA
 Alaska, USA	2020-03-26	1	NA	no	NA
-Alaska, USA	2020-03-27	1	NA	yes	Alaska, USA (1)
+Alaska, USA	2020-03-27	1	NA	no	NA
+Alaska, USA	2020-03-28	2	NA	yes	Alaska, USA (2)
 Albania	2020-02-01	0	NA	no	NA
 Albania	2020-02-02	0	NA	no	NA
 Albania	2020-02-03	0	NA	no	NA
@@ -222,7 +225,8 @@ Albania	2020-03-23	4	NA	no	NA
 Albania	2020-03-24	5	NA	no	NA
 Albania	2020-03-25	5	NA	no	NA
 Albania	2020-03-26	6	NA	no	NA
-Albania	2020-03-27	8	NA	yes	Albania (8)
+Albania	2020-03-27	8	NA	no	NA
+Albania	2020-03-28	10	NA	yes	Albania (10)
 Algeria	2020-02-01	0	NA	no	NA
 Algeria	2020-02-02	0	NA	no	NA
 Algeria	2020-02-03	0	NA	no	NA
@@ -278,7 +282,8 @@ Algeria	2020-03-23	17	NA	no	NA
 Algeria	2020-03-24	19	NA	no	NA
 Algeria	2020-03-25	21	NA	no	NA
 Algeria	2020-03-26	25	NA	no	NA
-Algeria	2020-03-27	26	NA	yes	Algeria (26)
+Algeria	2020-03-27	26	NA	no	NA
+Algeria	2020-03-28	29	NA	yes	Algeria (29)
 American Samoa, USA	2020-02-01	0	NA	no	NA
 American Samoa, USA	2020-02-02	0	NA	no	NA
 American Samoa, USA	2020-02-03	0	NA	no	NA
@@ -334,7 +339,8 @@ American Samoa, USA	2020-03-23	0	NA	no	NA
 American Samoa, USA	2020-03-24	0	NA	no	NA
 American Samoa, USA	2020-03-25	0	NA	no	NA
 American Samoa, USA	2020-03-26	0	NA	no	NA
-American Samoa, USA	2020-03-27	0	NA	yes	American Samoa, USA (0)
+American Samoa, USA	2020-03-27	0	NA	no	NA
+American Samoa, USA	2020-03-28	0	NA	yes	American Samoa, USA (0)
 Andorra	2020-02-01	0	NA	no	NA
 Andorra	2020-02-02	0	NA	no	NA
 Andorra	2020-02-03	0	NA	no	NA
@@ -390,7 +396,8 @@ Andorra	2020-03-23	1	NA	no	NA
 Andorra	2020-03-24	1	NA	no	NA
 Andorra	2020-03-25	1	NA	no	NA
 Andorra	2020-03-26	3	NA	no	NA
-Andorra	2020-03-27	3	NA	yes	Andorra (3)
+Andorra	2020-03-27	3	NA	no	NA
+Andorra	2020-03-28	3	NA	yes	Andorra (3)
 Angola	2020-02-01	0	NA	no	NA
 Angola	2020-02-02	0	NA	no	NA
 Angola	2020-02-03	0	NA	no	NA
@@ -446,7 +453,8 @@ Angola	2020-03-23	0	NA	no	NA
 Angola	2020-03-24	0	NA	no	NA
 Angola	2020-03-25	0	NA	no	NA
 Angola	2020-03-26	0	NA	no	NA
-Angola	2020-03-27	0	NA	yes	Angola (0)
+Angola	2020-03-27	0	NA	no	NA
+Angola	2020-03-28	0	NA	yes	Angola (0)
 Antigua and Barbuda	2020-02-01	0	NA	no	NA
 Antigua and Barbuda	2020-02-02	0	NA	no	NA
 Antigua and Barbuda	2020-02-03	0	NA	no	NA
@@ -502,7 +510,8 @@ Antigua and Barbuda	2020-03-23	0	NA	no	NA
 Antigua and Barbuda	2020-03-24	0	NA	no	NA
 Antigua and Barbuda	2020-03-25	0	NA	no	NA
 Antigua and Barbuda	2020-03-26	0	NA	no	NA
-Antigua and Barbuda	2020-03-27	0	NA	yes	Antigua and Barbuda (0)
+Antigua and Barbuda	2020-03-27	0	NA	no	NA
+Antigua and Barbuda	2020-03-28	0	NA	yes	Antigua and Barbuda (0)
 Argentina	2020-02-01	0	NA	no	NA
 Argentina	2020-02-02	0	NA	no	NA
 Argentina	2020-02-03	0	NA	no	NA
@@ -558,7 +567,8 @@ Argentina	2020-03-23	4	NA	no	NA
 Argentina	2020-03-24	6	NA	no	NA
 Argentina	2020-03-25	8	NA	no	NA
 Argentina	2020-03-26	9	NA	no	NA
-Argentina	2020-03-27	13	NA	yes	Argentina (13)
+Argentina	2020-03-27	13	NA	no	NA
+Argentina	2020-03-28	18	NA	yes	Argentina (18)
 Arizona, USA	2020-02-01	0	NA	no	NA
 Arizona, USA	2020-02-02	0	NA	no	NA
 Arizona, USA	2020-02-03	0	NA	no	NA
@@ -614,7 +624,8 @@ Arizona, USA	2020-03-23	2	NA	no	NA
 Arizona, USA	2020-03-24	5	NA	no	NA
 Arizona, USA	2020-03-25	6	NA	no	NA
 Arizona, USA	2020-03-26	8	NA	no	NA
-Arizona, USA	2020-03-27	13	NA	yes	Arizona, USA (13)
+Arizona, USA	2020-03-27	13	NA	no	NA
+Arizona, USA	2020-03-28	15	NA	yes	Arizona, USA (15)
 Arkansas, USA	2020-02-01	0	NA	no	NA
 Arkansas, USA	2020-02-02	0	NA	no	NA
 Arkansas, USA	2020-02-03	0	NA	no	NA
@@ -670,7 +681,8 @@ Arkansas, USA	2020-03-23	0	NA	no	NA
 Arkansas, USA	2020-03-24	2	NA	no	NA
 Arkansas, USA	2020-03-25	2	NA	no	NA
 Arkansas, USA	2020-03-26	2	NA	no	NA
-Arkansas, USA	2020-03-27	3	NA	yes	Arkansas, USA (3)
+Arkansas, USA	2020-03-27	3	NA	no	NA
+Arkansas, USA	2020-03-28	5	NA	yes	Arkansas, USA (5)
 Armenia	2020-02-01	0	NA	no	NA
 Armenia	2020-02-02	0	NA	no	NA
 Armenia	2020-02-03	0	NA	no	NA
@@ -726,7 +738,8 @@ Armenia	2020-03-23	0	NA	no	NA
 Armenia	2020-03-24	0	NA	no	NA
 Armenia	2020-03-25	0	NA	no	NA
 Armenia	2020-03-26	1	NA	no	NA
-Armenia	2020-03-27	1	NA	yes	Armenia (1)
+Armenia	2020-03-27	1	NA	no	NA
+Armenia	2020-03-28	1	NA	yes	Armenia (1)
 Aruba	2020-02-01	0	NA	no	NA
 Aruba	2020-02-02	0	NA	no	NA
 Aruba	2020-02-03	0	NA	no	NA
@@ -782,7 +795,8 @@ Aruba	2020-03-23	0	NA	no	NA
 Aruba	2020-03-24	0	NA	no	NA
 Aruba	2020-03-25	0	NA	no	NA
 Aruba	2020-03-26	0	NA	no	NA
-Aruba	2020-03-27	0	NA	yes	Aruba (0)
+Aruba	2020-03-27	0	NA	no	NA
+Aruba	2020-03-28	0	NA	yes	Aruba (0)
 Australia	2020-02-01	0	NA	no	NA
 Australia	2020-02-02	0	NA	no	NA
 Australia	2020-02-03	0	NA	no	NA
@@ -838,7 +852,8 @@ Australia	2020-03-23	7	NA	no	NA
 Australia	2020-03-24	8	NA	no	NA
 Australia	2020-03-25	8	NA	no	NA
 Australia	2020-03-26	13	NA	no	NA
-Australia	2020-03-27	13	NA	yes	Australia (13)
+Australia	2020-03-27	13	NA	no	NA
+Australia	2020-03-28	14	NA	yes	Australia (14)
 Austria	2020-02-01	0	NA	no	NA
 Austria	2020-02-02	0	NA	no	NA
 Austria	2020-02-03	0	NA	no	NA
@@ -894,7 +909,8 @@ Austria	2020-03-23	21	NA	no	NA
 Austria	2020-03-24	28	NA	no	NA
 Austria	2020-03-25	30	NA	no	NA
 Austria	2020-03-26	49	NA	no	NA
-Austria	2020-03-27	58	1	yes	Austria (58)
+Austria	2020-03-27	58	1	no	NA
+Austria	2020-03-28	68	2	yes	Austria (68)
 Azerbaijan	2020-02-01	0	NA	no	NA
 Azerbaijan	2020-02-02	0	NA	no	NA
 Azerbaijan	2020-02-03	0	NA	no	NA
@@ -950,7 +966,8 @@ Azerbaijan	2020-03-23	1	NA	no	NA
 Azerbaijan	2020-03-24	1	NA	no	NA
 Azerbaijan	2020-03-25	2	NA	no	NA
 Azerbaijan	2020-03-26	3	NA	no	NA
-Azerbaijan	2020-03-27	3	NA	yes	Azerbaijan (3)
+Azerbaijan	2020-03-27	3	NA	no	NA
+Azerbaijan	2020-03-28	4	NA	yes	Azerbaijan (4)
 Bahamas	2020-02-01	0	NA	no	NA
 Bahamas	2020-02-02	0	NA	no	NA
 Bahamas	2020-02-03	0	NA	no	NA
@@ -1006,7 +1023,8 @@ Bahamas	2020-03-23	0	NA	no	NA
 Bahamas	2020-03-24	0	NA	no	NA
 Bahamas	2020-03-25	0	NA	no	NA
 Bahamas	2020-03-26	0	NA	no	NA
-Bahamas	2020-03-27	0	NA	yes	Bahamas (0)
+Bahamas	2020-03-27	0	NA	no	NA
+Bahamas	2020-03-28	0	NA	yes	Bahamas (0)
 Bahamas, The	2020-02-01	0	NA	no	NA
 Bahamas, The	2020-02-02	0	NA	no	NA
 Bahamas, The	2020-02-03	0	NA	no	NA
@@ -1062,7 +1080,8 @@ Bahamas, The	2020-03-23	0	NA	no	NA
 Bahamas, The	2020-03-24	0	NA	no	NA
 Bahamas, The	2020-03-25	0	NA	no	NA
 Bahamas, The	2020-03-26	0	NA	no	NA
-Bahamas, The	2020-03-27	0	NA	yes	Bahamas, The (0)
+Bahamas, The	2020-03-27	0	NA	no	NA
+Bahamas, The	2020-03-28	0	NA	yes	Bahamas, The (0)
 Bahrain	2020-02-01	0	NA	no	NA
 Bahrain	2020-02-02	0	NA	no	NA
 Bahrain	2020-02-03	0	NA	no	NA
@@ -1118,7 +1137,8 @@ Bahrain	2020-03-23	2	NA	no	NA
 Bahrain	2020-03-24	3	NA	no	NA
 Bahrain	2020-03-25	4	NA	no	NA
 Bahrain	2020-03-26	4	NA	no	NA
-Bahrain	2020-03-27	4	NA	yes	Bahrain (4)
+Bahrain	2020-03-27	4	NA	no	NA
+Bahrain	2020-03-28	4	NA	yes	Bahrain (4)
 Bangladesh	2020-02-01	0	NA	no	NA
 Bangladesh	2020-02-02	0	NA	no	NA
 Bangladesh	2020-02-03	0	NA	no	NA
@@ -1174,7 +1194,8 @@ Bangladesh	2020-03-23	3	NA	no	NA
 Bangladesh	2020-03-24	4	NA	no	NA
 Bangladesh	2020-03-25	5	NA	no	NA
 Bangladesh	2020-03-26	5	NA	no	NA
-Bangladesh	2020-03-27	5	NA	yes	Bangladesh (5)
+Bangladesh	2020-03-27	5	NA	no	NA
+Bangladesh	2020-03-28	5	NA	yes	Bangladesh (5)
 Barbados	2020-02-01	0	NA	no	NA
 Barbados	2020-02-02	0	NA	no	NA
 Barbados	2020-02-03	0	NA	no	NA
@@ -1230,7 +1251,8 @@ Barbados	2020-03-23	0	NA	no	NA
 Barbados	2020-03-24	0	NA	no	NA
 Barbados	2020-03-25	0	NA	no	NA
 Barbados	2020-03-26	0	NA	no	NA
-Barbados	2020-03-27	0	NA	yes	Barbados (0)
+Barbados	2020-03-27	0	NA	no	NA
+Barbados	2020-03-28	0	NA	yes	Barbados (0)
 Belarus	2020-02-01	0	NA	no	NA
 Belarus	2020-02-02	0	NA	no	NA
 Belarus	2020-02-03	0	NA	no	NA
@@ -1286,7 +1308,8 @@ Belarus	2020-03-23	0	NA	no	NA
 Belarus	2020-03-24	0	NA	no	NA
 Belarus	2020-03-25	0	NA	no	NA
 Belarus	2020-03-26	0	NA	no	NA
-Belarus	2020-03-27	0	NA	yes	Belarus (0)
+Belarus	2020-03-27	0	NA	no	NA
+Belarus	2020-03-28	0	NA	yes	Belarus (0)
 Belgium	2020-02-01	0	NA	no	NA
 Belgium	2020-02-02	0	NA	no	NA
 Belgium	2020-02-03	0	NA	no	NA
@@ -1342,7 +1365,8 @@ Belgium	2020-03-23	88	3	no	NA
 Belgium	2020-03-24	122	4	no	NA
 Belgium	2020-03-25	178	5	no	NA
 Belgium	2020-03-26	220	6	no	NA
-Belgium	2020-03-27	289	7	yes	Belgium (289)
+Belgium	2020-03-27	289	7	no	NA
+Belgium	2020-03-28	353	8	yes	Belgium (353)
 Belize	2020-02-01	0	NA	no	NA
 Belize	2020-02-02	0	NA	no	NA
 Belize	2020-02-03	0	NA	no	NA
@@ -1398,7 +1422,8 @@ Belize	2020-03-23	0	NA	no	NA
 Belize	2020-03-24	0	NA	no	NA
 Belize	2020-03-25	0	NA	no	NA
 Belize	2020-03-26	0	NA	no	NA
-Belize	2020-03-27	0	NA	yes	Belize (0)
+Belize	2020-03-27	0	NA	no	NA
+Belize	2020-03-28	0	NA	yes	Belize (0)
 Benin	2020-02-01	0	NA	no	NA
 Benin	2020-02-02	0	NA	no	NA
 Benin	2020-02-03	0	NA	no	NA
@@ -1454,7 +1479,8 @@ Benin	2020-03-23	0	NA	no	NA
 Benin	2020-03-24	0	NA	no	NA
 Benin	2020-03-25	0	NA	no	NA
 Benin	2020-03-26	0	NA	no	NA
-Benin	2020-03-27	0	NA	yes	Benin (0)
+Benin	2020-03-27	0	NA	no	NA
+Benin	2020-03-28	0	NA	yes	Benin (0)
 Bhutan	2020-02-01	0	NA	no	NA
 Bhutan	2020-02-02	0	NA	no	NA
 Bhutan	2020-02-03	0	NA	no	NA
@@ -1510,7 +1536,8 @@ Bhutan	2020-03-23	0	NA	no	NA
 Bhutan	2020-03-24	0	NA	no	NA
 Bhutan	2020-03-25	0	NA	no	NA
 Bhutan	2020-03-26	0	NA	no	NA
-Bhutan	2020-03-27	0	NA	yes	Bhutan (0)
+Bhutan	2020-03-27	0	NA	no	NA
+Bhutan	2020-03-28	0	NA	yes	Bhutan (0)
 Bolivia	2020-02-01	0	NA	no	NA
 Bolivia	2020-02-02	0	NA	no	NA
 Bolivia	2020-02-03	0	NA	no	NA
@@ -1566,7 +1593,8 @@ Bolivia	2020-03-23	0	NA	no	NA
 Bolivia	2020-03-24	0	NA	no	NA
 Bolivia	2020-03-25	0	NA	no	NA
 Bolivia	2020-03-26	0	NA	no	NA
-Bolivia	2020-03-27	0	NA	yes	Bolivia (0)
+Bolivia	2020-03-27	0	NA	no	NA
+Bolivia	2020-03-28	0	NA	yes	Bolivia (0)
 Bosnia and Herzegovina	2020-02-01	0	NA	no	NA
 Bosnia and Herzegovina	2020-02-02	0	NA	no	NA
 Bosnia and Herzegovina	2020-02-03	0	NA	no	NA
@@ -1622,7 +1650,8 @@ Bosnia and Herzegovina	2020-03-23	1	NA	no	NA
 Bosnia and Herzegovina	2020-03-24	3	NA	no	NA
 Bosnia and Herzegovina	2020-03-25	3	NA	no	NA
 Bosnia and Herzegovina	2020-03-26	3	NA	no	NA
-Bosnia and Herzegovina	2020-03-27	4	NA	yes	Bosnia and Herzegovina (4)
+Bosnia and Herzegovina	2020-03-27	4	NA	no	NA
+Bosnia and Herzegovina	2020-03-28	5	NA	yes	Bosnia and Herzegovina (5)
 Brazil	2020-02-01	0	NA	no	NA
 Brazil	2020-02-02	0	NA	no	NA
 Brazil	2020-02-03	0	NA	no	NA
@@ -1678,7 +1707,8 @@ Brazil	2020-03-23	34	NA	no	NA
 Brazil	2020-03-24	46	NA	no	NA
 Brazil	2020-03-25	59	1	no	NA
 Brazil	2020-03-26	77	2	no	NA
-Brazil	2020-03-27	92	3	yes	Brazil (92)
+Brazil	2020-03-27	92	3	no	NA
+Brazil	2020-03-28	111	4	yes	Brazil (111)
 Brunei	2020-02-01	0	NA	no	NA
 Brunei	2020-02-02	0	NA	no	NA
 Brunei	2020-02-03	0	NA	no	NA
@@ -1734,7 +1764,8 @@ Brunei	2020-03-23	0	NA	no	NA
 Brunei	2020-03-24	0	NA	no	NA
 Brunei	2020-03-25	0	NA	no	NA
 Brunei	2020-03-26	0	NA	no	NA
-Brunei	2020-03-27	0	NA	yes	Brunei (0)
+Brunei	2020-03-27	0	NA	no	NA
+Brunei	2020-03-28	1	NA	yes	Brunei (1)
 Bulgaria	2020-02-01	0	NA	no	NA
 Bulgaria	2020-02-02	0	NA	no	NA
 Bulgaria	2020-02-03	0	NA	no	NA
@@ -1790,7 +1821,8 @@ Bulgaria	2020-03-23	3	NA	no	NA
 Bulgaria	2020-03-24	3	NA	no	NA
 Bulgaria	2020-03-25	3	NA	no	NA
 Bulgaria	2020-03-26	3	NA	no	NA
-Bulgaria	2020-03-27	3	NA	yes	Bulgaria (3)
+Bulgaria	2020-03-27	3	NA	no	NA
+Bulgaria	2020-03-28	7	NA	yes	Bulgaria (7)
 Burkina Faso	2020-02-01	0	NA	no	NA
 Burkina Faso	2020-02-02	0	NA	no	NA
 Burkina Faso	2020-02-03	0	NA	no	NA
@@ -1846,7 +1878,8 @@ Burkina Faso	2020-03-23	4	NA	no	NA
 Burkina Faso	2020-03-24	4	NA	no	NA
 Burkina Faso	2020-03-25	4	NA	no	NA
 Burkina Faso	2020-03-26	7	NA	no	NA
-Burkina Faso	2020-03-27	9	NA	yes	Burkina Faso (9)
+Burkina Faso	2020-03-27	9	NA	no	NA
+Burkina Faso	2020-03-28	11	NA	yes	Burkina Faso (11)
 Burma	2020-02-01	0	NA	no	NA
 Burma	2020-02-02	0	NA	no	NA
 Burma	2020-02-03	0	NA	no	NA
@@ -1902,7 +1935,8 @@ Burma	2020-03-23	0	NA	no	NA
 Burma	2020-03-24	0	NA	no	NA
 Burma	2020-03-25	0	NA	no	NA
 Burma	2020-03-26	0	NA	no	NA
-Burma	2020-03-27	0	NA	yes	Burma (0)
+Burma	2020-03-27	0	NA	no	NA
+Burma	2020-03-28	0	NA	yes	Burma (0)
 Cabo Verde	2020-02-01	0	NA	no	NA
 Cabo Verde	2020-02-02	0	NA	no	NA
 Cabo Verde	2020-02-03	0	NA	no	NA
@@ -1958,7 +1992,8 @@ Cabo Verde	2020-03-23	0	NA	no	NA
 Cabo Verde	2020-03-24	1	NA	no	NA
 Cabo Verde	2020-03-25	1	NA	no	NA
 Cabo Verde	2020-03-26	1	NA	no	NA
-Cabo Verde	2020-03-27	1	NA	yes	Cabo Verde (1)
+Cabo Verde	2020-03-27	1	NA	no	NA
+Cabo Verde	2020-03-28	1	NA	yes	Cabo Verde (1)
 California, USA	2020-02-01	0	NA	no	NA
 California, USA	2020-02-02	0	NA	no	NA
 California, USA	2020-02-03	0	NA	no	NA
@@ -2014,7 +2049,8 @@ California, USA	2020-03-23	39	NA	no	NA
 California, USA	2020-03-24	50	1	no	NA
 California, USA	2020-03-25	65	2	no	NA
 California, USA	2020-03-26	81	3	no	NA
-California, USA	2020-03-27	94	4	yes	California, USA (94)
+California, USA	2020-03-27	94	4	no	NA
+California, USA	2020-03-28	110	5	yes	California, USA (110)
 Cambodia	2020-02-01	0	NA	no	NA
 Cambodia	2020-02-02	0	NA	no	NA
 Cambodia	2020-02-03	0	NA	no	NA
@@ -2070,7 +2106,8 @@ Cambodia	2020-03-23	0	NA	no	NA
 Cambodia	2020-03-24	0	NA	no	NA
 Cambodia	2020-03-25	0	NA	no	NA
 Cambodia	2020-03-26	0	NA	no	NA
-Cambodia	2020-03-27	0	NA	yes	Cambodia (0)
+Cambodia	2020-03-27	0	NA	no	NA
+Cambodia	2020-03-28	0	NA	yes	Cambodia (0)
 Cameroon	2020-02-01	0	NA	no	NA
 Cameroon	2020-02-02	0	NA	no	NA
 Cameroon	2020-02-03	0	NA	no	NA
@@ -2126,7 +2163,8 @@ Cameroon	2020-03-23	0	NA	no	NA
 Cameroon	2020-03-24	0	NA	no	NA
 Cameroon	2020-03-25	1	NA	no	NA
 Cameroon	2020-03-26	1	NA	no	NA
-Cameroon	2020-03-27	2	NA	yes	Cameroon (2)
+Cameroon	2020-03-27	2	NA	no	NA
+Cameroon	2020-03-28	2	NA	yes	Cameroon (2)
 Canada	2020-02-01	0	NA	no	NA
 Canada	2020-02-02	0	NA	no	NA
 Canada	2020-02-03	0	NA	no	NA
@@ -2182,7 +2220,8 @@ Canada	2020-03-23	25	NA	no	NA
 Canada	2020-03-24	26	NA	no	NA
 Canada	2020-03-25	30	NA	no	NA
 Canada	2020-03-26	38	NA	no	NA
-Canada	2020-03-27	54	1	yes	Canada (54)
+Canada	2020-03-27	54	1	no	NA
+Canada	2020-03-28	61	2	yes	Canada (61)
 Cape Verde	2020-02-01	0	NA	no	NA
 Cape Verde	2020-02-02	0	NA	no	NA
 Cape Verde	2020-02-03	0	NA	no	NA
@@ -2238,7 +2277,8 @@ Cape Verde	2020-03-23	0	NA	no	NA
 Cape Verde	2020-03-24	0	NA	no	NA
 Cape Verde	2020-03-25	0	NA	no	NA
 Cape Verde	2020-03-26	0	NA	no	NA
-Cape Verde	2020-03-27	0	NA	yes	Cape Verde (0)
+Cape Verde	2020-03-27	0	NA	no	NA
+Cape Verde	2020-03-28	0	NA	yes	Cape Verde (0)
 Cayman Islands	2020-02-01	0	NA	no	NA
 Cayman Islands	2020-02-02	0	NA	no	NA
 Cayman Islands	2020-02-03	0	NA	no	NA
@@ -2294,7 +2334,8 @@ Cayman Islands	2020-03-23	0	NA	no	NA
 Cayman Islands	2020-03-24	0	NA	no	NA
 Cayman Islands	2020-03-25	0	NA	no	NA
 Cayman Islands	2020-03-26	0	NA	no	NA
-Cayman Islands	2020-03-27	0	NA	yes	Cayman Islands (0)
+Cayman Islands	2020-03-27	0	NA	no	NA
+Cayman Islands	2020-03-28	0	NA	yes	Cayman Islands (0)
 Central African Republic	2020-02-01	0	NA	no	NA
 Central African Republic	2020-02-02	0	NA	no	NA
 Central African Republic	2020-02-03	0	NA	no	NA
@@ -2350,7 +2391,8 @@ Central African Republic	2020-03-23	0	NA	no	NA
 Central African Republic	2020-03-24	0	NA	no	NA
 Central African Republic	2020-03-25	0	NA	no	NA
 Central African Republic	2020-03-26	0	NA	no	NA
-Central African Republic	2020-03-27	0	NA	yes	Central African Republic (0)
+Central African Republic	2020-03-27	0	NA	no	NA
+Central African Republic	2020-03-28	0	NA	yes	Central African Republic (0)
 Chad	2020-02-01	0	NA	no	NA
 Chad	2020-02-02	0	NA	no	NA
 Chad	2020-02-03	0	NA	no	NA
@@ -2406,7 +2448,8 @@ Chad	2020-03-23	0	NA	no	NA
 Chad	2020-03-24	0	NA	no	NA
 Chad	2020-03-25	0	NA	no	NA
 Chad	2020-03-26	0	NA	no	NA
-Chad	2020-03-27	0	NA	yes	Chad (0)
+Chad	2020-03-27	0	NA	no	NA
+Chad	2020-03-28	0	NA	yes	Chad (0)
 Channel Islands	2020-02-01	0	NA	no	NA
 Channel Islands	2020-02-02	0	NA	no	NA
 Channel Islands	2020-02-03	0	NA	no	NA
@@ -2462,7 +2505,8 @@ Channel Islands	2020-03-23	0	NA	no	NA
 Channel Islands	2020-03-24	0	NA	no	NA
 Channel Islands	2020-03-25	0	NA	no	NA
 Channel Islands	2020-03-26	0	NA	no	NA
-Channel Islands	2020-03-27	0	NA	yes	Channel Islands (0)
+Channel Islands	2020-03-27	0	NA	no	NA
+Channel Islands	2020-03-28	0	NA	yes	Channel Islands (0)
 Chile	2020-02-01	0	NA	no	NA
 Chile	2020-02-02	0	NA	no	NA
 Chile	2020-02-03	0	NA	no	NA
@@ -2518,7 +2562,8 @@ Chile	2020-03-23	2	NA	no	NA
 Chile	2020-03-24	2	NA	no	NA
 Chile	2020-03-25	3	NA	no	NA
 Chile	2020-03-26	4	NA	no	NA
-Chile	2020-03-27	5	NA	yes	Chile (5)
+Chile	2020-03-27	5	NA	no	NA
+Chile	2020-03-28	6	NA	yes	Chile (6)
 China	2020-02-01	259	1	no	NA
 China	2020-02-02	361	2	no	NA
 China	2020-02-03	425	3	no	NA
@@ -2574,7 +2619,8 @@ China	2020-03-23	3274	52	no	NA
 China	2020-03-24	3281	53	no	NA
 China	2020-03-25	3285	54	no	NA
 China	2020-03-26	3291	55	no	NA
-China	2020-03-27	3296	56	yes	China (3296)
+China	2020-03-27	3296	56	no	NA
+China	2020-03-28	3299	57	yes	China (3299)
 Colombia	2020-02-01	0	NA	no	NA
 Colombia	2020-02-02	0	NA	no	NA
 Colombia	2020-02-03	0	NA	no	NA
@@ -2630,7 +2676,8 @@ Colombia	2020-03-23	3	NA	no	NA
 Colombia	2020-03-24	3	NA	no	NA
 Colombia	2020-03-25	4	NA	no	NA
 Colombia	2020-03-26	6	NA	no	NA
-Colombia	2020-03-27	6	NA	yes	Colombia (6)
+Colombia	2020-03-27	6	NA	no	NA
+Colombia	2020-03-28	6	NA	yes	Colombia (6)
 Colorado, USA	2020-02-01	0	NA	no	NA
 Colorado, USA	2020-02-02	0	NA	no	NA
 Colorado, USA	2020-02-03	0	NA	no	NA
@@ -2686,7 +2733,8 @@ Colorado, USA	2020-03-23	7	NA	no	NA
 Colorado, USA	2020-03-24	8	NA	no	NA
 Colorado, USA	2020-03-25	16	NA	no	NA
 Colorado, USA	2020-03-26	19	NA	no	NA
-Colorado, USA	2020-03-27	27	NA	yes	Colorado, USA (27)
+Colorado, USA	2020-03-27	27	NA	no	NA
+Colorado, USA	2020-03-28	31	NA	yes	Colorado, USA (31)
 Congo (Brazzaville)	2020-02-01	0	NA	no	NA
 Congo (Brazzaville)	2020-02-02	0	NA	no	NA
 Congo (Brazzaville)	2020-02-03	0	NA	no	NA
@@ -2742,7 +2790,8 @@ Congo (Brazzaville)	2020-03-23	0	NA	no	NA
 Congo (Brazzaville)	2020-03-24	0	NA	no	NA
 Congo (Brazzaville)	2020-03-25	0	NA	no	NA
 Congo (Brazzaville)	2020-03-26	0	NA	no	NA
-Congo (Brazzaville)	2020-03-27	0	NA	yes	Congo (Brazzaville) (0)
+Congo (Brazzaville)	2020-03-27	0	NA	no	NA
+Congo (Brazzaville)	2020-03-28	0	NA	yes	Congo (Brazzaville) (0)
 Congo (Kinshasa)	2020-02-01	0	NA	no	NA
 Congo (Kinshasa)	2020-02-02	0	NA	no	NA
 Congo (Kinshasa)	2020-02-03	0	NA	no	NA
@@ -2798,7 +2847,8 @@ Congo (Kinshasa)	2020-03-23	1	NA	no	NA
 Congo (Kinshasa)	2020-03-24	2	NA	no	NA
 Congo (Kinshasa)	2020-03-25	2	NA	no	NA
 Congo (Kinshasa)	2020-03-26	3	NA	no	NA
-Congo (Kinshasa)	2020-03-27	3	NA	yes	Congo (Kinshasa) (3)
+Congo (Kinshasa)	2020-03-27	3	NA	no	NA
+Congo (Kinshasa)	2020-03-28	6	NA	yes	Congo (Kinshasa) (6)
 Connecticut, USA	2020-02-01	0	NA	no	NA
 Connecticut, USA	2020-02-02	0	NA	no	NA
 Connecticut, USA	2020-02-03	0	NA	no	NA
@@ -2854,7 +2904,8 @@ Connecticut, USA	2020-03-23	10	NA	no	NA
 Connecticut, USA	2020-03-24	12	NA	no	NA
 Connecticut, USA	2020-03-25	19	NA	no	NA
 Connecticut, USA	2020-03-26	21	NA	no	NA
-Connecticut, USA	2020-03-27	27	NA	yes	Connecticut, USA (27)
+Connecticut, USA	2020-03-27	27	NA	no	NA
+Connecticut, USA	2020-03-28	33	NA	yes	Connecticut, USA (33)
 Costa Rica	2020-02-01	0	NA	no	NA
 Costa Rica	2020-02-02	0	NA	no	NA
 Costa Rica	2020-02-03	0	NA	no	NA
@@ -2910,7 +2961,8 @@ Costa Rica	2020-03-23	2	NA	no	NA
 Costa Rica	2020-03-24	2	NA	no	NA
 Costa Rica	2020-03-25	2	NA	no	NA
 Costa Rica	2020-03-26	2	NA	no	NA
-Costa Rica	2020-03-27	2	NA	yes	Costa Rica (2)
+Costa Rica	2020-03-27	2	NA	no	NA
+Costa Rica	2020-03-28	2	NA	yes	Costa Rica (2)
 Cote d'Ivoire	2020-02-01	0	NA	no	NA
 Cote d'Ivoire	2020-02-02	0	NA	no	NA
 Cote d'Ivoire	2020-02-03	0	NA	no	NA
@@ -2966,7 +3018,8 @@ Cote d'Ivoire	2020-03-23	0	NA	no	NA
 Cote d'Ivoire	2020-03-24	0	NA	no	NA
 Cote d'Ivoire	2020-03-25	0	NA	no	NA
 Cote d'Ivoire	2020-03-26	0	NA	no	NA
-Cote d'Ivoire	2020-03-27	0	NA	yes	Cote d'Ivoire (0)
+Cote d'Ivoire	2020-03-27	0	NA	no	NA
+Cote d'Ivoire	2020-03-28	0	NA	yes	Cote d'Ivoire (0)
 Croatia	2020-02-01	0	NA	no	NA
 Croatia	2020-02-02	0	NA	no	NA
 Croatia	2020-02-03	0	NA	no	NA
@@ -3022,7 +3075,8 @@ Croatia	2020-03-23	1	NA	no	NA
 Croatia	2020-03-24	1	NA	no	NA
 Croatia	2020-03-25	1	NA	no	NA
 Croatia	2020-03-26	3	NA	no	NA
-Croatia	2020-03-27	3	NA	yes	Croatia (3)
+Croatia	2020-03-27	3	NA	no	NA
+Croatia	2020-03-28	5	NA	yes	Croatia (5)
 Cruise Ship	2020-02-01	0	NA	no	NA
 Cruise Ship	2020-02-02	0	NA	no	NA
 Cruise Ship	2020-02-03	0	NA	no	NA
@@ -3078,7 +3132,8 @@ Cruise Ship	2020-03-23	8	NA	no	NA
 Cruise Ship	2020-03-24	0	NA	no	NA
 Cruise Ship	2020-03-25	0	NA	no	NA
 Cruise Ship	2020-03-26	0	NA	no	NA
-Cruise Ship	2020-03-27	0	NA	yes	Cruise Ship (0)
+Cruise Ship	2020-03-27	0	NA	no	NA
+Cruise Ship	2020-03-28	0	NA	yes	Cruise Ship (0)
 Cuba	2020-02-01	0	NA	no	NA
 Cuba	2020-02-02	0	NA	no	NA
 Cuba	2020-02-03	0	NA	no	NA
@@ -3134,7 +3189,8 @@ Cuba	2020-03-23	1	NA	no	NA
 Cuba	2020-03-24	1	NA	no	NA
 Cuba	2020-03-25	1	NA	no	NA
 Cuba	2020-03-26	2	NA	no	NA
-Cuba	2020-03-27	2	NA	yes	Cuba (2)
+Cuba	2020-03-27	2	NA	no	NA
+Cuba	2020-03-28	3	NA	yes	Cuba (3)
 Curacao	2020-02-01	0	NA	no	NA
 Curacao	2020-02-02	0	NA	no	NA
 Curacao	2020-02-03	0	NA	no	NA
@@ -3190,7 +3246,8 @@ Curacao	2020-03-23	0	NA	no	NA
 Curacao	2020-03-24	0	NA	no	NA
 Curacao	2020-03-25	0	NA	no	NA
 Curacao	2020-03-26	0	NA	no	NA
-Curacao	2020-03-27	0	NA	yes	Curacao (0)
+Curacao	2020-03-27	0	NA	no	NA
+Curacao	2020-03-28	0	NA	yes	Curacao (0)
 Cyprus	2020-02-01	0	NA	no	NA
 Cyprus	2020-02-02	0	NA	no	NA
 Cyprus	2020-02-03	0	NA	no	NA
@@ -3246,7 +3303,8 @@ Cyprus	2020-03-23	1	NA	no	NA
 Cyprus	2020-03-24	3	NA	no	NA
 Cyprus	2020-03-25	3	NA	no	NA
 Cyprus	2020-03-26	3	NA	no	NA
-Cyprus	2020-03-27	5	NA	yes	Cyprus (5)
+Cyprus	2020-03-27	5	NA	no	NA
+Cyprus	2020-03-28	5	NA	yes	Cyprus (5)
 Czech Republic	2020-02-01	0	NA	no	NA
 Czech Republic	2020-02-02	0	NA	no	NA
 Czech Republic	2020-02-03	0	NA	no	NA
@@ -3302,7 +3360,8 @@ Czech Republic	2020-03-23	0	NA	no	NA
 Czech Republic	2020-03-24	0	NA	no	NA
 Czech Republic	2020-03-25	0	NA	no	NA
 Czech Republic	2020-03-26	0	NA	no	NA
-Czech Republic	2020-03-27	0	NA	yes	Czech Republic (0)
+Czech Republic	2020-03-27	0	NA	no	NA
+Czech Republic	2020-03-28	0	NA	yes	Czech Republic (0)
 Czechia	2020-02-01	0	NA	no	NA
 Czechia	2020-02-02	0	NA	no	NA
 Czechia	2020-02-03	0	NA	no	NA
@@ -3358,7 +3417,8 @@ Czechia	2020-03-23	1	NA	no	NA
 Czechia	2020-03-24	3	NA	no	NA
 Czechia	2020-03-25	6	NA	no	NA
 Czechia	2020-03-26	9	NA	no	NA
-Czechia	2020-03-27	9	NA	yes	Czechia (9)
+Czechia	2020-03-27	9	NA	no	NA
+Czechia	2020-03-28	11	NA	yes	Czechia (11)
 Delaware, USA	2020-02-01	0	NA	no	NA
 Delaware, USA	2020-02-02	0	NA	no	NA
 Delaware, USA	2020-02-03	0	NA	no	NA
@@ -3414,7 +3474,8 @@ Delaware, USA	2020-03-23	0	NA	no	NA
 Delaware, USA	2020-03-24	0	NA	no	NA
 Delaware, USA	2020-03-25	0	NA	no	NA
 Delaware, USA	2020-03-26	1	NA	no	NA
-Delaware, USA	2020-03-27	2	NA	yes	Delaware, USA (2)
+Delaware, USA	2020-03-27	2	NA	no	NA
+Delaware, USA	2020-03-28	5	NA	yes	Delaware, USA (5)
 Denmark	2020-02-01	0	NA	no	NA
 Denmark	2020-02-02	0	NA	no	NA
 Denmark	2020-02-03	0	NA	no	NA
@@ -3470,7 +3531,8 @@ Denmark	2020-03-23	24	NA	no	NA
 Denmark	2020-03-24	32	NA	no	NA
 Denmark	2020-03-25	34	NA	no	NA
 Denmark	2020-03-26	41	NA	no	NA
-Denmark	2020-03-27	52	1	yes	Denmark (52)
+Denmark	2020-03-27	52	1	no	NA
+Denmark	2020-03-28	65	2	yes	Denmark (65)
 Diamond Princess	2020-02-01	0	NA	no	NA
 Diamond Princess	2020-02-02	0	NA	no	NA
 Diamond Princess	2020-02-03	0	NA	no	NA
@@ -3526,7 +3588,8 @@ Diamond Princess	2020-03-23	0	NA	no	NA
 Diamond Princess	2020-03-24	0	NA	no	NA
 Diamond Princess	2020-03-25	10	NA	no	NA
 Diamond Princess	2020-03-26	10	NA	no	NA
-Diamond Princess	2020-03-27	10	NA	yes	Diamond Princess (10)
+Diamond Princess	2020-03-27	10	NA	no	NA
+Diamond Princess	2020-03-28	10	NA	yes	Diamond Princess (10)
 Diamond Princess, USA	2020-02-01	0	NA	no	NA
 Diamond Princess, USA	2020-02-02	0	NA	no	NA
 Diamond Princess, USA	2020-02-03	0	NA	no	NA
@@ -3582,7 +3645,8 @@ Diamond Princess, USA	2020-03-23	0	NA	no	NA
 Diamond Princess, USA	2020-03-24	0	NA	no	NA
 Diamond Princess, USA	2020-03-25	0	NA	no	NA
 Diamond Princess, USA	2020-03-26	0	NA	no	NA
-Diamond Princess, USA	2020-03-27	0	NA	yes	Diamond Princess, USA (0)
+Diamond Princess, USA	2020-03-27	0	NA	no	NA
+Diamond Princess, USA	2020-03-28	0	NA	yes	Diamond Princess, USA (0)
 District of Columbia, USA	2020-02-01	0	NA	no	NA
 District of Columbia, USA	2020-02-02	0	NA	no	NA
 District of Columbia, USA	2020-02-03	0	NA	no	NA
@@ -3638,7 +3702,8 @@ District of Columbia, USA	2020-03-23	2	NA	no	NA
 District of Columbia, USA	2020-03-24	2	NA	no	NA
 District of Columbia, USA	2020-03-25	2	NA	no	NA
 District of Columbia, USA	2020-03-26	3	NA	no	NA
-District of Columbia, USA	2020-03-27	3	NA	yes	District of Columbia, USA (3)
+District of Columbia, USA	2020-03-27	3	NA	no	NA
+District of Columbia, USA	2020-03-28	4	NA	yes	District of Columbia, USA (4)
 Djibouti	2020-02-01	0	NA	no	NA
 Djibouti	2020-02-02	0	NA	no	NA
 Djibouti	2020-02-03	0	NA	no	NA
@@ -3694,7 +3759,8 @@ Djibouti	2020-03-23	0	NA	no	NA
 Djibouti	2020-03-24	0	NA	no	NA
 Djibouti	2020-03-25	0	NA	no	NA
 Djibouti	2020-03-26	0	NA	no	NA
-Djibouti	2020-03-27	0	NA	yes	Djibouti (0)
+Djibouti	2020-03-27	0	NA	no	NA
+Djibouti	2020-03-28	0	NA	yes	Djibouti (0)
 Dominica	2020-02-01	0	NA	no	NA
 Dominica	2020-02-02	0	NA	no	NA
 Dominica	2020-02-03	0	NA	no	NA
@@ -3750,7 +3816,8 @@ Dominica	2020-03-23	0	NA	no	NA
 Dominica	2020-03-24	0	NA	no	NA
 Dominica	2020-03-25	0	NA	no	NA
 Dominica	2020-03-26	0	NA	no	NA
-Dominica	2020-03-27	0	NA	yes	Dominica (0)
+Dominica	2020-03-27	0	NA	no	NA
+Dominica	2020-03-28	0	NA	yes	Dominica (0)
 Dominican Republic	2020-02-01	0	NA	no	NA
 Dominican Republic	2020-02-02	0	NA	no	NA
 Dominican Republic	2020-02-03	0	NA	no	NA
@@ -3806,7 +3873,8 @@ Dominican Republic	2020-03-23	3	NA	no	NA
 Dominican Republic	2020-03-24	6	NA	no	NA
 Dominican Republic	2020-03-25	10	NA	no	NA
 Dominican Republic	2020-03-26	10	NA	no	NA
-Dominican Republic	2020-03-27	20	NA	yes	Dominican Republic (20)
+Dominican Republic	2020-03-27	20	NA	no	NA
+Dominican Republic	2020-03-28	28	NA	yes	Dominican Republic (28)
 East Timor	2020-02-01	0	NA	no	NA
 East Timor	2020-02-02	0	NA	no	NA
 East Timor	2020-02-03	0	NA	no	NA
@@ -3862,7 +3930,8 @@ East Timor	2020-03-23	0	NA	no	NA
 East Timor	2020-03-24	0	NA	no	NA
 East Timor	2020-03-25	0	NA	no	NA
 East Timor	2020-03-26	0	NA	no	NA
-East Timor	2020-03-27	0	NA	yes	East Timor (0)
+East Timor	2020-03-27	0	NA	no	NA
+East Timor	2020-03-28	0	NA	yes	East Timor (0)
 Ecuador	2020-02-01	0	NA	no	NA
 Ecuador	2020-02-02	0	NA	no	NA
 Ecuador	2020-02-03	0	NA	no	NA
@@ -3918,7 +3987,8 @@ Ecuador	2020-03-23	18	NA	no	NA
 Ecuador	2020-03-24	27	NA	no	NA
 Ecuador	2020-03-25	28	NA	no	NA
 Ecuador	2020-03-26	34	NA	no	NA
-Ecuador	2020-03-27	36	NA	yes	Ecuador (36)
+Ecuador	2020-03-27	36	NA	no	NA
+Ecuador	2020-03-28	48	NA	yes	Ecuador (48)
 Egypt	2020-02-01	0	NA	no	NA
 Egypt	2020-02-02	0	NA	no	NA
 Egypt	2020-02-03	0	NA	no	NA
@@ -3974,7 +4044,8 @@ Egypt	2020-03-23	19	NA	no	NA
 Egypt	2020-03-24	20	NA	no	NA
 Egypt	2020-03-25	21	NA	no	NA
 Egypt	2020-03-26	24	NA	no	NA
-Egypt	2020-03-27	30	NA	yes	Egypt (30)
+Egypt	2020-03-27	30	NA	no	NA
+Egypt	2020-03-28	36	NA	yes	Egypt (36)
 El Salvador	2020-02-01	0	NA	no	NA
 El Salvador	2020-02-02	0	NA	no	NA
 El Salvador	2020-02-03	0	NA	no	NA
@@ -4030,7 +4101,8 @@ El Salvador	2020-03-23	0	NA	no	NA
 El Salvador	2020-03-24	0	NA	no	NA
 El Salvador	2020-03-25	0	NA	no	NA
 El Salvador	2020-03-26	0	NA	no	NA
-El Salvador	2020-03-27	0	NA	yes	El Salvador (0)
+El Salvador	2020-03-27	0	NA	no	NA
+El Salvador	2020-03-28	0	NA	yes	El Salvador (0)
 Equatorial Guinea	2020-02-01	0	NA	no	NA
 Equatorial Guinea	2020-02-02	0	NA	no	NA
 Equatorial Guinea	2020-02-03	0	NA	no	NA
@@ -4086,7 +4158,8 @@ Equatorial Guinea	2020-03-23	0	NA	no	NA
 Equatorial Guinea	2020-03-24	0	NA	no	NA
 Equatorial Guinea	2020-03-25	0	NA	no	NA
 Equatorial Guinea	2020-03-26	0	NA	no	NA
-Equatorial Guinea	2020-03-27	0	NA	yes	Equatorial Guinea (0)
+Equatorial Guinea	2020-03-27	0	NA	no	NA
+Equatorial Guinea	2020-03-28	0	NA	yes	Equatorial Guinea (0)
 Eritrea	2020-02-01	0	NA	no	NA
 Eritrea	2020-02-02	0	NA	no	NA
 Eritrea	2020-02-03	0	NA	no	NA
@@ -4142,7 +4215,8 @@ Eritrea	2020-03-23	0	NA	no	NA
 Eritrea	2020-03-24	0	NA	no	NA
 Eritrea	2020-03-25	0	NA	no	NA
 Eritrea	2020-03-26	0	NA	no	NA
-Eritrea	2020-03-27	0	NA	yes	Eritrea (0)
+Eritrea	2020-03-27	0	NA	no	NA
+Eritrea	2020-03-28	0	NA	yes	Eritrea (0)
 Estonia	2020-02-01	0	NA	no	NA
 Estonia	2020-02-02	0	NA	no	NA
 Estonia	2020-02-03	0	NA	no	NA
@@ -4198,7 +4272,8 @@ Estonia	2020-03-23	0	NA	no	NA
 Estonia	2020-03-24	0	NA	no	NA
 Estonia	2020-03-25	1	NA	no	NA
 Estonia	2020-03-26	1	NA	no	NA
-Estonia	2020-03-27	1	NA	yes	Estonia (1)
+Estonia	2020-03-27	1	NA	no	NA
+Estonia	2020-03-28	1	NA	yes	Estonia (1)
 Eswatini	2020-02-01	0	NA	no	NA
 Eswatini	2020-02-02	0	NA	no	NA
 Eswatini	2020-02-03	0	NA	no	NA
@@ -4254,7 +4329,8 @@ Eswatini	2020-03-23	0	NA	no	NA
 Eswatini	2020-03-24	0	NA	no	NA
 Eswatini	2020-03-25	0	NA	no	NA
 Eswatini	2020-03-26	0	NA	no	NA
-Eswatini	2020-03-27	0	NA	yes	Eswatini (0)
+Eswatini	2020-03-27	0	NA	no	NA
+Eswatini	2020-03-28	0	NA	yes	Eswatini (0)
 Ethiopia	2020-02-01	0	NA	no	NA
 Ethiopia	2020-02-02	0	NA	no	NA
 Ethiopia	2020-02-03	0	NA	no	NA
@@ -4310,7 +4386,8 @@ Ethiopia	2020-03-23	0	NA	no	NA
 Ethiopia	2020-03-24	0	NA	no	NA
 Ethiopia	2020-03-25	0	NA	no	NA
 Ethiopia	2020-03-26	0	NA	no	NA
-Ethiopia	2020-03-27	0	NA	yes	Ethiopia (0)
+Ethiopia	2020-03-27	0	NA	no	NA
+Ethiopia	2020-03-28	0	NA	yes	Ethiopia (0)
 Faroe Islands	2020-02-01	0	NA	no	NA
 Faroe Islands	2020-02-02	0	NA	no	NA
 Faroe Islands	2020-02-03	0	NA	no	NA
@@ -4366,7 +4443,8 @@ Faroe Islands	2020-03-23	0	NA	no	NA
 Faroe Islands	2020-03-24	0	NA	no	NA
 Faroe Islands	2020-03-25	0	NA	no	NA
 Faroe Islands	2020-03-26	0	NA	no	NA
-Faroe Islands	2020-03-27	0	NA	yes	Faroe Islands (0)
+Faroe Islands	2020-03-27	0	NA	no	NA
+Faroe Islands	2020-03-28	0	NA	yes	Faroe Islands (0)
 Fiji	2020-02-01	0	NA	no	NA
 Fiji	2020-02-02	0	NA	no	NA
 Fiji	2020-02-03	0	NA	no	NA
@@ -4422,7 +4500,8 @@ Fiji	2020-03-23	0	NA	no	NA
 Fiji	2020-03-24	0	NA	no	NA
 Fiji	2020-03-25	0	NA	no	NA
 Fiji	2020-03-26	0	NA	no	NA
-Fiji	2020-03-27	0	NA	yes	Fiji (0)
+Fiji	2020-03-27	0	NA	no	NA
+Fiji	2020-03-28	0	NA	yes	Fiji (0)
 Finland	2020-02-01	0	NA	no	NA
 Finland	2020-02-02	0	NA	no	NA
 Finland	2020-02-03	0	NA	no	NA
@@ -4478,7 +4557,8 @@ Finland	2020-03-23	1	NA	no	NA
 Finland	2020-03-24	1	NA	no	NA
 Finland	2020-03-25	3	NA	no	NA
 Finland	2020-03-26	5	NA	no	NA
-Finland	2020-03-27	7	NA	yes	Finland (7)
+Finland	2020-03-27	7	NA	no	NA
+Finland	2020-03-28	9	NA	yes	Finland (9)
 Florida, USA	2020-02-01	0	NA	no	NA
 Florida, USA	2020-02-02	0	NA	no	NA
 Florida, USA	2020-02-03	0	NA	no	NA
@@ -4534,7 +4614,8 @@ Florida, USA	2020-03-23	18	NA	no	NA
 Florida, USA	2020-03-24	18	NA	no	NA
 Florida, USA	2020-03-25	23	NA	no	NA
 Florida, USA	2020-03-26	29	NA	no	NA
-Florida, USA	2020-03-27	35	NA	yes	Florida, USA (35)
+Florida, USA	2020-03-27	35	NA	no	NA
+Florida, USA	2020-03-28	54	1	yes	Florida, USA (54)
 France	2020-02-01	0	NA	no	NA
 France	2020-02-02	0	NA	no	NA
 France	2020-02-03	0	NA	no	NA
@@ -4590,7 +4671,8 @@ France	2020-03-23	862	11	no	NA
 France	2020-03-24	1102	12	no	NA
 France	2020-03-25	1333	13	no	NA
 France	2020-03-26	1698	14	no	NA
-France	2020-03-27	1997	15	yes	France (1997)
+France	2020-03-27	1997	15	no	NA
+France	2020-03-28	2317	16	yes	France (2317)
 French Guiana	2020-02-01	0	NA	no	NA
 French Guiana	2020-02-02	0	NA	no	NA
 French Guiana	2020-02-03	0	NA	no	NA
@@ -4646,7 +4728,8 @@ French Guiana	2020-03-23	0	NA	no	NA
 French Guiana	2020-03-24	0	NA	no	NA
 French Guiana	2020-03-25	0	NA	no	NA
 French Guiana	2020-03-26	0	NA	no	NA
-French Guiana	2020-03-27	0	NA	yes	French Guiana (0)
+French Guiana	2020-03-27	0	NA	no	NA
+French Guiana	2020-03-28	0	NA	yes	French Guiana (0)
 Gabon	2020-02-01	0	NA	no	NA
 Gabon	2020-02-02	0	NA	no	NA
 Gabon	2020-02-03	0	NA	no	NA
@@ -4702,7 +4785,8 @@ Gabon	2020-03-23	1	NA	no	NA
 Gabon	2020-03-24	1	NA	no	NA
 Gabon	2020-03-25	1	NA	no	NA
 Gabon	2020-03-26	1	NA	no	NA
-Gabon	2020-03-27	1	NA	yes	Gabon (1)
+Gabon	2020-03-27	1	NA	no	NA
+Gabon	2020-03-28	1	NA	yes	Gabon (1)
 Gambia	2020-02-01	0	NA	no	NA
 Gambia	2020-02-02	0	NA	no	NA
 Gambia	2020-02-03	0	NA	no	NA
@@ -4758,7 +4842,8 @@ Gambia	2020-03-23	1	NA	no	NA
 Gambia	2020-03-24	1	NA	no	NA
 Gambia	2020-03-25	1	NA	no	NA
 Gambia	2020-03-26	1	NA	no	NA
-Gambia	2020-03-27	1	NA	yes	Gambia (1)
+Gambia	2020-03-27	1	NA	no	NA
+Gambia	2020-03-28	1	NA	yes	Gambia (1)
 Gambia, The	2020-02-01	0	NA	no	NA
 Gambia, The	2020-02-02	0	NA	no	NA
 Gambia, The	2020-02-03	0	NA	no	NA
@@ -4814,7 +4899,8 @@ Gambia, The	2020-03-23	0	NA	no	NA
 Gambia, The	2020-03-24	0	NA	no	NA
 Gambia, The	2020-03-25	0	NA	no	NA
 Gambia, The	2020-03-26	0	NA	no	NA
-Gambia, The	2020-03-27	0	NA	yes	Gambia, The (0)
+Gambia, The	2020-03-27	0	NA	no	NA
+Gambia, The	2020-03-28	0	NA	yes	Gambia, The (0)
 Georgia	2020-02-01	0	NA	no	NA
 Georgia	2020-02-02	0	NA	no	NA
 Georgia	2020-02-03	0	NA	no	NA
@@ -4870,7 +4956,8 @@ Georgia	2020-03-23	0	NA	no	NA
 Georgia	2020-03-24	0	NA	no	NA
 Georgia	2020-03-25	0	NA	no	NA
 Georgia	2020-03-26	0	NA	no	NA
-Georgia	2020-03-27	0	NA	yes	Georgia (0)
+Georgia	2020-03-27	0	NA	no	NA
+Georgia	2020-03-28	0	NA	yes	Georgia (0)
 Georgia, USA	2020-02-01	0	NA	no	NA
 Georgia, USA	2020-02-02	0	NA	no	NA
 Georgia, USA	2020-02-03	0	NA	no	NA
@@ -4926,7 +5013,8 @@ Georgia, USA	2020-03-23	25	NA	no	NA
 Georgia, USA	2020-03-24	32	NA	no	NA
 Georgia, USA	2020-03-25	40	NA	no	NA
 Georgia, USA	2020-03-26	48	NA	no	NA
-Georgia, USA	2020-03-27	64	1	yes	Georgia, USA (64)
+Georgia, USA	2020-03-27	64	1	no	NA
+Georgia, USA	2020-03-28	69	2	yes	Georgia, USA (69)
 Germany	2020-02-01	0	NA	no	NA
 Germany	2020-02-02	0	NA	no	NA
 Germany	2020-02-03	0	NA	no	NA
@@ -4982,7 +5070,8 @@ Germany	2020-03-23	123	4	no	NA
 Germany	2020-03-24	157	5	no	NA
 Germany	2020-03-25	206	6	no	NA
 Germany	2020-03-26	267	7	no	NA
-Germany	2020-03-27	342	8	yes	Germany (342)
+Germany	2020-03-27	342	8	no	NA
+Germany	2020-03-28	433	9	yes	Germany (433)
 Ghana	2020-02-01	0	NA	no	NA
 Ghana	2020-02-02	0	NA	no	NA
 Ghana	2020-02-03	0	NA	no	NA
@@ -5038,7 +5127,8 @@ Ghana	2020-03-23	2	NA	no	NA
 Ghana	2020-03-24	2	NA	no	NA
 Ghana	2020-03-25	4	NA	no	NA
 Ghana	2020-03-26	4	NA	no	NA
-Ghana	2020-03-27	4	NA	yes	Ghana (4)
+Ghana	2020-03-27	4	NA	no	NA
+Ghana	2020-03-28	5	NA	yes	Ghana (5)
 Gibraltar	2020-02-01	0	NA	no	NA
 Gibraltar	2020-02-02	0	NA	no	NA
 Gibraltar	2020-02-03	0	NA	no	NA
@@ -5094,7 +5184,8 @@ Gibraltar	2020-03-23	0	NA	no	NA
 Gibraltar	2020-03-24	0	NA	no	NA
 Gibraltar	2020-03-25	0	NA	no	NA
 Gibraltar	2020-03-26	0	NA	no	NA
-Gibraltar	2020-03-27	0	NA	yes	Gibraltar (0)
+Gibraltar	2020-03-27	0	NA	no	NA
+Gibraltar	2020-03-28	0	NA	yes	Gibraltar (0)
 Grand Princess Cruise Ship, USA	2020-02-01	0	NA	no	NA
 Grand Princess Cruise Ship, USA	2020-02-02	0	NA	no	NA
 Grand Princess Cruise Ship, USA	2020-02-03	0	NA	no	NA
@@ -5150,7 +5241,8 @@ Grand Princess Cruise Ship, USA	2020-03-23	0	NA	no	NA
 Grand Princess Cruise Ship, USA	2020-03-24	0	NA	no	NA
 Grand Princess Cruise Ship, USA	2020-03-25	0	NA	no	NA
 Grand Princess Cruise Ship, USA	2020-03-26	0	NA	no	NA
-Grand Princess Cruise Ship, USA	2020-03-27	0	NA	yes	Grand Princess Cruise Ship, USA (0)
+Grand Princess Cruise Ship, USA	2020-03-27	0	NA	no	NA
+Grand Princess Cruise Ship, USA	2020-03-28	0	NA	yes	Grand Princess Cruise Ship, USA (0)
 Grand Princess, USA	2020-02-01	0	NA	no	NA
 Grand Princess, USA	2020-02-02	0	NA	no	NA
 Grand Princess, USA	2020-02-03	0	NA	no	NA
@@ -5206,7 +5298,8 @@ Grand Princess, USA	2020-03-23	1	NA	no	NA
 Grand Princess, USA	2020-03-24	1	NA	no	NA
 Grand Princess, USA	2020-03-25	1	NA	no	NA
 Grand Princess, USA	2020-03-26	1	NA	no	NA
-Grand Princess, USA	2020-03-27	3	NA	yes	Grand Princess, USA (3)
+Grand Princess, USA	2020-03-27	3	NA	no	NA
+Grand Princess, USA	2020-03-28	3	NA	yes	Grand Princess, USA (3)
 Greece	2020-02-01	0	NA	no	NA
 Greece	2020-02-02	0	NA	no	NA
 Greece	2020-02-03	0	NA	no	NA
@@ -5262,7 +5355,8 @@ Greece	2020-03-23	17	NA	no	NA
 Greece	2020-03-24	20	NA	no	NA
 Greece	2020-03-25	22	NA	no	NA
 Greece	2020-03-26	26	NA	no	NA
-Greece	2020-03-27	28	NA	yes	Greece (28)
+Greece	2020-03-27	28	NA	no	NA
+Greece	2020-03-28	32	NA	yes	Greece (32)
 Greenland	2020-02-01	0	NA	no	NA
 Greenland	2020-02-02	0	NA	no	NA
 Greenland	2020-02-03	0	NA	no	NA
@@ -5318,7 +5412,8 @@ Greenland	2020-03-23	0	NA	no	NA
 Greenland	2020-03-24	0	NA	no	NA
 Greenland	2020-03-25	0	NA	no	NA
 Greenland	2020-03-26	0	NA	no	NA
-Greenland	2020-03-27	0	NA	yes	Greenland (0)
+Greenland	2020-03-27	0	NA	no	NA
+Greenland	2020-03-28	0	NA	yes	Greenland (0)
 Grenada	2020-02-01	0	NA	no	NA
 Grenada	2020-02-02	0	NA	no	NA
 Grenada	2020-02-03	0	NA	no	NA
@@ -5374,7 +5469,8 @@ Grenada	2020-03-23	0	NA	no	NA
 Grenada	2020-03-24	0	NA	no	NA
 Grenada	2020-03-25	0	NA	no	NA
 Grenada	2020-03-26	0	NA	no	NA
-Grenada	2020-03-27	0	NA	yes	Grenada (0)
+Grenada	2020-03-27	0	NA	no	NA
+Grenada	2020-03-28	0	NA	yes	Grenada (0)
 Guadeloupe	2020-02-01	0	NA	no	NA
 Guadeloupe	2020-02-02	0	NA	no	NA
 Guadeloupe	2020-02-03	0	NA	no	NA
@@ -5430,7 +5526,8 @@ Guadeloupe	2020-03-23	0	NA	no	NA
 Guadeloupe	2020-03-24	0	NA	no	NA
 Guadeloupe	2020-03-25	0	NA	no	NA
 Guadeloupe	2020-03-26	0	NA	no	NA
-Guadeloupe	2020-03-27	0	NA	yes	Guadeloupe (0)
+Guadeloupe	2020-03-27	0	NA	no	NA
+Guadeloupe	2020-03-28	0	NA	yes	Guadeloupe (0)
 Guam	2020-02-01	0	NA	no	NA
 Guam	2020-02-02	0	NA	no	NA
 Guam	2020-02-03	0	NA	no	NA
@@ -5486,7 +5583,8 @@ Guam	2020-03-23	0	NA	no	NA
 Guam	2020-03-24	0	NA	no	NA
 Guam	2020-03-25	0	NA	no	NA
 Guam	2020-03-26	0	NA	no	NA
-Guam	2020-03-27	0	NA	yes	Guam (0)
+Guam	2020-03-27	0	NA	no	NA
+Guam	2020-03-28	0	NA	yes	Guam (0)
 Guam, USA	2020-02-01	0	NA	no	NA
 Guam, USA	2020-02-02	0	NA	no	NA
 Guam, USA	2020-02-03	0	NA	no	NA
@@ -5542,7 +5640,8 @@ Guam, USA	2020-03-23	1	NA	no	NA
 Guam, USA	2020-03-24	1	NA	no	NA
 Guam, USA	2020-03-25	1	NA	no	NA
 Guam, USA	2020-03-26	1	NA	no	NA
-Guam, USA	2020-03-27	1	NA	yes	Guam, USA (1)
+Guam, USA	2020-03-27	1	NA	no	NA
+Guam, USA	2020-03-28	1	NA	yes	Guam, USA (1)
 Guatemala	2020-02-01	0	NA	no	NA
 Guatemala	2020-02-02	0	NA	no	NA
 Guatemala	2020-02-03	0	NA	no	NA
@@ -5598,7 +5697,8 @@ Guatemala	2020-03-23	1	NA	no	NA
 Guatemala	2020-03-24	1	NA	no	NA
 Guatemala	2020-03-25	1	NA	no	NA
 Guatemala	2020-03-26	1	NA	no	NA
-Guatemala	2020-03-27	1	NA	yes	Guatemala (1)
+Guatemala	2020-03-27	1	NA	no	NA
+Guatemala	2020-03-28	1	NA	yes	Guatemala (1)
 Guernsey	2020-02-01	0	NA	no	NA
 Guernsey	2020-02-02	0	NA	no	NA
 Guernsey	2020-02-03	0	NA	no	NA
@@ -5654,7 +5754,8 @@ Guernsey	2020-03-23	0	NA	no	NA
 Guernsey	2020-03-24	0	NA	no	NA
 Guernsey	2020-03-25	0	NA	no	NA
 Guernsey	2020-03-26	0	NA	no	NA
-Guernsey	2020-03-27	0	NA	yes	Guernsey (0)
+Guernsey	2020-03-27	0	NA	no	NA
+Guernsey	2020-03-28	0	NA	yes	Guernsey (0)
 Guinea	2020-02-01	0	NA	no	NA
 Guinea	2020-02-02	0	NA	no	NA
 Guinea	2020-02-03	0	NA	no	NA
@@ -5710,7 +5811,8 @@ Guinea	2020-03-23	0	NA	no	NA
 Guinea	2020-03-24	0	NA	no	NA
 Guinea	2020-03-25	0	NA	no	NA
 Guinea	2020-03-26	0	NA	no	NA
-Guinea	2020-03-27	0	NA	yes	Guinea (0)
+Guinea	2020-03-27	0	NA	no	NA
+Guinea	2020-03-28	0	NA	yes	Guinea (0)
 Guinea-Bissau	2020-02-01	0	NA	no	NA
 Guinea-Bissau	2020-02-02	0	NA	no	NA
 Guinea-Bissau	2020-02-03	0	NA	no	NA
@@ -5766,7 +5868,8 @@ Guinea-Bissau	2020-03-23	0	NA	no	NA
 Guinea-Bissau	2020-03-24	0	NA	no	NA
 Guinea-Bissau	2020-03-25	0	NA	no	NA
 Guinea-Bissau	2020-03-26	0	NA	no	NA
-Guinea-Bissau	2020-03-27	0	NA	yes	Guinea-Bissau (0)
+Guinea-Bissau	2020-03-27	0	NA	no	NA
+Guinea-Bissau	2020-03-28	0	NA	yes	Guinea-Bissau (0)
 Guyana	2020-02-01	0	NA	no	NA
 Guyana	2020-02-02	0	NA	no	NA
 Guyana	2020-02-03	0	NA	no	NA
@@ -5822,7 +5925,8 @@ Guyana	2020-03-23	1	NA	no	NA
 Guyana	2020-03-24	1	NA	no	NA
 Guyana	2020-03-25	1	NA	no	NA
 Guyana	2020-03-26	1	NA	no	NA
-Guyana	2020-03-27	1	NA	yes	Guyana (1)
+Guyana	2020-03-27	1	NA	no	NA
+Guyana	2020-03-28	1	NA	yes	Guyana (1)
 Haiti	2020-02-01	0	NA	no	NA
 Haiti	2020-02-02	0	NA	no	NA
 Haiti	2020-02-03	0	NA	no	NA
@@ -5878,7 +5982,8 @@ Haiti	2020-03-23	0	NA	no	NA
 Haiti	2020-03-24	0	NA	no	NA
 Haiti	2020-03-25	0	NA	no	NA
 Haiti	2020-03-26	0	NA	no	NA
-Haiti	2020-03-27	0	NA	yes	Haiti (0)
+Haiti	2020-03-27	0	NA	no	NA
+Haiti	2020-03-28	0	NA	yes	Haiti (0)
 Hawaii, USA	2020-02-01	0	NA	no	NA
 Hawaii, USA	2020-02-02	0	NA	no	NA
 Hawaii, USA	2020-02-03	0	NA	no	NA
@@ -5934,7 +6039,8 @@ Hawaii, USA	2020-03-23	0	NA	no	NA
 Hawaii, USA	2020-03-24	1	NA	no	NA
 Hawaii, USA	2020-03-25	0	NA	no	NA
 Hawaii, USA	2020-03-26	0	NA	no	NA
-Hawaii, USA	2020-03-27	0	NA	yes	Hawaii, USA (0)
+Hawaii, USA	2020-03-27	0	NA	no	NA
+Hawaii, USA	2020-03-28	0	NA	yes	Hawaii, USA (0)
 Holy See	2020-02-01	0	NA	no	NA
 Holy See	2020-02-02	0	NA	no	NA
 Holy See	2020-02-03	0	NA	no	NA
@@ -5990,7 +6096,8 @@ Holy See	2020-03-23	0	NA	no	NA
 Holy See	2020-03-24	0	NA	no	NA
 Holy See	2020-03-25	0	NA	no	NA
 Holy See	2020-03-26	0	NA	no	NA
-Holy See	2020-03-27	0	NA	yes	Holy See (0)
+Holy See	2020-03-27	0	NA	no	NA
+Holy See	2020-03-28	0	NA	yes	Holy See (0)
 Honduras	2020-02-01	0	NA	no	NA
 Honduras	2020-02-02	0	NA	no	NA
 Honduras	2020-02-03	0	NA	no	NA
@@ -6046,7 +6153,8 @@ Honduras	2020-03-23	0	NA	no	NA
 Honduras	2020-03-24	0	NA	no	NA
 Honduras	2020-03-25	0	NA	no	NA
 Honduras	2020-03-26	1	NA	no	NA
-Honduras	2020-03-27	1	NA	yes	Honduras (1)
+Honduras	2020-03-27	1	NA	no	NA
+Honduras	2020-03-28	1	NA	yes	Honduras (1)
 Hong Kong	2020-02-01	0	NA	no	NA
 Hong Kong	2020-02-02	0	NA	no	NA
 Hong Kong	2020-02-03	0	NA	no	NA
@@ -6102,7 +6210,8 @@ Hong Kong	2020-03-23	0	NA	no	NA
 Hong Kong	2020-03-24	0	NA	no	NA
 Hong Kong	2020-03-25	0	NA	no	NA
 Hong Kong	2020-03-26	0	NA	no	NA
-Hong Kong	2020-03-27	0	NA	yes	Hong Kong (0)
+Hong Kong	2020-03-27	0	NA	no	NA
+Hong Kong	2020-03-28	0	NA	yes	Hong Kong (0)
 Hong Kong SAR	2020-02-01	0	NA	no	NA
 Hong Kong SAR	2020-02-02	0	NA	no	NA
 Hong Kong SAR	2020-02-03	0	NA	no	NA
@@ -6158,7 +6267,8 @@ Hong Kong SAR	2020-03-23	0	NA	no	NA
 Hong Kong SAR	2020-03-24	0	NA	no	NA
 Hong Kong SAR	2020-03-25	0	NA	no	NA
 Hong Kong SAR	2020-03-26	0	NA	no	NA
-Hong Kong SAR	2020-03-27	0	NA	yes	Hong Kong SAR (0)
+Hong Kong SAR	2020-03-27	0	NA	no	NA
+Hong Kong SAR	2020-03-28	0	NA	yes	Hong Kong SAR (0)
 Hungary	2020-02-01	0	NA	no	NA
 Hungary	2020-02-02	0	NA	no	NA
 Hungary	2020-02-03	0	NA	no	NA
@@ -6214,7 +6324,8 @@ Hungary	2020-03-23	7	NA	no	NA
 Hungary	2020-03-24	9	NA	no	NA
 Hungary	2020-03-25	10	NA	no	NA
 Hungary	2020-03-26	10	NA	no	NA
-Hungary	2020-03-27	10	NA	yes	Hungary (10)
+Hungary	2020-03-27	10	NA	no	NA
+Hungary	2020-03-28	11	NA	yes	Hungary (11)
 Iceland	2020-02-01	0	NA	no	NA
 Iceland	2020-02-02	0	NA	no	NA
 Iceland	2020-02-03	0	NA	no	NA
@@ -6270,7 +6381,8 @@ Iceland	2020-03-23	1	NA	no	NA
 Iceland	2020-03-24	2	NA	no	NA
 Iceland	2020-03-25	2	NA	no	NA
 Iceland	2020-03-26	2	NA	no	NA
-Iceland	2020-03-27	2	NA	yes	Iceland (2)
+Iceland	2020-03-27	2	NA	no	NA
+Iceland	2020-03-28	2	NA	yes	Iceland (2)
 Idaho, USA	2020-02-01	0	NA	no	NA
 Idaho, USA	2020-02-02	0	NA	no	NA
 Idaho, USA	2020-02-03	0	NA	no	NA
@@ -6326,7 +6438,8 @@ Idaho, USA	2020-03-23	0	NA	no	NA
 Idaho, USA	2020-03-24	0	NA	no	NA
 Idaho, USA	2020-03-25	0	NA	no	NA
 Idaho, USA	2020-03-26	3	NA	no	NA
-Idaho, USA	2020-03-27	3	NA	yes	Idaho, USA (3)
+Idaho, USA	2020-03-27	3	NA	no	NA
+Idaho, USA	2020-03-28	4	NA	yes	Idaho, USA (4)
 Illinois, USA	2020-02-01	0	NA	no	NA
 Illinois, USA	2020-02-02	0	NA	no	NA
 Illinois, USA	2020-02-03	0	NA	no	NA
@@ -6382,7 +6495,8 @@ Illinois, USA	2020-03-23	12	NA	no	NA
 Illinois, USA	2020-03-24	16	NA	no	NA
 Illinois, USA	2020-03-25	19	NA	no	NA
 Illinois, USA	2020-03-26	26	NA	no	NA
-Illinois, USA	2020-03-27	34	NA	yes	Illinois, USA (34)
+Illinois, USA	2020-03-27	34	NA	no	NA
+Illinois, USA	2020-03-28	47	NA	yes	Illinois, USA (47)
 India	2020-02-01	0	NA	no	NA
 India	2020-02-02	0	NA	no	NA
 India	2020-02-03	0	NA	no	NA
@@ -6438,7 +6552,8 @@ India	2020-03-23	10	NA	no	NA
 India	2020-03-24	10	NA	no	NA
 India	2020-03-25	12	NA	no	NA
 India	2020-03-26	20	NA	no	NA
-India	2020-03-27	20	NA	yes	India (20)
+India	2020-03-27	20	NA	no	NA
+India	2020-03-28	24	NA	yes	India (24)
 Indiana, USA	2020-02-01	0	NA	no	NA
 Indiana, USA	2020-02-02	0	NA	no	NA
 Indiana, USA	2020-02-03	0	NA	no	NA
@@ -6494,7 +6609,8 @@ Indiana, USA	2020-03-23	7	NA	no	NA
 Indiana, USA	2020-03-24	12	NA	no	NA
 Indiana, USA	2020-03-25	14	NA	no	NA
 Indiana, USA	2020-03-26	17	NA	no	NA
-Indiana, USA	2020-03-27	25	NA	yes	Indiana, USA (25)
+Indiana, USA	2020-03-27	25	NA	no	NA
+Indiana, USA	2020-03-28	31	NA	yes	Indiana, USA (31)
 Indonesia	2020-02-01	0	NA	no	NA
 Indonesia	2020-02-02	0	NA	no	NA
 Indonesia	2020-02-03	0	NA	no	NA
@@ -6550,7 +6666,8 @@ Indonesia	2020-03-23	49	NA	no	NA
 Indonesia	2020-03-24	55	1	no	NA
 Indonesia	2020-03-25	58	2	no	NA
 Indonesia	2020-03-26	78	3	no	NA
-Indonesia	2020-03-27	87	4	yes	Indonesia (87)
+Indonesia	2020-03-27	87	4	no	NA
+Indonesia	2020-03-28	102	5	yes	Indonesia (102)
 Iowa, USA	2020-02-01	0	NA	no	NA
 Iowa, USA	2020-02-02	0	NA	no	NA
 Iowa, USA	2020-02-03	0	NA	no	NA
@@ -6606,7 +6723,8 @@ Iowa, USA	2020-03-23	0	NA	no	NA
 Iowa, USA	2020-03-24	0	NA	no	NA
 Iowa, USA	2020-03-25	1	NA	no	NA
 Iowa, USA	2020-03-26	1	NA	no	NA
-Iowa, USA	2020-03-27	3	NA	yes	Iowa, USA (3)
+Iowa, USA	2020-03-27	3	NA	no	NA
+Iowa, USA	2020-03-28	3	NA	yes	Iowa, USA (3)
 Iran	2020-02-01	0	NA	no	NA
 Iran	2020-02-02	0	NA	no	NA
 Iran	2020-02-03	0	NA	no	NA
@@ -6662,7 +6780,8 @@ Iran	2020-03-23	1812	23	no	NA
 Iran	2020-03-24	1934	24	no	NA
 Iran	2020-03-25	2077	25	no	NA
 Iran	2020-03-26	2234	26	no	NA
-Iran	2020-03-27	2378	27	yes	Iran (2378)
+Iran	2020-03-27	2378	27	no	NA
+Iran	2020-03-28	2517	28	yes	Iran (2517)
 Iraq	2020-02-01	0	NA	no	NA
 Iraq	2020-02-02	0	NA	no	NA
 Iraq	2020-02-03	0	NA	no	NA
@@ -6718,7 +6837,8 @@ Iraq	2020-03-23	23	NA	no	NA
 Iraq	2020-03-24	27	NA	no	NA
 Iraq	2020-03-25	29	NA	no	NA
 Iraq	2020-03-26	36	NA	no	NA
-Iraq	2020-03-27	40	NA	yes	Iraq (40)
+Iraq	2020-03-27	40	NA	no	NA
+Iraq	2020-03-28	42	NA	yes	Iraq (42)
 Ireland	2020-02-01	0	NA	no	NA
 Ireland	2020-02-02	0	NA	no	NA
 Ireland	2020-02-03	0	NA	no	NA
@@ -6774,7 +6894,8 @@ Ireland	2020-03-23	6	NA	no	NA
 Ireland	2020-03-24	7	NA	no	NA
 Ireland	2020-03-25	9	NA	no	NA
 Ireland	2020-03-26	19	NA	no	NA
-Ireland	2020-03-27	22	NA	yes	Ireland (22)
+Ireland	2020-03-27	22	NA	no	NA
+Ireland	2020-03-28	36	NA	yes	Ireland (36)
 Israel	2020-02-01	0	NA	no	NA
 Israel	2020-02-02	0	NA	no	NA
 Israel	2020-02-03	0	NA	no	NA
@@ -6830,7 +6951,8 @@ Israel	2020-03-23	1	NA	no	NA
 Israel	2020-03-24	3	NA	no	NA
 Israel	2020-03-25	5	NA	no	NA
 Israel	2020-03-26	8	NA	no	NA
-Israel	2020-03-27	12	NA	yes	Israel (12)
+Israel	2020-03-27	12	NA	no	NA
+Israel	2020-03-28	12	NA	yes	Israel (12)
 Italy	2020-02-01	0	NA	no	NA
 Italy	2020-02-02	0	NA	no	NA
 Italy	2020-02-03	0	NA	no	NA
@@ -6886,7 +7008,8 @@ Italy	2020-03-23	6077	22	no	NA
 Italy	2020-03-24	6820	23	no	NA
 Italy	2020-03-25	7503	24	no	NA
 Italy	2020-03-26	8215	25	no	NA
-Italy	2020-03-27	9134	26	yes	Italy (9134)
+Italy	2020-03-27	9134	26	no	NA
+Italy	2020-03-28	10023	27	yes	Italy (10023)
 Jamaica	2020-02-01	0	NA	no	NA
 Jamaica	2020-02-02	0	NA	no	NA
 Jamaica	2020-02-03	0	NA	no	NA
@@ -6942,7 +7065,8 @@ Jamaica	2020-03-23	1	NA	no	NA
 Jamaica	2020-03-24	1	NA	no	NA
 Jamaica	2020-03-25	1	NA	no	NA
 Jamaica	2020-03-26	1	NA	no	NA
-Jamaica	2020-03-27	1	NA	yes	Jamaica (1)
+Jamaica	2020-03-27	1	NA	no	NA
+Jamaica	2020-03-28	1	NA	yes	Jamaica (1)
 Japan	2020-02-01	0	NA	no	NA
 Japan	2020-02-02	0	NA	no	NA
 Japan	2020-02-03	0	NA	no	NA
@@ -6980,7 +7104,7 @@ Japan	2020-03-05	6	NA	no	NA
 Japan	2020-03-06	6	NA	no	NA
 Japan	2020-03-07	6	NA	no	NA
 Japan	2020-03-08	6	NA	no	NA
-Japan	2020-03-09	17	NA	no	NA
+Japan	2020-03-09	7	NA	no	NA
 Japan	2020-03-10	10	NA	no	NA
 Japan	2020-03-11	15	NA	no	NA
 Japan	2020-03-12	16	NA	no	NA
@@ -6998,7 +7122,8 @@ Japan	2020-03-23	42	NA	no	NA
 Japan	2020-03-24	43	NA	no	NA
 Japan	2020-03-25	45	NA	no	NA
 Japan	2020-03-26	47	NA	no	NA
-Japan	2020-03-27	49	NA	yes	Japan (49)
+Japan	2020-03-27	49	NA	no	NA
+Japan	2020-03-28	52	1	yes	Japan (52)
 Jersey	2020-02-01	0	NA	no	NA
 Jersey	2020-02-02	0	NA	no	NA
 Jersey	2020-02-03	0	NA	no	NA
@@ -7054,7 +7179,8 @@ Jersey	2020-03-23	0	NA	no	NA
 Jersey	2020-03-24	0	NA	no	NA
 Jersey	2020-03-25	0	NA	no	NA
 Jersey	2020-03-26	0	NA	no	NA
-Jersey	2020-03-27	0	NA	yes	Jersey (0)
+Jersey	2020-03-27	0	NA	no	NA
+Jersey	2020-03-28	0	NA	yes	Jersey (0)
 Jordan	2020-02-01	0	NA	no	NA
 Jordan	2020-02-02	0	NA	no	NA
 Jordan	2020-02-03	0	NA	no	NA
@@ -7110,7 +7236,8 @@ Jordan	2020-03-23	0	NA	no	NA
 Jordan	2020-03-24	0	NA	no	NA
 Jordan	2020-03-25	0	NA	no	NA
 Jordan	2020-03-26	0	NA	no	NA
-Jordan	2020-03-27	1	NA	yes	Jordan (1)
+Jordan	2020-03-27	1	NA	no	NA
+Jordan	2020-03-28	1	NA	yes	Jordan (1)
 Kansas, USA	2020-02-01	0	NA	no	NA
 Kansas, USA	2020-02-02	0	NA	no	NA
 Kansas, USA	2020-02-03	0	NA	no	NA
@@ -7166,7 +7293,8 @@ Kansas, USA	2020-03-23	2	NA	no	NA
 Kansas, USA	2020-03-24	2	NA	no	NA
 Kansas, USA	2020-03-25	3	NA	no	NA
 Kansas, USA	2020-03-26	3	NA	no	NA
-Kansas, USA	2020-03-27	4	NA	yes	Kansas, USA (4)
+Kansas, USA	2020-03-27	4	NA	no	NA
+Kansas, USA	2020-03-28	4	NA	yes	Kansas, USA (4)
 Kazakhstan	2020-02-01	0	NA	no	NA
 Kazakhstan	2020-02-02	0	NA	no	NA
 Kazakhstan	2020-02-03	0	NA	no	NA
@@ -7222,7 +7350,8 @@ Kazakhstan	2020-03-23	0	NA	no	NA
 Kazakhstan	2020-03-24	0	NA	no	NA
 Kazakhstan	2020-03-25	0	NA	no	NA
 Kazakhstan	2020-03-26	1	NA	no	NA
-Kazakhstan	2020-03-27	1	NA	yes	Kazakhstan (1)
+Kazakhstan	2020-03-27	1	NA	no	NA
+Kazakhstan	2020-03-28	1	NA	yes	Kazakhstan (1)
 Kentucky, USA	2020-02-01	0	NA	no	NA
 Kentucky, USA	2020-02-02	0	NA	no	NA
 Kentucky, USA	2020-02-03	0	NA	no	NA
@@ -7278,7 +7407,8 @@ Kentucky, USA	2020-03-23	4	NA	no	NA
 Kentucky, USA	2020-03-24	4	NA	no	NA
 Kentucky, USA	2020-03-25	5	NA	no	NA
 Kentucky, USA	2020-03-26	5	NA	no	NA
-Kentucky, USA	2020-03-27	7	NA	yes	Kentucky, USA (7)
+Kentucky, USA	2020-03-27	7	NA	no	NA
+Kentucky, USA	2020-03-28	9	NA	yes	Kentucky, USA (9)
 Kenya	2020-02-01	0	NA	no	NA
 Kenya	2020-02-02	0	NA	no	NA
 Kenya	2020-02-03	0	NA	no	NA
@@ -7334,7 +7464,8 @@ Kenya	2020-03-23	0	NA	no	NA
 Kenya	2020-03-24	0	NA	no	NA
 Kenya	2020-03-25	0	NA	no	NA
 Kenya	2020-03-26	1	NA	no	NA
-Kenya	2020-03-27	1	NA	yes	Kenya (1)
+Kenya	2020-03-27	1	NA	no	NA
+Kenya	2020-03-28	1	NA	yes	Kenya (1)
 Kosovo	2020-02-01	0	NA	no	NA
 Kosovo	2020-02-02	0	NA	no	NA
 Kosovo	2020-02-03	0	NA	no	NA
@@ -7390,7 +7521,8 @@ Kosovo	2020-03-23	0	NA	no	NA
 Kosovo	2020-03-24	0	NA	no	NA
 Kosovo	2020-03-25	0	NA	no	NA
 Kosovo	2020-03-26	1	NA	no	NA
-Kosovo	2020-03-27	1	NA	yes	Kosovo (1)
+Kosovo	2020-03-27	1	NA	no	NA
+Kosovo	2020-03-28	1	NA	yes	Kosovo (1)
 Kuwait	2020-02-01	0	NA	no	NA
 Kuwait	2020-02-02	0	NA	no	NA
 Kuwait	2020-02-03	0	NA	no	NA
@@ -7446,7 +7578,8 @@ Kuwait	2020-03-23	0	NA	no	NA
 Kuwait	2020-03-24	0	NA	no	NA
 Kuwait	2020-03-25	0	NA	no	NA
 Kuwait	2020-03-26	0	NA	no	NA
-Kuwait	2020-03-27	0	NA	yes	Kuwait (0)
+Kuwait	2020-03-27	0	NA	no	NA
+Kuwait	2020-03-28	0	NA	yes	Kuwait (0)
 Kyrgyzstan	2020-02-01	0	NA	no	NA
 Kyrgyzstan	2020-02-02	0	NA	no	NA
 Kyrgyzstan	2020-02-03	0	NA	no	NA
@@ -7502,7 +7635,8 @@ Kyrgyzstan	2020-03-23	0	NA	no	NA
 Kyrgyzstan	2020-03-24	0	NA	no	NA
 Kyrgyzstan	2020-03-25	0	NA	no	NA
 Kyrgyzstan	2020-03-26	0	NA	no	NA
-Kyrgyzstan	2020-03-27	0	NA	yes	Kyrgyzstan (0)
+Kyrgyzstan	2020-03-27	0	NA	no	NA
+Kyrgyzstan	2020-03-28	0	NA	yes	Kyrgyzstan (0)
 Laos	2020-02-01	0	NA	no	NA
 Laos	2020-02-02	0	NA	no	NA
 Laos	2020-02-03	0	NA	no	NA
@@ -7558,7 +7692,8 @@ Laos	2020-03-23	0	NA	no	NA
 Laos	2020-03-24	0	NA	no	NA
 Laos	2020-03-25	0	NA	no	NA
 Laos	2020-03-26	0	NA	no	NA
-Laos	2020-03-27	0	NA	yes	Laos (0)
+Laos	2020-03-27	0	NA	no	NA
+Laos	2020-03-28	0	NA	yes	Laos (0)
 Latvia	2020-02-01	0	NA	no	NA
 Latvia	2020-02-02	0	NA	no	NA
 Latvia	2020-02-03	0	NA	no	NA
@@ -7614,7 +7749,8 @@ Latvia	2020-03-23	0	NA	no	NA
 Latvia	2020-03-24	0	NA	no	NA
 Latvia	2020-03-25	0	NA	no	NA
 Latvia	2020-03-26	0	NA	no	NA
-Latvia	2020-03-27	0	NA	yes	Latvia (0)
+Latvia	2020-03-27	0	NA	no	NA
+Latvia	2020-03-28	0	NA	yes	Latvia (0)
 Lebanon	2020-02-01	0	NA	no	NA
 Lebanon	2020-02-02	0	NA	no	NA
 Lebanon	2020-02-03	0	NA	no	NA
@@ -7670,7 +7806,8 @@ Lebanon	2020-03-23	4	NA	no	NA
 Lebanon	2020-03-24	4	NA	no	NA
 Lebanon	2020-03-25	6	NA	no	NA
 Lebanon	2020-03-26	6	NA	no	NA
-Lebanon	2020-03-27	8	NA	yes	Lebanon (8)
+Lebanon	2020-03-27	8	NA	no	NA
+Lebanon	2020-03-28	8	NA	yes	Lebanon (8)
 Liberia	2020-02-01	0	NA	no	NA
 Liberia	2020-02-02	0	NA	no	NA
 Liberia	2020-02-03	0	NA	no	NA
@@ -7726,7 +7863,8 @@ Liberia	2020-03-23	0	NA	no	NA
 Liberia	2020-03-24	0	NA	no	NA
 Liberia	2020-03-25	0	NA	no	NA
 Liberia	2020-03-26	0	NA	no	NA
-Liberia	2020-03-27	0	NA	yes	Liberia (0)
+Liberia	2020-03-27	0	NA	no	NA
+Liberia	2020-03-28	0	NA	yes	Liberia (0)
 Libya	2020-02-01	0	NA	no	NA
 Libya	2020-02-02	0	NA	no	NA
 Libya	2020-02-03	0	NA	no	NA
@@ -7782,7 +7920,8 @@ Libya	2020-03-23	0	NA	no	NA
 Libya	2020-03-24	0	NA	no	NA
 Libya	2020-03-25	0	NA	no	NA
 Libya	2020-03-26	0	NA	no	NA
-Libya	2020-03-27	0	NA	yes	Libya (0)
+Libya	2020-03-27	0	NA	no	NA
+Libya	2020-03-28	0	NA	yes	Libya (0)
 Liechtenstein	2020-02-01	0	NA	no	NA
 Liechtenstein	2020-02-02	0	NA	no	NA
 Liechtenstein	2020-02-03	0	NA	no	NA
@@ -7838,7 +7977,8 @@ Liechtenstein	2020-03-23	0	NA	no	NA
 Liechtenstein	2020-03-24	0	NA	no	NA
 Liechtenstein	2020-03-25	0	NA	no	NA
 Liechtenstein	2020-03-26	0	NA	no	NA
-Liechtenstein	2020-03-27	0	NA	yes	Liechtenstein (0)
+Liechtenstein	2020-03-27	0	NA	no	NA
+Liechtenstein	2020-03-28	0	NA	yes	Liechtenstein (0)
 Lithuania	2020-02-01	0	NA	no	NA
 Lithuania	2020-02-02	0	NA	no	NA
 Lithuania	2020-02-03	0	NA	no	NA
@@ -7894,7 +8034,8 @@ Lithuania	2020-03-23	1	NA	no	NA
 Lithuania	2020-03-24	2	NA	no	NA
 Lithuania	2020-03-25	4	NA	no	NA
 Lithuania	2020-03-26	4	NA	no	NA
-Lithuania	2020-03-27	5	NA	yes	Lithuania (5)
+Lithuania	2020-03-27	5	NA	no	NA
+Lithuania	2020-03-28	7	NA	yes	Lithuania (7)
 Louisiana, USA	2020-02-01	0	NA	no	NA
 Louisiana, USA	2020-02-02	0	NA	no	NA
 Louisiana, USA	2020-02-03	0	NA	no	NA
@@ -7950,7 +8091,8 @@ Louisiana, USA	2020-03-23	35	NA	no	NA
 Louisiana, USA	2020-03-24	46	NA	no	NA
 Louisiana, USA	2020-03-25	65	1	no	NA
 Louisiana, USA	2020-03-26	83	2	no	NA
-Louisiana, USA	2020-03-27	119	3	yes	Louisiana, USA (119)
+Louisiana, USA	2020-03-27	119	3	no	NA
+Louisiana, USA	2020-03-28	137	4	yes	Louisiana, USA (137)
 Luxembourg	2020-02-01	0	NA	no	NA
 Luxembourg	2020-02-02	0	NA	no	NA
 Luxembourg	2020-02-03	0	NA	no	NA
@@ -8006,7 +8148,65 @@ Luxembourg	2020-03-23	8	NA	no	NA
 Luxembourg	2020-03-24	8	NA	no	NA
 Luxembourg	2020-03-25	8	NA	no	NA
 Luxembourg	2020-03-26	9	NA	no	NA
-Luxembourg	2020-03-27	15	NA	yes	Luxembourg (15)
+Luxembourg	2020-03-27	15	NA	no	NA
+Luxembourg	2020-03-28	18	NA	yes	Luxembourg (18)
+MS Zaandam	2020-02-01	0	NA	no	NA
+MS Zaandam	2020-02-02	0	NA	no	NA
+MS Zaandam	2020-02-03	0	NA	no	NA
+MS Zaandam	2020-02-04	0	NA	no	NA
+MS Zaandam	2020-02-05	0	NA	no	NA
+MS Zaandam	2020-02-06	0	NA	no	NA
+MS Zaandam	2020-02-07	0	NA	no	NA
+MS Zaandam	2020-02-08	0	NA	no	NA
+MS Zaandam	2020-02-09	0	NA	no	NA
+MS Zaandam	2020-02-10	0	NA	no	NA
+MS Zaandam	2020-02-11	0	NA	no	NA
+MS Zaandam	2020-02-12	0	NA	no	NA
+MS Zaandam	2020-02-13	0	NA	no	NA
+MS Zaandam	2020-02-14	0	NA	no	NA
+MS Zaandam	2020-02-15	0	NA	no	NA
+MS Zaandam	2020-02-16	0	NA	no	NA
+MS Zaandam	2020-02-17	0	NA	no	NA
+MS Zaandam	2020-02-18	0	NA	no	NA
+MS Zaandam	2020-02-19	0	NA	no	NA
+MS Zaandam	2020-02-20	0	NA	no	NA
+MS Zaandam	2020-02-21	0	NA	no	NA
+MS Zaandam	2020-02-22	0	NA	no	NA
+MS Zaandam	2020-02-23	0	NA	no	NA
+MS Zaandam	2020-02-24	0	NA	no	NA
+MS Zaandam	2020-02-25	0	NA	no	NA
+MS Zaandam	2020-02-26	0	NA	no	NA
+MS Zaandam	2020-02-27	0	NA	no	NA
+MS Zaandam	2020-02-28	0	NA	no	NA
+MS Zaandam	2020-02-29	0	NA	no	NA
+MS Zaandam	2020-03-01	0	NA	no	NA
+MS Zaandam	2020-03-02	0	NA	no	NA
+MS Zaandam	2020-03-03	0	NA	no	NA
+MS Zaandam	2020-03-04	0	NA	no	NA
+MS Zaandam	2020-03-05	0	NA	no	NA
+MS Zaandam	2020-03-06	0	NA	no	NA
+MS Zaandam	2020-03-07	0	NA	no	NA
+MS Zaandam	2020-03-08	0	NA	no	NA
+MS Zaandam	2020-03-09	0	NA	no	NA
+MS Zaandam	2020-03-10	0	NA	no	NA
+MS Zaandam	2020-03-11	0	NA	no	NA
+MS Zaandam	2020-03-12	0	NA	no	NA
+MS Zaandam	2020-03-13	0	NA	no	NA
+MS Zaandam	2020-03-14	0	NA	no	NA
+MS Zaandam	2020-03-15	0	NA	no	NA
+MS Zaandam	2020-03-16	0	NA	no	NA
+MS Zaandam	2020-03-17	0	NA	no	NA
+MS Zaandam	2020-03-18	0	NA	no	NA
+MS Zaandam	2020-03-19	0	NA	no	NA
+MS Zaandam	2020-03-20	0	NA	no	NA
+MS Zaandam	2020-03-21	0	NA	no	NA
+MS Zaandam	2020-03-22	0	NA	no	NA
+MS Zaandam	2020-03-23	0	NA	no	NA
+MS Zaandam	2020-03-24	0	NA	no	NA
+MS Zaandam	2020-03-25	0	NA	no	NA
+MS Zaandam	2020-03-26	0	NA	no	NA
+MS Zaandam	2020-03-27	0	NA	no	NA
+MS Zaandam	2020-03-28	0	NA	yes	MS Zaandam (0)
 Macao SAR	2020-02-01	0	NA	no	NA
 Macao SAR	2020-02-02	0	NA	no	NA
 Macao SAR	2020-02-03	0	NA	no	NA
@@ -8062,7 +8262,8 @@ Macao SAR	2020-03-23	0	NA	no	NA
 Macao SAR	2020-03-24	0	NA	no	NA
 Macao SAR	2020-03-25	0	NA	no	NA
 Macao SAR	2020-03-26	0	NA	no	NA
-Macao SAR	2020-03-27	0	NA	yes	Macao SAR (0)
+Macao SAR	2020-03-27	0	NA	no	NA
+Macao SAR	2020-03-28	0	NA	yes	Macao SAR (0)
 Macau	2020-02-01	0	NA	no	NA
 Macau	2020-02-02	0	NA	no	NA
 Macau	2020-02-03	0	NA	no	NA
@@ -8118,7 +8319,8 @@ Macau	2020-03-23	0	NA	no	NA
 Macau	2020-03-24	0	NA	no	NA
 Macau	2020-03-25	0	NA	no	NA
 Macau	2020-03-26	0	NA	no	NA
-Macau	2020-03-27	0	NA	yes	Macau (0)
+Macau	2020-03-27	0	NA	no	NA
+Macau	2020-03-28	0	NA	yes	Macau (0)
 Madagascar	2020-02-01	0	NA	no	NA
 Madagascar	2020-02-02	0	NA	no	NA
 Madagascar	2020-02-03	0	NA	no	NA
@@ -8174,7 +8376,8 @@ Madagascar	2020-03-23	0	NA	no	NA
 Madagascar	2020-03-24	0	NA	no	NA
 Madagascar	2020-03-25	0	NA	no	NA
 Madagascar	2020-03-26	0	NA	no	NA
-Madagascar	2020-03-27	0	NA	yes	Madagascar (0)
+Madagascar	2020-03-27	0	NA	no	NA
+Madagascar	2020-03-28	0	NA	yes	Madagascar (0)
 Maine, USA	2020-02-01	0	NA	no	NA
 Maine, USA	2020-02-02	0	NA	no	NA
 Maine, USA	2020-02-03	0	NA	no	NA
@@ -8230,7 +8433,8 @@ Maine, USA	2020-03-23	0	NA	no	NA
 Maine, USA	2020-03-24	0	NA	no	NA
 Maine, USA	2020-03-25	0	NA	no	NA
 Maine, USA	2020-03-26	0	NA	no	NA
-Maine, USA	2020-03-27	1	NA	yes	Maine, USA (1)
+Maine, USA	2020-03-27	1	NA	no	NA
+Maine, USA	2020-03-28	1	NA	yes	Maine, USA (1)
 Malaysia	2020-02-01	0	NA	no	NA
 Malaysia	2020-02-02	0	NA	no	NA
 Malaysia	2020-02-03	0	NA	no	NA
@@ -8286,7 +8490,8 @@ Malaysia	2020-03-23	14	NA	no	NA
 Malaysia	2020-03-24	16	NA	no	NA
 Malaysia	2020-03-25	20	NA	no	NA
 Malaysia	2020-03-26	23	NA	no	NA
-Malaysia	2020-03-27	26	NA	yes	Malaysia (26)
+Malaysia	2020-03-27	26	NA	no	NA
+Malaysia	2020-03-28	27	NA	yes	Malaysia (27)
 Maldives	2020-02-01	0	NA	no	NA
 Maldives	2020-02-02	0	NA	no	NA
 Maldives	2020-02-03	0	NA	no	NA
@@ -8342,7 +8547,8 @@ Maldives	2020-03-23	0	NA	no	NA
 Maldives	2020-03-24	0	NA	no	NA
 Maldives	2020-03-25	0	NA	no	NA
 Maldives	2020-03-26	0	NA	no	NA
-Maldives	2020-03-27	0	NA	yes	Maldives (0)
+Maldives	2020-03-27	0	NA	no	NA
+Maldives	2020-03-28	0	NA	yes	Maldives (0)
 Mali	2020-02-01	0	NA	no	NA
 Mali	2020-02-02	0	NA	no	NA
 Mali	2020-02-03	0	NA	no	NA
@@ -8398,7 +8604,8 @@ Mali	2020-03-23	0	NA	no	NA
 Mali	2020-03-24	0	NA	no	NA
 Mali	2020-03-25	0	NA	no	NA
 Mali	2020-03-26	0	NA	no	NA
-Mali	2020-03-27	0	NA	yes	Mali (0)
+Mali	2020-03-27	0	NA	no	NA
+Mali	2020-03-28	0	NA	yes	Mali (0)
 Malta	2020-02-01	0	NA	no	NA
 Malta	2020-02-02	0	NA	no	NA
 Malta	2020-02-03	0	NA	no	NA
@@ -8454,7 +8661,8 @@ Malta	2020-03-23	0	NA	no	NA
 Malta	2020-03-24	0	NA	no	NA
 Malta	2020-03-25	0	NA	no	NA
 Malta	2020-03-26	0	NA	no	NA
-Malta	2020-03-27	0	NA	yes	Malta (0)
+Malta	2020-03-27	0	NA	no	NA
+Malta	2020-03-28	0	NA	yes	Malta (0)
 Martinique	2020-02-01	0	NA	no	NA
 Martinique	2020-02-02	0	NA	no	NA
 Martinique	2020-02-03	0	NA	no	NA
@@ -8510,7 +8718,8 @@ Martinique	2020-03-23	0	NA	no	NA
 Martinique	2020-03-24	0	NA	no	NA
 Martinique	2020-03-25	0	NA	no	NA
 Martinique	2020-03-26	0	NA	no	NA
-Martinique	2020-03-27	0	NA	yes	Martinique (0)
+Martinique	2020-03-27	0	NA	no	NA
+Martinique	2020-03-28	0	NA	yes	Martinique (0)
 Maryland, USA	2020-02-01	0	NA	no	NA
 Maryland, USA	2020-02-02	0	NA	no	NA
 Maryland, USA	2020-02-03	0	NA	no	NA
@@ -8566,7 +8775,8 @@ Maryland, USA	2020-03-23	3	NA	no	NA
 Maryland, USA	2020-03-24	4	NA	no	NA
 Maryland, USA	2020-03-25	4	NA	no	NA
 Maryland, USA	2020-03-26	4	NA	no	NA
-Maryland, USA	2020-03-27	5	NA	yes	Maryland, USA (5)
+Maryland, USA	2020-03-27	5	NA	no	NA
+Maryland, USA	2020-03-28	5	NA	yes	Maryland, USA (5)
 Massachusetts, USA	2020-02-01	0	NA	no	NA
 Massachusetts, USA	2020-02-02	0	NA	no	NA
 Massachusetts, USA	2020-02-03	0	NA	no	NA
@@ -8622,7 +8832,8 @@ Massachusetts, USA	2020-03-23	9	NA	no	NA
 Massachusetts, USA	2020-03-24	11	NA	no	NA
 Massachusetts, USA	2020-03-25	15	NA	no	NA
 Massachusetts, USA	2020-03-26	25	NA	no	NA
-Massachusetts, USA	2020-03-27	35	NA	yes	Massachusetts, USA (35)
+Massachusetts, USA	2020-03-27	35	NA	no	NA
+Massachusetts, USA	2020-03-28	44	NA	yes	Massachusetts, USA (44)
 Mauritania	2020-02-01	0	NA	no	NA
 Mauritania	2020-02-02	0	NA	no	NA
 Mauritania	2020-02-03	0	NA	no	NA
@@ -8678,7 +8889,8 @@ Mauritania	2020-03-23	0	NA	no	NA
 Mauritania	2020-03-24	0	NA	no	NA
 Mauritania	2020-03-25	0	NA	no	NA
 Mauritania	2020-03-26	0	NA	no	NA
-Mauritania	2020-03-27	0	NA	yes	Mauritania (0)
+Mauritania	2020-03-27	0	NA	no	NA
+Mauritania	2020-03-28	0	NA	yes	Mauritania (0)
 Mauritius	2020-02-01	0	NA	no	NA
 Mauritius	2020-02-02	0	NA	no	NA
 Mauritius	2020-02-03	0	NA	no	NA
@@ -8734,7 +8946,8 @@ Mauritius	2020-03-23	2	NA	no	NA
 Mauritius	2020-03-24	2	NA	no	NA
 Mauritius	2020-03-25	2	NA	no	NA
 Mauritius	2020-03-26	2	NA	no	NA
-Mauritius	2020-03-27	2	NA	yes	Mauritius (2)
+Mauritius	2020-03-27	2	NA	no	NA
+Mauritius	2020-03-28	2	NA	yes	Mauritius (2)
 Mayotte	2020-02-01	0	NA	no	NA
 Mayotte	2020-02-02	0	NA	no	NA
 Mayotte	2020-02-03	0	NA	no	NA
@@ -8790,7 +9003,8 @@ Mayotte	2020-03-23	0	NA	no	NA
 Mayotte	2020-03-24	0	NA	no	NA
 Mayotte	2020-03-25	0	NA	no	NA
 Mayotte	2020-03-26	0	NA	no	NA
-Mayotte	2020-03-27	0	NA	yes	Mayotte (0)
+Mayotte	2020-03-27	0	NA	no	NA
+Mayotte	2020-03-28	0	NA	yes	Mayotte (0)
 Mexico	2020-02-01	0	NA	no	NA
 Mexico	2020-02-02	0	NA	no	NA
 Mexico	2020-02-03	0	NA	no	NA
@@ -8846,7 +9060,8 @@ Mexico	2020-03-23	3	NA	no	NA
 Mexico	2020-03-24	4	NA	no	NA
 Mexico	2020-03-25	5	NA	no	NA
 Mexico	2020-03-26	6	NA	no	NA
-Mexico	2020-03-27	8	NA	yes	Mexico (8)
+Mexico	2020-03-27	8	NA	no	NA
+Mexico	2020-03-28	12	NA	yes	Mexico (12)
 Michigan, USA	2020-02-01	0	NA	no	NA
 Michigan, USA	2020-02-02	0	NA	no	NA
 Michigan, USA	2020-02-03	0	NA	no	NA
@@ -8902,7 +9117,8 @@ Michigan, USA	2020-03-23	15	NA	no	NA
 Michigan, USA	2020-03-24	24	NA	no	NA
 Michigan, USA	2020-03-25	43	NA	no	NA
 Michigan, USA	2020-03-26	61	1	no	NA
-Michigan, USA	2020-03-27	92	2	yes	Michigan, USA (92)
+Michigan, USA	2020-03-27	92	2	no	NA
+Michigan, USA	2020-03-28	111	3	yes	Michigan, USA (111)
 Minnesota, USA	2020-02-01	0	NA	no	NA
 Minnesota, USA	2020-02-02	0	NA	no	NA
 Minnesota, USA	2020-02-03	0	NA	no	NA
@@ -8958,7 +9174,8 @@ Minnesota, USA	2020-03-23	1	NA	no	NA
 Minnesota, USA	2020-03-24	1	NA	no	NA
 Minnesota, USA	2020-03-25	1	NA	no	NA
 Minnesota, USA	2020-03-26	2	NA	no	NA
-Minnesota, USA	2020-03-27	4	NA	yes	Minnesota, USA (4)
+Minnesota, USA	2020-03-27	4	NA	no	NA
+Minnesota, USA	2020-03-28	5	NA	yes	Minnesota, USA (5)
 Mississippi, USA	2020-02-01	0	NA	no	NA
 Mississippi, USA	2020-02-02	0	NA	no	NA
 Mississippi, USA	2020-02-03	0	NA	no	NA
@@ -9014,7 +9231,8 @@ Mississippi, USA	2020-03-23	1	NA	no	NA
 Mississippi, USA	2020-03-24	1	NA	no	NA
 Mississippi, USA	2020-03-25	3	NA	no	NA
 Mississippi, USA	2020-03-26	6	NA	no	NA
-Mississippi, USA	2020-03-27	8	NA	yes	Mississippi, USA (8)
+Mississippi, USA	2020-03-27	8	NA	no	NA
+Mississippi, USA	2020-03-28	13	NA	yes	Mississippi, USA (13)
 Missouri, USA	2020-02-01	0	NA	no	NA
 Missouri, USA	2020-02-02	0	NA	no	NA
 Missouri, USA	2020-02-03	0	NA	no	NA
@@ -9070,7 +9288,8 @@ Missouri, USA	2020-03-23	4	NA	no	NA
 Missouri, USA	2020-03-24	7	NA	no	NA
 Missouri, USA	2020-03-25	8	NA	no	NA
 Missouri, USA	2020-03-26	9	NA	no	NA
-Missouri, USA	2020-03-27	9	NA	yes	Missouri, USA (9)
+Missouri, USA	2020-03-27	9	NA	no	NA
+Missouri, USA	2020-03-28	10	NA	yes	Missouri, USA (10)
 Moldova	2020-02-01	0	NA	no	NA
 Moldova	2020-02-02	0	NA	no	NA
 Moldova	2020-02-03	0	NA	no	NA
@@ -9126,7 +9345,8 @@ Moldova	2020-03-23	1	NA	no	NA
 Moldova	2020-03-24	1	NA	no	NA
 Moldova	2020-03-25	1	NA	no	NA
 Moldova	2020-03-26	1	NA	no	NA
-Moldova	2020-03-27	2	NA	yes	Moldova (2)
+Moldova	2020-03-27	2	NA	no	NA
+Moldova	2020-03-28	2	NA	yes	Moldova (2)
 Monaco	2020-02-01	0	NA	no	NA
 Monaco	2020-02-02	0	NA	no	NA
 Monaco	2020-02-03	0	NA	no	NA
@@ -9182,7 +9402,8 @@ Monaco	2020-03-23	0	NA	no	NA
 Monaco	2020-03-24	0	NA	no	NA
 Monaco	2020-03-25	0	NA	no	NA
 Monaco	2020-03-26	0	NA	no	NA
-Monaco	2020-03-27	0	NA	yes	Monaco (0)
+Monaco	2020-03-27	0	NA	no	NA
+Monaco	2020-03-28	0	NA	yes	Monaco (0)
 Mongolia	2020-02-01	0	NA	no	NA
 Mongolia	2020-02-02	0	NA	no	NA
 Mongolia	2020-02-03	0	NA	no	NA
@@ -9238,7 +9459,8 @@ Mongolia	2020-03-23	0	NA	no	NA
 Mongolia	2020-03-24	0	NA	no	NA
 Mongolia	2020-03-25	0	NA	no	NA
 Mongolia	2020-03-26	0	NA	no	NA
-Mongolia	2020-03-27	0	NA	yes	Mongolia (0)
+Mongolia	2020-03-27	0	NA	no	NA
+Mongolia	2020-03-28	0	NA	yes	Mongolia (0)
 Montana, USA	2020-02-01	0	NA	no	NA
 Montana, USA	2020-02-02	0	NA	no	NA
 Montana, USA	2020-02-03	0	NA	no	NA
@@ -9294,7 +9516,8 @@ Montana, USA	2020-03-23	0	NA	no	NA
 Montana, USA	2020-03-24	0	NA	no	NA
 Montana, USA	2020-03-25	0	NA	no	NA
 Montana, USA	2020-03-26	0	NA	no	NA
-Montana, USA	2020-03-27	1	NA	yes	Montana, USA (1)
+Montana, USA	2020-03-27	1	NA	no	NA
+Montana, USA	2020-03-28	1	NA	yes	Montana, USA (1)
 Montenegro	2020-02-01	0	NA	no	NA
 Montenegro	2020-02-02	0	NA	no	NA
 Montenegro	2020-02-03	0	NA	no	NA
@@ -9350,7 +9573,8 @@ Montenegro	2020-03-23	1	NA	no	NA
 Montenegro	2020-03-24	1	NA	no	NA
 Montenegro	2020-03-25	1	NA	no	NA
 Montenegro	2020-03-26	1	NA	no	NA
-Montenegro	2020-03-27	1	NA	yes	Montenegro (1)
+Montenegro	2020-03-27	1	NA	no	NA
+Montenegro	2020-03-28	1	NA	yes	Montenegro (1)
 Morocco	2020-02-01	0	NA	no	NA
 Morocco	2020-02-02	0	NA	no	NA
 Morocco	2020-02-03	0	NA	no	NA
@@ -9406,7 +9630,8 @@ Morocco	2020-03-23	4	NA	no	NA
 Morocco	2020-03-24	5	NA	no	NA
 Morocco	2020-03-25	6	NA	no	NA
 Morocco	2020-03-26	11	NA	no	NA
-Morocco	2020-03-27	23	NA	yes	Morocco (23)
+Morocco	2020-03-27	23	NA	no	NA
+Morocco	2020-03-28	25	NA	yes	Morocco (25)
 Mozambique	2020-02-01	0	NA	no	NA
 Mozambique	2020-02-02	0	NA	no	NA
 Mozambique	2020-02-03	0	NA	no	NA
@@ -9462,7 +9687,8 @@ Mozambique	2020-03-23	0	NA	no	NA
 Mozambique	2020-03-24	0	NA	no	NA
 Mozambique	2020-03-25	0	NA	no	NA
 Mozambique	2020-03-26	0	NA	no	NA
-Mozambique	2020-03-27	0	NA	yes	Mozambique (0)
+Mozambique	2020-03-27	0	NA	no	NA
+Mozambique	2020-03-28	0	NA	yes	Mozambique (0)
 Namibia	2020-02-01	0	NA	no	NA
 Namibia	2020-02-02	0	NA	no	NA
 Namibia	2020-02-03	0	NA	no	NA
@@ -9518,7 +9744,8 @@ Namibia	2020-03-23	0	NA	no	NA
 Namibia	2020-03-24	0	NA	no	NA
 Namibia	2020-03-25	0	NA	no	NA
 Namibia	2020-03-26	0	NA	no	NA
-Namibia	2020-03-27	0	NA	yes	Namibia (0)
+Namibia	2020-03-27	0	NA	no	NA
+Namibia	2020-03-28	0	NA	yes	Namibia (0)
 Nebraska, USA	2020-02-01	0	NA	no	NA
 Nebraska, USA	2020-02-02	0	NA	no	NA
 Nebraska, USA	2020-02-03	0	NA	no	NA
@@ -9574,7 +9801,8 @@ Nebraska, USA	2020-03-23	0	NA	no	NA
 Nebraska, USA	2020-03-24	0	NA	no	NA
 Nebraska, USA	2020-03-25	0	NA	no	NA
 Nebraska, USA	2020-03-26	0	NA	no	NA
-Nebraska, USA	2020-03-27	0	NA	yes	Nebraska, USA (0)
+Nebraska, USA	2020-03-27	0	NA	no	NA
+Nebraska, USA	2020-03-28	2	NA	yes	Nebraska, USA (2)
 Nepal	2020-02-01	0	NA	no	NA
 Nepal	2020-02-02	0	NA	no	NA
 Nepal	2020-02-03	0	NA	no	NA
@@ -9630,7 +9858,8 @@ Nepal	2020-03-23	0	NA	no	NA
 Nepal	2020-03-24	0	NA	no	NA
 Nepal	2020-03-25	0	NA	no	NA
 Nepal	2020-03-26	0	NA	no	NA
-Nepal	2020-03-27	0	NA	yes	Nepal (0)
+Nepal	2020-03-27	0	NA	no	NA
+Nepal	2020-03-28	0	NA	yes	Nepal (0)
 Netherlands	2020-02-01	0	NA	no	NA
 Netherlands	2020-02-02	0	NA	no	NA
 Netherlands	2020-02-03	0	NA	no	NA
@@ -9686,7 +9915,8 @@ Netherlands	2020-03-23	214	6	no	NA
 Netherlands	2020-03-24	277	7	no	NA
 Netherlands	2020-03-25	357	8	no	NA
 Netherlands	2020-03-26	435	9	no	NA
-Netherlands	2020-03-27	547	10	yes	Netherlands (547)
+Netherlands	2020-03-27	547	10	no	NA
+Netherlands	2020-03-28	640	11	yes	Netherlands (640)
 Nevada, USA	2020-02-01	0	NA	no	NA
 Nevada, USA	2020-02-02	0	NA	no	NA
 Nevada, USA	2020-02-03	0	NA	no	NA
@@ -9742,7 +9972,8 @@ Nevada, USA	2020-03-23	4	NA	no	NA
 Nevada, USA	2020-03-24	4	NA	no	NA
 Nevada, USA	2020-03-25	6	NA	no	NA
 Nevada, USA	2020-03-26	10	NA	no	NA
-Nevada, USA	2020-03-27	10	NA	yes	Nevada, USA (10)
+Nevada, USA	2020-03-27	10	NA	no	NA
+Nevada, USA	2020-03-28	10	NA	yes	Nevada, USA (10)
 New Hampshire, USA	2020-02-01	0	NA	no	NA
 New Hampshire, USA	2020-02-02	0	NA	no	NA
 New Hampshire, USA	2020-02-03	0	NA	no	NA
@@ -9798,7 +10029,8 @@ New Hampshire, USA	2020-03-23	1	NA	no	NA
 New Hampshire, USA	2020-03-24	1	NA	no	NA
 New Hampshire, USA	2020-03-25	1	NA	no	NA
 New Hampshire, USA	2020-03-26	1	NA	no	NA
-New Hampshire, USA	2020-03-27	1	NA	yes	New Hampshire, USA (1)
+New Hampshire, USA	2020-03-27	1	NA	no	NA
+New Hampshire, USA	2020-03-28	2	NA	yes	New Hampshire, USA (2)
 New Jersey, USA	2020-02-01	0	NA	no	NA
 New Jersey, USA	2020-02-02	0	NA	no	NA
 New Jersey, USA	2020-02-03	0	NA	no	NA
@@ -9854,7 +10086,8 @@ New Jersey, USA	2020-03-23	27	NA	no	NA
 New Jersey, USA	2020-03-24	44	NA	no	NA
 New Jersey, USA	2020-03-25	62	1	no	NA
 New Jersey, USA	2020-03-26	81	2	no	NA
-New Jersey, USA	2020-03-27	108	3	yes	New Jersey, USA (108)
+New Jersey, USA	2020-03-27	108	3	no	NA
+New Jersey, USA	2020-03-28	140	4	yes	New Jersey, USA (140)
 New Mexico, USA	2020-02-01	0	NA	no	NA
 New Mexico, USA	2020-02-02	0	NA	no	NA
 New Mexico, USA	2020-02-03	0	NA	no	NA
@@ -9910,7 +10143,8 @@ New Mexico, USA	2020-03-23	0	NA	no	NA
 New Mexico, USA	2020-03-24	0	NA	no	NA
 New Mexico, USA	2020-03-25	1	NA	no	NA
 New Mexico, USA	2020-03-26	1	NA	no	NA
-New Mexico, USA	2020-03-27	1	NA	yes	New Mexico, USA (1)
+New Mexico, USA	2020-03-27	1	NA	no	NA
+New Mexico, USA	2020-03-28	1	NA	yes	New Mexico, USA (1)
 New York, USA	2020-02-01	0	NA	no	NA
 New York, USA	2020-02-02	0	NA	no	NA
 New York, USA	2020-02-03	0	NA	no	NA
@@ -9966,7 +10200,8 @@ New York, USA	2020-03-23	158	3	no	NA
 New York, USA	2020-03-24	210	4	no	NA
 New York, USA	2020-03-25	285	5	no	NA
 New York, USA	2020-03-26	385	6	no	NA
-New York, USA	2020-03-27	527	7	yes	New York, USA (527)
+New York, USA	2020-03-27	527	7	no	NA
+New York, USA	2020-03-28	728	8	yes	New York, USA (728)
 New Zealand	2020-02-01	0	NA	no	NA
 New Zealand	2020-02-02	0	NA	no	NA
 New Zealand	2020-02-03	0	NA	no	NA
@@ -10022,7 +10257,8 @@ New Zealand	2020-03-23	0	NA	no	NA
 New Zealand	2020-03-24	0	NA	no	NA
 New Zealand	2020-03-25	0	NA	no	NA
 New Zealand	2020-03-26	0	NA	no	NA
-New Zealand	2020-03-27	0	NA	yes	New Zealand (0)
+New Zealand	2020-03-27	0	NA	no	NA
+New Zealand	2020-03-28	0	NA	yes	New Zealand (0)
 Nicaragua	2020-02-01	0	NA	no	NA
 Nicaragua	2020-02-02	0	NA	no	NA
 Nicaragua	2020-02-03	0	NA	no	NA
@@ -10078,7 +10314,8 @@ Nicaragua	2020-03-23	0	NA	no	NA
 Nicaragua	2020-03-24	0	NA	no	NA
 Nicaragua	2020-03-25	0	NA	no	NA
 Nicaragua	2020-03-26	0	NA	no	NA
-Nicaragua	2020-03-27	1	NA	yes	Nicaragua (1)
+Nicaragua	2020-03-27	1	NA	no	NA
+Nicaragua	2020-03-28	1	NA	yes	Nicaragua (1)
 Niger	2020-02-01	0	NA	no	NA
 Niger	2020-02-02	0	NA	no	NA
 Niger	2020-02-03	0	NA	no	NA
@@ -10134,7 +10371,8 @@ Niger	2020-03-23	0	NA	no	NA
 Niger	2020-03-24	0	NA	no	NA
 Niger	2020-03-25	1	NA	no	NA
 Niger	2020-03-26	1	NA	no	NA
-Niger	2020-03-27	1	NA	yes	Niger (1)
+Niger	2020-03-27	1	NA	no	NA
+Niger	2020-03-28	1	NA	yes	Niger (1)
 Nigeria	2020-02-01	0	NA	no	NA
 Nigeria	2020-02-02	0	NA	no	NA
 Nigeria	2020-02-03	0	NA	no	NA
@@ -10190,7 +10428,8 @@ Nigeria	2020-03-23	1	NA	no	NA
 Nigeria	2020-03-24	1	NA	no	NA
 Nigeria	2020-03-25	1	NA	no	NA
 Nigeria	2020-03-26	1	NA	no	NA
-Nigeria	2020-03-27	1	NA	yes	Nigeria (1)
+Nigeria	2020-03-27	1	NA	no	NA
+Nigeria	2020-03-28	1	NA	yes	Nigeria (1)
 North Carolina, USA	2020-02-01	0	NA	no	NA
 North Carolina, USA	2020-02-02	0	NA	no	NA
 North Carolina, USA	2020-02-03	0	NA	no	NA
@@ -10246,7 +10485,8 @@ North Carolina, USA	2020-03-23	0	NA	no	NA
 North Carolina, USA	2020-03-24	0	NA	no	NA
 North Carolina, USA	2020-03-25	2	NA	no	NA
 North Carolina, USA	2020-03-26	3	NA	no	NA
-North Carolina, USA	2020-03-27	4	NA	yes	North Carolina, USA (4)
+North Carolina, USA	2020-03-27	4	NA	no	NA
+North Carolina, USA	2020-03-28	5	NA	yes	North Carolina, USA (5)
 North Dakota, USA	2020-02-01	0	NA	no	NA
 North Dakota, USA	2020-02-02	0	NA	no	NA
 North Dakota, USA	2020-02-03	0	NA	no	NA
@@ -10302,7 +10542,8 @@ North Dakota, USA	2020-03-23	0	NA	no	NA
 North Dakota, USA	2020-03-24	0	NA	no	NA
 North Dakota, USA	2020-03-25	0	NA	no	NA
 North Dakota, USA	2020-03-26	0	NA	no	NA
-North Dakota, USA	2020-03-27	1	NA	yes	North Dakota, USA (1)
+North Dakota, USA	2020-03-27	1	NA	no	NA
+North Dakota, USA	2020-03-28	1	NA	yes	North Dakota, USA (1)
 North Ireland	2020-02-01	0	NA	no	NA
 North Ireland	2020-02-02	0	NA	no	NA
 North Ireland	2020-02-03	0	NA	no	NA
@@ -10358,7 +10599,8 @@ North Ireland	2020-03-23	0	NA	no	NA
 North Ireland	2020-03-24	0	NA	no	NA
 North Ireland	2020-03-25	0	NA	no	NA
 North Ireland	2020-03-26	0	NA	no	NA
-North Ireland	2020-03-27	0	NA	yes	North Ireland (0)
+North Ireland	2020-03-27	0	NA	no	NA
+North Ireland	2020-03-28	0	NA	yes	North Ireland (0)
 North Macedonia	2020-02-01	0	NA	no	NA
 North Macedonia	2020-02-02	0	NA	no	NA
 North Macedonia	2020-02-03	0	NA	no	NA
@@ -10414,7 +10656,8 @@ North Macedonia	2020-03-23	2	NA	no	NA
 North Macedonia	2020-03-24	2	NA	no	NA
 North Macedonia	2020-03-25	3	NA	no	NA
 North Macedonia	2020-03-26	3	NA	no	NA
-North Macedonia	2020-03-27	3	NA	yes	North Macedonia (3)
+North Macedonia	2020-03-27	3	NA	no	NA
+North Macedonia	2020-03-28	4	NA	yes	North Macedonia (4)
 Northern Mariana Islands, USA	2020-02-01	0	NA	no	NA
 Northern Mariana Islands, USA	2020-02-02	0	NA	no	NA
 Northern Mariana Islands, USA	2020-02-03	0	NA	no	NA
@@ -10470,7 +10713,8 @@ Northern Mariana Islands, USA	2020-03-23	0	NA	no	NA
 Northern Mariana Islands, USA	2020-03-24	0	NA	no	NA
 Northern Mariana Islands, USA	2020-03-25	0	NA	no	NA
 Northern Mariana Islands, USA	2020-03-26	0	NA	no	NA
-Northern Mariana Islands, USA	2020-03-27	0	NA	yes	Northern Mariana Islands, USA (0)
+Northern Mariana Islands, USA	2020-03-27	0	NA	no	NA
+Northern Mariana Islands, USA	2020-03-28	0	NA	yes	Northern Mariana Islands, USA (0)
 Norway	2020-02-01	0	NA	no	NA
 Norway	2020-02-02	0	NA	no	NA
 Norway	2020-02-03	0	NA	no	NA
@@ -10526,7 +10770,8 @@ Norway	2020-03-23	10	NA	no	NA
 Norway	2020-03-24	12	NA	no	NA
 Norway	2020-03-25	14	NA	no	NA
 Norway	2020-03-26	14	NA	no	NA
-Norway	2020-03-27	19	NA	yes	Norway (19)
+Norway	2020-03-27	19	NA	no	NA
+Norway	2020-03-28	23	NA	yes	Norway (23)
 Ohio, USA	2020-02-01	0	NA	no	NA
 Ohio, USA	2020-02-02	0	NA	no	NA
 Ohio, USA	2020-02-03	0	NA	no	NA
@@ -10582,7 +10827,8 @@ Ohio, USA	2020-03-23	6	NA	no	NA
 Ohio, USA	2020-03-24	8	NA	no	NA
 Ohio, USA	2020-03-25	11	NA	no	NA
 Ohio, USA	2020-03-26	15	NA	no	NA
-Ohio, USA	2020-03-27	19	NA	yes	Ohio, USA (19)
+Ohio, USA	2020-03-27	19	NA	no	NA
+Ohio, USA	2020-03-28	25	NA	yes	Ohio, USA (25)
 Oklahoma, USA	2020-02-01	0	NA	no	NA
 Oklahoma, USA	2020-02-02	0	NA	no	NA
 Oklahoma, USA	2020-02-03	0	NA	no	NA
@@ -10638,7 +10884,8 @@ Oklahoma, USA	2020-03-23	2	NA	no	NA
 Oklahoma, USA	2020-03-24	3	NA	no	NA
 Oklahoma, USA	2020-03-25	5	NA	no	NA
 Oklahoma, USA	2020-03-26	7	NA	no	NA
-Oklahoma, USA	2020-03-27	8	NA	yes	Oklahoma, USA (8)
+Oklahoma, USA	2020-03-27	8	NA	no	NA
+Oklahoma, USA	2020-03-28	15	NA	yes	Oklahoma, USA (15)
 Oman	2020-02-01	0	NA	no	NA
 Oman	2020-02-02	0	NA	no	NA
 Oman	2020-02-03	0	NA	no	NA
@@ -10694,7 +10941,8 @@ Oman	2020-03-23	0	NA	no	NA
 Oman	2020-03-24	0	NA	no	NA
 Oman	2020-03-25	0	NA	no	NA
 Oman	2020-03-26	0	NA	no	NA
-Oman	2020-03-27	0	NA	yes	Oman (0)
+Oman	2020-03-27	0	NA	no	NA
+Oman	2020-03-28	0	NA	yes	Oman (0)
 Oregon, USA	2020-02-01	0	NA	no	NA
 Oregon, USA	2020-02-02	0	NA	no	NA
 Oregon, USA	2020-02-03	0	NA	no	NA
@@ -10750,7 +10998,8 @@ Oregon, USA	2020-03-23	5	NA	no	NA
 Oregon, USA	2020-03-24	8	NA	no	NA
 Oregon, USA	2020-03-25	10	NA	no	NA
 Oregon, USA	2020-03-26	11	NA	no	NA
-Oregon, USA	2020-03-27	12	NA	yes	Oregon, USA (12)
+Oregon, USA	2020-03-27	12	NA	no	NA
+Oregon, USA	2020-03-28	13	NA	yes	Oregon, USA (13)
 Others	2020-02-01	0	NA	no	NA
 Others	2020-02-02	0	NA	no	NA
 Others	2020-02-03	0	NA	no	NA
@@ -10806,7 +11055,8 @@ Others	2020-03-23	0	NA	no	NA
 Others	2020-03-24	0	NA	no	NA
 Others	2020-03-25	0	NA	no	NA
 Others	2020-03-26	0	NA	no	NA
-Others	2020-03-27	0	NA	yes	Others (0)
+Others	2020-03-27	0	NA	no	NA
+Others	2020-03-28	0	NA	yes	Others (0)
 Pakistan	2020-02-01	0	NA	no	NA
 Pakistan	2020-02-02	0	NA	no	NA
 Pakistan	2020-02-03	0	NA	no	NA
@@ -10862,7 +11112,8 @@ Pakistan	2020-03-23	6	NA	no	NA
 Pakistan	2020-03-24	7	NA	no	NA
 Pakistan	2020-03-25	8	NA	no	NA
 Pakistan	2020-03-26	9	NA	no	NA
-Pakistan	2020-03-27	11	NA	yes	Pakistan (11)
+Pakistan	2020-03-27	11	NA	no	NA
+Pakistan	2020-03-28	12	NA	yes	Pakistan (12)
 Palestine	2020-02-01	0	NA	no	NA
 Palestine	2020-02-02	0	NA	no	NA
 Palestine	2020-02-03	0	NA	no	NA
@@ -10918,7 +11169,8 @@ Palestine	2020-03-23	0	NA	no	NA
 Palestine	2020-03-24	0	NA	no	NA
 Palestine	2020-03-25	0	NA	no	NA
 Palestine	2020-03-26	0	NA	no	NA
-Palestine	2020-03-27	0	NA	yes	Palestine (0)
+Palestine	2020-03-27	0	NA	no	NA
+Palestine	2020-03-28	0	NA	yes	Palestine (0)
 Panama	2020-02-01	0	NA	no	NA
 Panama	2020-02-02	0	NA	no	NA
 Panama	2020-02-03	0	NA	no	NA
@@ -10974,7 +11226,8 @@ Panama	2020-03-23	3	NA	no	NA
 Panama	2020-03-24	6	NA	no	NA
 Panama	2020-03-25	8	NA	no	NA
 Panama	2020-03-26	8	NA	no	NA
-Panama	2020-03-27	9	NA	yes	Panama (9)
+Panama	2020-03-27	9	NA	no	NA
+Panama	2020-03-28	14	NA	yes	Panama (14)
 Papua New Guinea	2020-02-01	0	NA	no	NA
 Papua New Guinea	2020-02-02	0	NA	no	NA
 Papua New Guinea	2020-02-03	0	NA	no	NA
@@ -11030,7 +11283,8 @@ Papua New Guinea	2020-03-23	0	NA	no	NA
 Papua New Guinea	2020-03-24	0	NA	no	NA
 Papua New Guinea	2020-03-25	0	NA	no	NA
 Papua New Guinea	2020-03-26	0	NA	no	NA
-Papua New Guinea	2020-03-27	0	NA	yes	Papua New Guinea (0)
+Papua New Guinea	2020-03-27	0	NA	no	NA
+Papua New Guinea	2020-03-28	0	NA	yes	Papua New Guinea (0)
 Paraguay	2020-02-01	0	NA	no	NA
 Paraguay	2020-02-02	0	NA	no	NA
 Paraguay	2020-02-03	0	NA	no	NA
@@ -11086,7 +11340,8 @@ Paraguay	2020-03-23	1	NA	no	NA
 Paraguay	2020-03-24	2	NA	no	NA
 Paraguay	2020-03-25	3	NA	no	NA
 Paraguay	2020-03-26	3	NA	no	NA
-Paraguay	2020-03-27	3	NA	yes	Paraguay (3)
+Paraguay	2020-03-27	3	NA	no	NA
+Paraguay	2020-03-28	3	NA	yes	Paraguay (3)
 Pennsylvania, USA	2020-02-01	0	NA	no	NA
 Pennsylvania, USA	2020-02-02	0	NA	no	NA
 Pennsylvania, USA	2020-02-03	0	NA	no	NA
@@ -11142,7 +11397,8 @@ Pennsylvania, USA	2020-03-23	6	NA	no	NA
 Pennsylvania, USA	2020-03-24	8	NA	no	NA
 Pennsylvania, USA	2020-03-25	15	NA	no	NA
 Pennsylvania, USA	2020-03-26	18	NA	no	NA
-Pennsylvania, USA	2020-03-27	22	NA	yes	Pennsylvania, USA (22)
+Pennsylvania, USA	2020-03-27	22	NA	no	NA
+Pennsylvania, USA	2020-03-28	34	NA	yes	Pennsylvania, USA (34)
 Peru	2020-02-01	0	NA	no	NA
 Peru	2020-02-02	0	NA	no	NA
 Peru	2020-02-03	0	NA	no	NA
@@ -11198,7 +11454,8 @@ Peru	2020-03-23	5	NA	no	NA
 Peru	2020-03-24	7	NA	no	NA
 Peru	2020-03-25	9	NA	no	NA
 Peru	2020-03-26	9	NA	no	NA
-Peru	2020-03-27	11	NA	yes	Peru (11)
+Peru	2020-03-27	11	NA	no	NA
+Peru	2020-03-28	16	NA	yes	Peru (16)
 Philippines	2020-02-01	0	NA	no	NA
 Philippines	2020-02-02	1	NA	no	NA
 Philippines	2020-02-03	1	NA	no	NA
@@ -11254,7 +11511,8 @@ Philippines	2020-03-23	33	NA	no	NA
 Philippines	2020-03-24	35	NA	no	NA
 Philippines	2020-03-25	38	NA	no	NA
 Philippines	2020-03-26	45	NA	no	NA
-Philippines	2020-03-27	54	1	yes	Philippines (54)
+Philippines	2020-03-27	54	1	no	NA
+Philippines	2020-03-28	68	2	yes	Philippines (68)
 Poland	2020-02-01	0	NA	no	NA
 Poland	2020-02-02	0	NA	no	NA
 Poland	2020-02-03	0	NA	no	NA
@@ -11310,7 +11568,8 @@ Poland	2020-03-23	8	NA	no	NA
 Poland	2020-03-24	10	NA	no	NA
 Poland	2020-03-25	14	NA	no	NA
 Poland	2020-03-26	16	NA	no	NA
-Poland	2020-03-27	16	NA	yes	Poland (16)
+Poland	2020-03-27	16	NA	no	NA
+Poland	2020-03-28	18	NA	yes	Poland (18)
 Portugal	2020-02-01	0	NA	no	NA
 Portugal	2020-02-02	0	NA	no	NA
 Portugal	2020-02-03	0	NA	no	NA
@@ -11366,7 +11625,8 @@ Portugal	2020-03-23	23	NA	no	NA
 Portugal	2020-03-24	33	NA	no	NA
 Portugal	2020-03-25	43	NA	no	NA
 Portugal	2020-03-26	60	1	no	NA
-Portugal	2020-03-27	76	2	yes	Portugal (76)
+Portugal	2020-03-27	76	2	no	NA
+Portugal	2020-03-28	100	3	yes	Portugal (100)
 Puerto Rico	2020-02-01	0	NA	no	NA
 Puerto Rico	2020-02-02	0	NA	no	NA
 Puerto Rico	2020-02-03	0	NA	no	NA
@@ -11422,7 +11682,8 @@ Puerto Rico	2020-03-23	0	NA	no	NA
 Puerto Rico	2020-03-24	0	NA	no	NA
 Puerto Rico	2020-03-25	0	NA	no	NA
 Puerto Rico	2020-03-26	0	NA	no	NA
-Puerto Rico	2020-03-27	0	NA	yes	Puerto Rico (0)
+Puerto Rico	2020-03-27	0	NA	no	NA
+Puerto Rico	2020-03-28	0	NA	yes	Puerto Rico (0)
 Puerto Rico, USA	2020-02-01	0	NA	no	NA
 Puerto Rico, USA	2020-02-02	0	NA	no	NA
 Puerto Rico, USA	2020-02-03	0	NA	no	NA
@@ -11478,7 +11739,8 @@ Puerto Rico, USA	2020-03-23	2	NA	no	NA
 Puerto Rico, USA	2020-03-24	2	NA	no	NA
 Puerto Rico, USA	2020-03-25	2	NA	no	NA
 Puerto Rico, USA	2020-03-26	2	NA	no	NA
-Puerto Rico, USA	2020-03-27	3	NA	yes	Puerto Rico, USA (3)
+Puerto Rico, USA	2020-03-27	3	NA	no	NA
+Puerto Rico, USA	2020-03-28	3	NA	yes	Puerto Rico, USA (3)
 Qatar	2020-02-01	0	NA	no	NA
 Qatar	2020-02-02	0	NA	no	NA
 Qatar	2020-02-03	0	NA	no	NA
@@ -11534,7 +11796,8 @@ Qatar	2020-03-23	0	NA	no	NA
 Qatar	2020-03-24	0	NA	no	NA
 Qatar	2020-03-25	0	NA	no	NA
 Qatar	2020-03-26	0	NA	no	NA
-Qatar	2020-03-27	0	NA	yes	Qatar (0)
+Qatar	2020-03-27	0	NA	no	NA
+Qatar	2020-03-28	1	NA	yes	Qatar (1)
 Recovered, USA	2020-02-01	0	NA	no	NA
 Recovered, USA	2020-02-02	0	NA	no	NA
 Recovered, USA	2020-02-03	0	NA	no	NA
@@ -11590,7 +11853,8 @@ Recovered, USA	2020-03-23	0	NA	no	NA
 Recovered, USA	2020-03-24	0	NA	no	NA
 Recovered, USA	2020-03-25	0	NA	no	NA
 Recovered, USA	2020-03-26	0	NA	no	NA
-Recovered, USA	2020-03-27	0	NA	yes	Recovered, USA (0)
+Recovered, USA	2020-03-27	0	NA	no	NA
+Recovered, USA	2020-03-28	0	NA	yes	Recovered, USA (0)
 Republic of Ireland	2020-02-01	0	NA	no	NA
 Republic of Ireland	2020-02-02	0	NA	no	NA
 Republic of Ireland	2020-02-03	0	NA	no	NA
@@ -11646,7 +11910,8 @@ Republic of Ireland	2020-03-23	0	NA	no	NA
 Republic of Ireland	2020-03-24	0	NA	no	NA
 Republic of Ireland	2020-03-25	0	NA	no	NA
 Republic of Ireland	2020-03-26	0	NA	no	NA
-Republic of Ireland	2020-03-27	0	NA	yes	Republic of Ireland (0)
+Republic of Ireland	2020-03-27	0	NA	no	NA
+Republic of Ireland	2020-03-28	0	NA	yes	Republic of Ireland (0)
 Republic of Korea	2020-02-01	0	NA	no	NA
 Republic of Korea	2020-02-02	0	NA	no	NA
 Republic of Korea	2020-02-03	0	NA	no	NA
@@ -11702,7 +11967,8 @@ Republic of Korea	2020-03-23	0	NA	no	NA
 Republic of Korea	2020-03-24	0	NA	no	NA
 Republic of Korea	2020-03-25	0	NA	no	NA
 Republic of Korea	2020-03-26	0	NA	no	NA
-Republic of Korea	2020-03-27	0	NA	yes	Republic of Korea (0)
+Republic of Korea	2020-03-27	0	NA	no	NA
+Republic of Korea	2020-03-28	0	NA	yes	Republic of Korea (0)
 Republic of Moldova	2020-02-01	0	NA	no	NA
 Republic of Moldova	2020-02-02	0	NA	no	NA
 Republic of Moldova	2020-02-03	0	NA	no	NA
@@ -11758,7 +12024,8 @@ Republic of Moldova	2020-03-23	0	NA	no	NA
 Republic of Moldova	2020-03-24	0	NA	no	NA
 Republic of Moldova	2020-03-25	0	NA	no	NA
 Republic of Moldova	2020-03-26	0	NA	no	NA
-Republic of Moldova	2020-03-27	0	NA	yes	Republic of Moldova (0)
+Republic of Moldova	2020-03-27	0	NA	no	NA
+Republic of Moldova	2020-03-28	0	NA	yes	Republic of Moldova (0)
 Republic of the Congo	2020-02-01	0	NA	no	NA
 Republic of the Congo	2020-02-02	0	NA	no	NA
 Republic of the Congo	2020-02-03	0	NA	no	NA
@@ -11814,7 +12081,8 @@ Republic of the Congo	2020-03-23	0	NA	no	NA
 Republic of the Congo	2020-03-24	0	NA	no	NA
 Republic of the Congo	2020-03-25	0	NA	no	NA
 Republic of the Congo	2020-03-26	0	NA	no	NA
-Republic of the Congo	2020-03-27	0	NA	yes	Republic of the Congo (0)
+Republic of the Congo	2020-03-27	0	NA	no	NA
+Republic of the Congo	2020-03-28	0	NA	yes	Republic of the Congo (0)
 Reunion	2020-02-01	0	NA	no	NA
 Reunion	2020-02-02	0	NA	no	NA
 Reunion	2020-02-03	0	NA	no	NA
@@ -11870,7 +12138,8 @@ Reunion	2020-03-23	0	NA	no	NA
 Reunion	2020-03-24	0	NA	no	NA
 Reunion	2020-03-25	0	NA	no	NA
 Reunion	2020-03-26	0	NA	no	NA
-Reunion	2020-03-27	0	NA	yes	Reunion (0)
+Reunion	2020-03-27	0	NA	no	NA
+Reunion	2020-03-28	0	NA	yes	Reunion (0)
 Rhode Island, USA	2020-02-01	0	NA	no	NA
 Rhode Island, USA	2020-02-02	0	NA	no	NA
 Rhode Island, USA	2020-02-03	0	NA	no	NA
@@ -11926,7 +12195,8 @@ Rhode Island, USA	2020-03-23	0	NA	no	NA
 Rhode Island, USA	2020-03-24	0	NA	no	NA
 Rhode Island, USA	2020-03-25	0	NA	no	NA
 Rhode Island, USA	2020-03-26	0	NA	no	NA
-Rhode Island, USA	2020-03-27	0	NA	yes	Rhode Island, USA (0)
+Rhode Island, USA	2020-03-27	0	NA	no	NA
+Rhode Island, USA	2020-03-28	2	NA	yes	Rhode Island, USA (2)
 Romania	2020-02-01	0	NA	no	NA
 Romania	2020-02-02	0	NA	no	NA
 Romania	2020-02-03	0	NA	no	NA
@@ -11982,7 +12252,8 @@ Romania	2020-03-23	7	NA	no	NA
 Romania	2020-03-24	11	NA	no	NA
 Romania	2020-03-25	17	NA	no	NA
 Romania	2020-03-26	23	NA	no	NA
-Romania	2020-03-27	26	NA	yes	Romania (26)
+Romania	2020-03-27	26	NA	no	NA
+Romania	2020-03-28	37	NA	yes	Romania (37)
 Russia	2020-02-01	0	NA	no	NA
 Russia	2020-02-02	0	NA	no	NA
 Russia	2020-02-03	0	NA	no	NA
@@ -12038,7 +12309,8 @@ Russia	2020-03-23	1	NA	no	NA
 Russia	2020-03-24	1	NA	no	NA
 Russia	2020-03-25	3	NA	no	NA
 Russia	2020-03-26	3	NA	no	NA
-Russia	2020-03-27	4	NA	yes	Russia (4)
+Russia	2020-03-27	4	NA	no	NA
+Russia	2020-03-28	4	NA	yes	Russia (4)
 Russian Federation	2020-02-01	0	NA	no	NA
 Russian Federation	2020-02-02	0	NA	no	NA
 Russian Federation	2020-02-03	0	NA	no	NA
@@ -12094,7 +12366,8 @@ Russian Federation	2020-03-23	0	NA	no	NA
 Russian Federation	2020-03-24	0	NA	no	NA
 Russian Federation	2020-03-25	0	NA	no	NA
 Russian Federation	2020-03-26	0	NA	no	NA
-Russian Federation	2020-03-27	0	NA	yes	Russian Federation (0)
+Russian Federation	2020-03-27	0	NA	no	NA
+Russian Federation	2020-03-28	0	NA	yes	Russian Federation (0)
 Rwanda	2020-02-01	0	NA	no	NA
 Rwanda	2020-02-02	0	NA	no	NA
 Rwanda	2020-02-03	0	NA	no	NA
@@ -12150,7 +12423,8 @@ Rwanda	2020-03-23	0	NA	no	NA
 Rwanda	2020-03-24	0	NA	no	NA
 Rwanda	2020-03-25	0	NA	no	NA
 Rwanda	2020-03-26	0	NA	no	NA
-Rwanda	2020-03-27	0	NA	yes	Rwanda (0)
+Rwanda	2020-03-27	0	NA	no	NA
+Rwanda	2020-03-28	0	NA	yes	Rwanda (0)
 Saint Barthelemy	2020-02-01	0	NA	no	NA
 Saint Barthelemy	2020-02-02	0	NA	no	NA
 Saint Barthelemy	2020-02-03	0	NA	no	NA
@@ -12206,7 +12480,8 @@ Saint Barthelemy	2020-03-23	0	NA	no	NA
 Saint Barthelemy	2020-03-24	0	NA	no	NA
 Saint Barthelemy	2020-03-25	0	NA	no	NA
 Saint Barthelemy	2020-03-26	0	NA	no	NA
-Saint Barthelemy	2020-03-27	0	NA	yes	Saint Barthelemy (0)
+Saint Barthelemy	2020-03-27	0	NA	no	NA
+Saint Barthelemy	2020-03-28	0	NA	yes	Saint Barthelemy (0)
 Saint Kitts and Nevis	2020-02-01	0	NA	no	NA
 Saint Kitts and Nevis	2020-02-02	0	NA	no	NA
 Saint Kitts and Nevis	2020-02-03	0	NA	no	NA
@@ -12262,7 +12537,8 @@ Saint Kitts and Nevis	2020-03-23	0	NA	no	NA
 Saint Kitts and Nevis	2020-03-24	0	NA	no	NA
 Saint Kitts and Nevis	2020-03-25	0	NA	no	NA
 Saint Kitts and Nevis	2020-03-26	0	NA	no	NA
-Saint Kitts and Nevis	2020-03-27	0	NA	yes	Saint Kitts and Nevis (0)
+Saint Kitts and Nevis	2020-03-27	0	NA	no	NA
+Saint Kitts and Nevis	2020-03-28	0	NA	yes	Saint Kitts and Nevis (0)
 Saint Lucia	2020-02-01	0	NA	no	NA
 Saint Lucia	2020-02-02	0	NA	no	NA
 Saint Lucia	2020-02-03	0	NA	no	NA
@@ -12318,7 +12594,8 @@ Saint Lucia	2020-03-23	0	NA	no	NA
 Saint Lucia	2020-03-24	0	NA	no	NA
 Saint Lucia	2020-03-25	0	NA	no	NA
 Saint Lucia	2020-03-26	0	NA	no	NA
-Saint Lucia	2020-03-27	0	NA	yes	Saint Lucia (0)
+Saint Lucia	2020-03-27	0	NA	no	NA
+Saint Lucia	2020-03-28	0	NA	yes	Saint Lucia (0)
 Saint Martin	2020-02-01	0	NA	no	NA
 Saint Martin	2020-02-02	0	NA	no	NA
 Saint Martin	2020-02-03	0	NA	no	NA
@@ -12374,7 +12651,8 @@ Saint Martin	2020-03-23	0	NA	no	NA
 Saint Martin	2020-03-24	0	NA	no	NA
 Saint Martin	2020-03-25	0	NA	no	NA
 Saint Martin	2020-03-26	0	NA	no	NA
-Saint Martin	2020-03-27	0	NA	yes	Saint Martin (0)
+Saint Martin	2020-03-27	0	NA	no	NA
+Saint Martin	2020-03-28	0	NA	yes	Saint Martin (0)
 Saint Vincent and the Grenadines	2020-02-01	0	NA	no	NA
 Saint Vincent and the Grenadines	2020-02-02	0	NA	no	NA
 Saint Vincent and the Grenadines	2020-02-03	0	NA	no	NA
@@ -12430,7 +12708,8 @@ Saint Vincent and the Grenadines	2020-03-23	0	NA	no	NA
 Saint Vincent and the Grenadines	2020-03-24	0	NA	no	NA
 Saint Vincent and the Grenadines	2020-03-25	0	NA	no	NA
 Saint Vincent and the Grenadines	2020-03-26	0	NA	no	NA
-Saint Vincent and the Grenadines	2020-03-27	0	NA	yes	Saint Vincent and the Grenadines (0)
+Saint Vincent and the Grenadines	2020-03-27	0	NA	no	NA
+Saint Vincent and the Grenadines	2020-03-28	0	NA	yes	Saint Vincent and the Grenadines (0)
 San Marino	2020-02-01	0	NA	no	NA
 San Marino	2020-02-02	0	NA	no	NA
 San Marino	2020-02-03	0	NA	no	NA
@@ -12486,7 +12765,8 @@ San Marino	2020-03-23	20	NA	no	NA
 San Marino	2020-03-24	21	NA	no	NA
 San Marino	2020-03-25	21	NA	no	NA
 San Marino	2020-03-26	21	NA	no	NA
-San Marino	2020-03-27	21	NA	yes	San Marino (21)
+San Marino	2020-03-27	21	NA	no	NA
+San Marino	2020-03-28	22	NA	yes	San Marino (22)
 Saudi Arabia	2020-02-01	0	NA	no	NA
 Saudi Arabia	2020-02-02	0	NA	no	NA
 Saudi Arabia	2020-02-03	0	NA	no	NA
@@ -12542,7 +12822,8 @@ Saudi Arabia	2020-03-23	0	NA	no	NA
 Saudi Arabia	2020-03-24	1	NA	no	NA
 Saudi Arabia	2020-03-25	2	NA	no	NA
 Saudi Arabia	2020-03-26	3	NA	no	NA
-Saudi Arabia	2020-03-27	3	NA	yes	Saudi Arabia (3)
+Saudi Arabia	2020-03-27	3	NA	no	NA
+Saudi Arabia	2020-03-28	4	NA	yes	Saudi Arabia (4)
 Senegal	2020-02-01	0	NA	no	NA
 Senegal	2020-02-02	0	NA	no	NA
 Senegal	2020-02-03	0	NA	no	NA
@@ -12598,7 +12879,8 @@ Senegal	2020-03-23	0	NA	no	NA
 Senegal	2020-03-24	0	NA	no	NA
 Senegal	2020-03-25	0	NA	no	NA
 Senegal	2020-03-26	0	NA	no	NA
-Senegal	2020-03-27	0	NA	yes	Senegal (0)
+Senegal	2020-03-27	0	NA	no	NA
+Senegal	2020-03-28	0	NA	yes	Senegal (0)
 Serbia	2020-02-01	0	NA	no	NA
 Serbia	2020-02-02	0	NA	no	NA
 Serbia	2020-02-03	0	NA	no	NA
@@ -12654,7 +12936,8 @@ Serbia	2020-03-23	3	NA	no	NA
 Serbia	2020-03-24	3	NA	no	NA
 Serbia	2020-03-25	4	NA	no	NA
 Serbia	2020-03-26	1	NA	no	NA
-Serbia	2020-03-27	1	NA	yes	Serbia (1)
+Serbia	2020-03-27	1	NA	no	NA
+Serbia	2020-03-28	10	NA	yes	Serbia (10)
 Seychelles	2020-02-01	0	NA	no	NA
 Seychelles	2020-02-02	0	NA	no	NA
 Seychelles	2020-02-03	0	NA	no	NA
@@ -12710,7 +12993,8 @@ Seychelles	2020-03-23	0	NA	no	NA
 Seychelles	2020-03-24	0	NA	no	NA
 Seychelles	2020-03-25	0	NA	no	NA
 Seychelles	2020-03-26	0	NA	no	NA
-Seychelles	2020-03-27	0	NA	yes	Seychelles (0)
+Seychelles	2020-03-27	0	NA	no	NA
+Seychelles	2020-03-28	0	NA	yes	Seychelles (0)
 Singapore	2020-02-01	0	NA	no	NA
 Singapore	2020-02-02	0	NA	no	NA
 Singapore	2020-02-03	0	NA	no	NA
@@ -12766,7 +13050,8 @@ Singapore	2020-03-23	2	NA	no	NA
 Singapore	2020-03-24	2	NA	no	NA
 Singapore	2020-03-25	2	NA	no	NA
 Singapore	2020-03-26	2	NA	no	NA
-Singapore	2020-03-27	2	NA	yes	Singapore (2)
+Singapore	2020-03-27	2	NA	no	NA
+Singapore	2020-03-28	2	NA	yes	Singapore (2)
 Slovakia	2020-02-01	0	NA	no	NA
 Slovakia	2020-02-02	0	NA	no	NA
 Slovakia	2020-02-03	0	NA	no	NA
@@ -12822,7 +13107,8 @@ Slovakia	2020-03-23	0	NA	no	NA
 Slovakia	2020-03-24	0	NA	no	NA
 Slovakia	2020-03-25	0	NA	no	NA
 Slovakia	2020-03-26	0	NA	no	NA
-Slovakia	2020-03-27	0	NA	yes	Slovakia (0)
+Slovakia	2020-03-27	0	NA	no	NA
+Slovakia	2020-03-28	0	NA	yes	Slovakia (0)
 Slovenia	2020-02-01	0	NA	no	NA
 Slovenia	2020-02-02	0	NA	no	NA
 Slovenia	2020-02-03	0	NA	no	NA
@@ -12878,7 +13164,8 @@ Slovenia	2020-03-23	3	NA	no	NA
 Slovenia	2020-03-24	4	NA	no	NA
 Slovenia	2020-03-25	5	NA	no	NA
 Slovenia	2020-03-26	6	NA	no	NA
-Slovenia	2020-03-27	9	NA	yes	Slovenia (9)
+Slovenia	2020-03-27	9	NA	no	NA
+Slovenia	2020-03-28	9	NA	yes	Slovenia (9)
 Somalia	2020-02-01	0	NA	no	NA
 Somalia	2020-02-02	0	NA	no	NA
 Somalia	2020-02-03	0	NA	no	NA
@@ -12934,7 +13221,8 @@ Somalia	2020-03-23	0	NA	no	NA
 Somalia	2020-03-24	0	NA	no	NA
 Somalia	2020-03-25	0	NA	no	NA
 Somalia	2020-03-26	0	NA	no	NA
-Somalia	2020-03-27	0	NA	yes	Somalia (0)
+Somalia	2020-03-27	0	NA	no	NA
+Somalia	2020-03-28	0	NA	yes	Somalia (0)
 South Africa	2020-02-01	0	NA	no	NA
 South Africa	2020-02-02	0	NA	no	NA
 South Africa	2020-02-03	0	NA	no	NA
@@ -12990,7 +13278,8 @@ South Africa	2020-03-23	0	NA	no	NA
 South Africa	2020-03-24	0	NA	no	NA
 South Africa	2020-03-25	0	NA	no	NA
 South Africa	2020-03-26	0	NA	no	NA
-South Africa	2020-03-27	1	NA	yes	South Africa (1)
+South Africa	2020-03-27	1	NA	no	NA
+South Africa	2020-03-28	1	NA	yes	South Africa (1)
 South Carolina, USA	2020-02-01	0	NA	no	NA
 South Carolina, USA	2020-02-02	0	NA	no	NA
 South Carolina, USA	2020-02-03	0	NA	no	NA
@@ -13046,7 +13335,8 @@ South Carolina, USA	2020-03-23	5	NA	no	NA
 South Carolina, USA	2020-03-24	5	NA	no	NA
 South Carolina, USA	2020-03-25	7	NA	no	NA
 South Carolina, USA	2020-03-26	9	NA	no	NA
-South Carolina, USA	2020-03-27	13	NA	yes	South Carolina, USA (13)
+South Carolina, USA	2020-03-27	13	NA	no	NA
+South Carolina, USA	2020-03-28	15	NA	yes	South Carolina, USA (15)
 South Dakota, USA	2020-02-01	0	NA	no	NA
 South Dakota, USA	2020-02-02	0	NA	no	NA
 South Dakota, USA	2020-02-03	0	NA	no	NA
@@ -13102,7 +13392,8 @@ South Dakota, USA	2020-03-23	1	NA	no	NA
 South Dakota, USA	2020-03-24	1	NA	no	NA
 South Dakota, USA	2020-03-25	1	NA	no	NA
 South Dakota, USA	2020-03-26	1	NA	no	NA
-South Dakota, USA	2020-03-27	1	NA	yes	South Dakota, USA (1)
+South Dakota, USA	2020-03-27	1	NA	no	NA
+South Dakota, USA	2020-03-28	1	NA	yes	South Dakota, USA (1)
 South Korea	2020-02-01	0	NA	no	NA
 South Korea	2020-02-02	0	NA	no	NA
 South Korea	2020-02-03	0	NA	no	NA
@@ -13158,7 +13449,8 @@ South Korea	2020-03-23	111	16	no	NA
 South Korea	2020-03-24	120	17	no	NA
 South Korea	2020-03-25	126	18	no	NA
 South Korea	2020-03-26	131	19	no	NA
-South Korea	2020-03-27	139	20	yes	South Korea (139)
+South Korea	2020-03-27	139	20	no	NA
+South Korea	2020-03-28	144	21	yes	South Korea (144)
 Spain	2020-02-01	0	NA	no	NA
 Spain	2020-02-02	0	NA	no	NA
 Spain	2020-02-03	0	NA	no	NA
@@ -13214,7 +13506,8 @@ Spain	2020-03-23	2311	13	no	NA
 Spain	2020-03-24	2808	14	no	NA
 Spain	2020-03-25	3647	15	no	NA
 Spain	2020-03-26	4365	16	no	NA
-Spain	2020-03-27	5138	17	yes	Spain (5138)
+Spain	2020-03-27	5138	17	no	NA
+Spain	2020-03-28	5982	18	yes	Spain (5982)
 Sri Lanka	2020-02-01	0	NA	no	NA
 Sri Lanka	2020-02-02	0	NA	no	NA
 Sri Lanka	2020-02-03	0	NA	no	NA
@@ -13270,7 +13563,8 @@ Sri Lanka	2020-03-23	0	NA	no	NA
 Sri Lanka	2020-03-24	0	NA	no	NA
 Sri Lanka	2020-03-25	0	NA	no	NA
 Sri Lanka	2020-03-26	0	NA	no	NA
-Sri Lanka	2020-03-27	0	NA	yes	Sri Lanka (0)
+Sri Lanka	2020-03-27	0	NA	no	NA
+Sri Lanka	2020-03-28	1	NA	yes	Sri Lanka (1)
 St. Martin	2020-02-01	0	NA	no	NA
 St. Martin	2020-02-02	0	NA	no	NA
 St. Martin	2020-02-03	0	NA	no	NA
@@ -13326,7 +13620,8 @@ St. Martin	2020-03-23	0	NA	no	NA
 St. Martin	2020-03-24	0	NA	no	NA
 St. Martin	2020-03-25	0	NA	no	NA
 St. Martin	2020-03-26	0	NA	no	NA
-St. Martin	2020-03-27	0	NA	yes	St. Martin (0)
+St. Martin	2020-03-27	0	NA	no	NA
+St. Martin	2020-03-28	0	NA	yes	St. Martin (0)
 Sudan	2020-02-01	0	NA	no	NA
 Sudan	2020-02-02	0	NA	no	NA
 Sudan	2020-02-03	0	NA	no	NA
@@ -13382,7 +13677,8 @@ Sudan	2020-03-23	1	NA	no	NA
 Sudan	2020-03-24	1	NA	no	NA
 Sudan	2020-03-25	1	NA	no	NA
 Sudan	2020-03-26	1	NA	no	NA
-Sudan	2020-03-27	1	NA	yes	Sudan (1)
+Sudan	2020-03-27	1	NA	no	NA
+Sudan	2020-03-28	1	NA	yes	Sudan (1)
 Suriname	2020-02-01	0	NA	no	NA
 Suriname	2020-02-02	0	NA	no	NA
 Suriname	2020-02-03	0	NA	no	NA
@@ -13438,7 +13734,8 @@ Suriname	2020-03-23	0	NA	no	NA
 Suriname	2020-03-24	0	NA	no	NA
 Suriname	2020-03-25	0	NA	no	NA
 Suriname	2020-03-26	0	NA	no	NA
-Suriname	2020-03-27	0	NA	yes	Suriname (0)
+Suriname	2020-03-27	0	NA	no	NA
+Suriname	2020-03-28	0	NA	yes	Suriname (0)
 Sweden	2020-02-01	0	NA	no	NA
 Sweden	2020-02-02	0	NA	no	NA
 Sweden	2020-02-03	0	NA	no	NA
@@ -13494,7 +13791,8 @@ Sweden	2020-03-23	25	NA	no	NA
 Sweden	2020-03-24	36	NA	no	NA
 Sweden	2020-03-25	62	1	no	NA
 Sweden	2020-03-26	77	2	no	NA
-Sweden	2020-03-27	105	3	yes	Sweden (105)
+Sweden	2020-03-27	105	3	no	NA
+Sweden	2020-03-28	105	4	yes	Sweden (105)
 Switzerland	2020-02-01	0	NA	no	NA
 Switzerland	2020-02-02	0	NA	no	NA
 Switzerland	2020-02-03	0	NA	no	NA
@@ -13550,7 +13848,8 @@ Switzerland	2020-03-23	120	4	no	NA
 Switzerland	2020-03-24	122	5	no	NA
 Switzerland	2020-03-25	153	6	no	NA
 Switzerland	2020-03-26	191	7	no	NA
-Switzerland	2020-03-27	231	8	yes	Switzerland (231)
+Switzerland	2020-03-27	231	8	no	NA
+Switzerland	2020-03-28	264	9	yes	Switzerland (264)
 Syria	2020-02-01	0	NA	no	NA
 Syria	2020-02-02	0	NA	no	NA
 Syria	2020-02-03	0	NA	no	NA
@@ -13606,7 +13905,8 @@ Syria	2020-03-23	0	NA	no	NA
 Syria	2020-03-24	0	NA	no	NA
 Syria	2020-03-25	0	NA	no	NA
 Syria	2020-03-26	0	NA	no	NA
-Syria	2020-03-27	0	NA	yes	Syria (0)
+Syria	2020-03-27	0	NA	no	NA
+Syria	2020-03-28	0	NA	yes	Syria (0)
 Taipei and environs	2020-02-01	0	NA	no	NA
 Taipei and environs	2020-02-02	0	NA	no	NA
 Taipei and environs	2020-02-03	0	NA	no	NA
@@ -13662,7 +13962,8 @@ Taipei and environs	2020-03-23	0	NA	no	NA
 Taipei and environs	2020-03-24	0	NA	no	NA
 Taipei and environs	2020-03-25	0	NA	no	NA
 Taipei and environs	2020-03-26	0	NA	no	NA
-Taipei and environs	2020-03-27	0	NA	yes	Taipei and environs (0)
+Taipei and environs	2020-03-27	0	NA	no	NA
+Taipei and environs	2020-03-28	0	NA	yes	Taipei and environs (0)
 Taiwan	2020-02-01	0	NA	no	NA
 Taiwan	2020-02-02	0	NA	no	NA
 Taiwan	2020-02-03	0	NA	no	NA
@@ -13718,7 +14019,8 @@ Taiwan	2020-03-23	0	NA	no	NA
 Taiwan	2020-03-24	0	NA	no	NA
 Taiwan	2020-03-25	0	NA	no	NA
 Taiwan	2020-03-26	0	NA	no	NA
-Taiwan	2020-03-27	0	NA	yes	Taiwan (0)
+Taiwan	2020-03-27	0	NA	no	NA
+Taiwan	2020-03-28	0	NA	yes	Taiwan (0)
 Taiwan*	2020-02-01	0	NA	no	NA
 Taiwan*	2020-02-02	0	NA	no	NA
 Taiwan*	2020-02-03	0	NA	no	NA
@@ -13774,7 +14076,8 @@ Taiwan*	2020-03-23	2	NA	no	NA
 Taiwan*	2020-03-24	2	NA	no	NA
 Taiwan*	2020-03-25	2	NA	no	NA
 Taiwan*	2020-03-26	2	NA	no	NA
-Taiwan*	2020-03-27	2	NA	yes	Taiwan* (2)
+Taiwan*	2020-03-27	2	NA	no	NA
+Taiwan*	2020-03-28	2	NA	yes	Taiwan* (2)
 Tanzania	2020-02-01	0	NA	no	NA
 Tanzania	2020-02-02	0	NA	no	NA
 Tanzania	2020-02-03	0	NA	no	NA
@@ -13830,7 +14133,8 @@ Tanzania	2020-03-23	0	NA	no	NA
 Tanzania	2020-03-24	0	NA	no	NA
 Tanzania	2020-03-25	0	NA	no	NA
 Tanzania	2020-03-26	0	NA	no	NA
-Tanzania	2020-03-27	0	NA	yes	Tanzania (0)
+Tanzania	2020-03-27	0	NA	no	NA
+Tanzania	2020-03-28	0	NA	yes	Tanzania (0)
 Tennessee, USA	2020-02-01	0	NA	no	NA
 Tennessee, USA	2020-02-02	0	NA	no	NA
 Tennessee, USA	2020-02-03	0	NA	no	NA
@@ -13886,7 +14190,8 @@ Tennessee, USA	2020-03-23	2	NA	no	NA
 Tennessee, USA	2020-03-24	2	NA	no	NA
 Tennessee, USA	2020-03-25	3	NA	no	NA
 Tennessee, USA	2020-03-26	3	NA	no	NA
-Tennessee, USA	2020-03-27	6	NA	yes	Tennessee, USA (6)
+Tennessee, USA	2020-03-27	6	NA	no	NA
+Tennessee, USA	2020-03-28	7	NA	yes	Tennessee, USA (7)
 Texas, USA	2020-02-01	0	NA	no	NA
 Texas, USA	2020-02-02	0	NA	no	NA
 Texas, USA	2020-02-03	0	NA	no	NA
@@ -13942,7 +14247,8 @@ Texas, USA	2020-03-23	9	NA	no	NA
 Texas, USA	2020-03-24	12	NA	no	NA
 Texas, USA	2020-03-25	15	NA	no	NA
 Texas, USA	2020-03-26	21	NA	no	NA
-Texas, USA	2020-03-27	26	NA	yes	Texas, USA (26)
+Texas, USA	2020-03-27	26	NA	no	NA
+Texas, USA	2020-03-28	30	NA	yes	Texas, USA (30)
 Thailand	2020-02-01	0	NA	no	NA
 Thailand	2020-02-02	0	NA	no	NA
 Thailand	2020-02-03	0	NA	no	NA
@@ -13998,7 +14304,8 @@ Thailand	2020-03-23	1	NA	no	NA
 Thailand	2020-03-24	4	NA	no	NA
 Thailand	2020-03-25	4	NA	no	NA
 Thailand	2020-03-26	4	NA	no	NA
-Thailand	2020-03-27	5	NA	yes	Thailand (5)
+Thailand	2020-03-27	5	NA	no	NA
+Thailand	2020-03-28	6	NA	yes	Thailand (6)
 The Bahamas	2020-02-01	0	NA	no	NA
 The Bahamas	2020-02-02	0	NA	no	NA
 The Bahamas	2020-02-03	0	NA	no	NA
@@ -14054,7 +14361,8 @@ The Bahamas	2020-03-23	0	NA	no	NA
 The Bahamas	2020-03-24	0	NA	no	NA
 The Bahamas	2020-03-25	0	NA	no	NA
 The Bahamas	2020-03-26	0	NA	no	NA
-The Bahamas	2020-03-27	0	NA	yes	The Bahamas (0)
+The Bahamas	2020-03-27	0	NA	no	NA
+The Bahamas	2020-03-28	0	NA	yes	The Bahamas (0)
 The Gambia	2020-02-01	0	NA	no	NA
 The Gambia	2020-02-02	0	NA	no	NA
 The Gambia	2020-02-03	0	NA	no	NA
@@ -14110,7 +14418,8 @@ The Gambia	2020-03-23	0	NA	no	NA
 The Gambia	2020-03-24	0	NA	no	NA
 The Gambia	2020-03-25	0	NA	no	NA
 The Gambia	2020-03-26	0	NA	no	NA
-The Gambia	2020-03-27	0	NA	yes	The Gambia (0)
+The Gambia	2020-03-27	0	NA	no	NA
+The Gambia	2020-03-28	0	NA	yes	The Gambia (0)
 Timor-Leste	2020-02-01	0	NA	no	NA
 Timor-Leste	2020-02-02	0	NA	no	NA
 Timor-Leste	2020-02-03	0	NA	no	NA
@@ -14166,7 +14475,8 @@ Timor-Leste	2020-03-23	0	NA	no	NA
 Timor-Leste	2020-03-24	0	NA	no	NA
 Timor-Leste	2020-03-25	0	NA	no	NA
 Timor-Leste	2020-03-26	0	NA	no	NA
-Timor-Leste	2020-03-27	0	NA	yes	Timor-Leste (0)
+Timor-Leste	2020-03-27	0	NA	no	NA
+Timor-Leste	2020-03-28	0	NA	yes	Timor-Leste (0)
 Togo	2020-02-01	0	NA	no	NA
 Togo	2020-02-02	0	NA	no	NA
 Togo	2020-02-03	0	NA	no	NA
@@ -14222,7 +14532,8 @@ Togo	2020-03-23	0	NA	no	NA
 Togo	2020-03-24	0	NA	no	NA
 Togo	2020-03-25	0	NA	no	NA
 Togo	2020-03-26	0	NA	no	NA
-Togo	2020-03-27	1	NA	yes	Togo (1)
+Togo	2020-03-27	1	NA	no	NA
+Togo	2020-03-28	1	NA	yes	Togo (1)
 Trinidad and Tobago	2020-02-01	0	NA	no	NA
 Trinidad and Tobago	2020-02-02	0	NA	no	NA
 Trinidad and Tobago	2020-02-03	0	NA	no	NA
@@ -14278,7 +14589,8 @@ Trinidad and Tobago	2020-03-23	0	NA	no	NA
 Trinidad and Tobago	2020-03-24	0	NA	no	NA
 Trinidad and Tobago	2020-03-25	1	NA	no	NA
 Trinidad and Tobago	2020-03-26	1	NA	no	NA
-Trinidad and Tobago	2020-03-27	2	NA	yes	Trinidad and Tobago (2)
+Trinidad and Tobago	2020-03-27	2	NA	no	NA
+Trinidad and Tobago	2020-03-28	3	NA	yes	Trinidad and Tobago (3)
 Tunisia	2020-02-01	0	NA	no	NA
 Tunisia	2020-02-02	0	NA	no	NA
 Tunisia	2020-02-03	0	NA	no	NA
@@ -14334,7 +14646,8 @@ Tunisia	2020-03-23	3	NA	no	NA
 Tunisia	2020-03-24	4	NA	no	NA
 Tunisia	2020-03-25	5	NA	no	NA
 Tunisia	2020-03-26	6	NA	no	NA
-Tunisia	2020-03-27	6	NA	yes	Tunisia (6)
+Tunisia	2020-03-27	6	NA	no	NA
+Tunisia	2020-03-28	8	NA	yes	Tunisia (8)
 Turkey	2020-02-01	0	NA	no	NA
 Turkey	2020-02-02	0	NA	no	NA
 Turkey	2020-02-03	0	NA	no	NA
@@ -14390,7 +14703,8 @@ Turkey	2020-03-23	37	NA	no	NA
 Turkey	2020-03-24	44	NA	no	NA
 Turkey	2020-03-25	59	1	no	NA
 Turkey	2020-03-26	75	2	no	NA
-Turkey	2020-03-27	92	3	yes	Turkey (92)
+Turkey	2020-03-27	92	3	no	NA
+Turkey	2020-03-28	108	4	yes	Turkey (108)
 UK	2020-02-01	0	NA	no	NA
 UK	2020-02-02	0	NA	no	NA
 UK	2020-02-03	0	NA	no	NA
@@ -14446,7 +14760,8 @@ UK	2020-03-23	0	NA	no	NA
 UK	2020-03-24	0	NA	no	NA
 UK	2020-03-25	0	NA	no	NA
 UK	2020-03-26	0	NA	no	NA
-UK	2020-03-27	0	NA	yes	UK (0)
+UK	2020-03-27	0	NA	no	NA
+UK	2020-03-28	0	NA	yes	UK (0)
 USA	2020-02-01	0	NA	no	NA
 USA	2020-02-02	0	NA	no	NA
 USA	2020-02-03	0	NA	no	NA
@@ -14502,7 +14817,8 @@ USA	2020-03-23	552	10	no	NA
 USA	2020-03-24	706	11	no	NA
 USA	2020-03-25	942	12	no	NA
 USA	2020-03-26	1209	13	no	NA
-USA	2020-03-27	1581	14	yes	USA (1581)
+USA	2020-03-27	1581	14	no	NA
+USA	2020-03-28	2026	15	yes	USA (2026)
 USA, USA	2020-02-01	0	NA	no	NA
 USA, USA	2020-02-02	0	NA	no	NA
 USA, USA	2020-02-03	0	NA	no	NA
@@ -14558,7 +14874,8 @@ USA, USA	2020-03-23	0	NA	no	NA
 USA, USA	2020-03-24	0	NA	no	NA
 USA, USA	2020-03-25	0	NA	no	NA
 USA, USA	2020-03-26	0	NA	no	NA
-USA, USA	2020-03-27	0	NA	yes	USA, USA (0)
+USA, USA	2020-03-27	0	NA	no	NA
+USA, USA	2020-03-28	0	NA	yes	USA, USA (0)
 Uganda	2020-02-01	0	NA	no	NA
 Uganda	2020-02-02	0	NA	no	NA
 Uganda	2020-02-03	0	NA	no	NA
@@ -14614,7 +14931,8 @@ Uganda	2020-03-23	0	NA	no	NA
 Uganda	2020-03-24	0	NA	no	NA
 Uganda	2020-03-25	0	NA	no	NA
 Uganda	2020-03-26	0	NA	no	NA
-Uganda	2020-03-27	0	NA	yes	Uganda (0)
+Uganda	2020-03-27	0	NA	no	NA
+Uganda	2020-03-28	0	NA	yes	Uganda (0)
 Ukraine	2020-02-01	0	NA	no	NA
 Ukraine	2020-02-02	0	NA	no	NA
 Ukraine	2020-02-03	0	NA	no	NA
@@ -14670,7 +14988,8 @@ Ukraine	2020-03-23	3	NA	no	NA
 Ukraine	2020-03-24	3	NA	no	NA
 Ukraine	2020-03-25	5	NA	no	NA
 Ukraine	2020-03-26	5	NA	no	NA
-Ukraine	2020-03-27	5	NA	yes	Ukraine (5)
+Ukraine	2020-03-27	5	NA	no	NA
+Ukraine	2020-03-28	9	NA	yes	Ukraine (9)
 Unassigned Location (From Diamond Princess), USA	2020-02-01	0	NA	no	NA
 Unassigned Location (From Diamond Princess), USA	2020-02-02	0	NA	no	NA
 Unassigned Location (From Diamond Princess), USA	2020-02-03	0	NA	no	NA
@@ -14726,7 +15045,8 @@ Unassigned Location (From Diamond Princess), USA	2020-03-23	0	NA	no	NA
 Unassigned Location (From Diamond Princess), USA	2020-03-24	0	NA	no	NA
 Unassigned Location (From Diamond Princess), USA	2020-03-25	0	NA	no	NA
 Unassigned Location (From Diamond Princess), USA	2020-03-26	0	NA	no	NA
-Unassigned Location (From Diamond Princess), USA	2020-03-27	0	NA	yes	Unassigned Location (From Diamond Princess), USA (0)
+Unassigned Location (From Diamond Princess), USA	2020-03-27	0	NA	no	NA
+Unassigned Location (From Diamond Princess), USA	2020-03-28	0	NA	yes	Unassigned Location (From Diamond Princess), USA (0)
 United Arab Emirates	2020-02-01	0	NA	no	NA
 United Arab Emirates	2020-02-02	0	NA	no	NA
 United Arab Emirates	2020-02-03	0	NA	no	NA
@@ -14782,7 +15102,8 @@ United Arab Emirates	2020-03-23	2	NA	no	NA
 United Arab Emirates	2020-03-24	2	NA	no	NA
 United Arab Emirates	2020-03-25	2	NA	no	NA
 United Arab Emirates	2020-03-26	2	NA	no	NA
-United Arab Emirates	2020-03-27	2	NA	yes	United Arab Emirates (2)
+United Arab Emirates	2020-03-27	2	NA	no	NA
+United Arab Emirates	2020-03-28	2	NA	yes	United Arab Emirates (2)
 United Kingdom	2020-02-01	0	NA	no	NA
 United Kingdom	2020-02-02	0	NA	no	NA
 United Kingdom	2020-02-03	0	NA	no	NA
@@ -14838,7 +15159,8 @@ United Kingdom	2020-03-23	336	8	no	NA
 United Kingdom	2020-03-24	423	9	no	NA
 United Kingdom	2020-03-25	466	10	no	NA
 United Kingdom	2020-03-26	580	11	no	NA
-United Kingdom	2020-03-27	761	12	yes	United Kingdom (761)
+United Kingdom	2020-03-27	761	12	no	NA
+United Kingdom	2020-03-28	1021	13	yes	United Kingdom (1021)
 United States Virgin Islands, USA	2020-02-01	0	NA	no	NA
 United States Virgin Islands, USA	2020-02-02	0	NA	no	NA
 United States Virgin Islands, USA	2020-02-03	0	NA	no	NA
@@ -14894,7 +15216,8 @@ United States Virgin Islands, USA	2020-03-23	0	NA	no	NA
 United States Virgin Islands, USA	2020-03-24	0	NA	no	NA
 United States Virgin Islands, USA	2020-03-25	0	NA	no	NA
 United States Virgin Islands, USA	2020-03-26	0	NA	no	NA
-United States Virgin Islands, USA	2020-03-27	0	NA	yes	United States Virgin Islands, USA (0)
+United States Virgin Islands, USA	2020-03-27	0	NA	no	NA
+United States Virgin Islands, USA	2020-03-28	0	NA	yes	United States Virgin Islands, USA (0)
 Uruguay	2020-02-01	0	NA	no	NA
 Uruguay	2020-02-02	0	NA	no	NA
 Uruguay	2020-02-03	0	NA	no	NA
@@ -14950,7 +15273,8 @@ Uruguay	2020-03-23	0	NA	no	NA
 Uruguay	2020-03-24	0	NA	no	NA
 Uruguay	2020-03-25	0	NA	no	NA
 Uruguay	2020-03-26	0	NA	no	NA
-Uruguay	2020-03-27	0	NA	yes	Uruguay (0)
+Uruguay	2020-03-27	0	NA	no	NA
+Uruguay	2020-03-28	0	NA	yes	Uruguay (0)
 Utah, USA	2020-02-01	0	NA	no	NA
 Utah, USA	2020-02-02	0	NA	no	NA
 Utah, USA	2020-02-03	0	NA	no	NA
@@ -15006,7 +15330,8 @@ Utah, USA	2020-03-23	1	NA	no	NA
 Utah, USA	2020-03-24	1	NA	no	NA
 Utah, USA	2020-03-25	1	NA	no	NA
 Utah, USA	2020-03-26	1	NA	no	NA
-Utah, USA	2020-03-27	1	NA	yes	Utah, USA (1)
+Utah, USA	2020-03-27	1	NA	no	NA
+Utah, USA	2020-03-28	1	NA	yes	Utah, USA (1)
 Uzbekistan	2020-02-01	0	NA	no	NA
 Uzbekistan	2020-02-02	0	NA	no	NA
 Uzbekistan	2020-02-03	0	NA	no	NA
@@ -15062,7 +15387,8 @@ Uzbekistan	2020-03-23	0	NA	no	NA
 Uzbekistan	2020-03-24	0	NA	no	NA
 Uzbekistan	2020-03-25	0	NA	no	NA
 Uzbekistan	2020-03-26	0	NA	no	NA
-Uzbekistan	2020-03-27	1	NA	yes	Uzbekistan (1)
+Uzbekistan	2020-03-27	1	NA	no	NA
+Uzbekistan	2020-03-28	2	NA	yes	Uzbekistan (2)
 Vatican City	2020-02-01	0	NA	no	NA
 Vatican City	2020-02-02	0	NA	no	NA
 Vatican City	2020-02-03	0	NA	no	NA
@@ -15118,7 +15444,8 @@ Vatican City	2020-03-23	0	NA	no	NA
 Vatican City	2020-03-24	0	NA	no	NA
 Vatican City	2020-03-25	0	NA	no	NA
 Vatican City	2020-03-26	0	NA	no	NA
-Vatican City	2020-03-27	0	NA	yes	Vatican City (0)
+Vatican City	2020-03-27	0	NA	no	NA
+Vatican City	2020-03-28	0	NA	yes	Vatican City (0)
 Venezuela	2020-02-01	0	NA	no	NA
 Venezuela	2020-02-02	0	NA	no	NA
 Venezuela	2020-02-03	0	NA	no	NA
@@ -15174,7 +15501,8 @@ Venezuela	2020-03-23	0	NA	no	NA
 Venezuela	2020-03-24	0	NA	no	NA
 Venezuela	2020-03-25	0	NA	no	NA
 Venezuela	2020-03-26	0	NA	no	NA
-Venezuela	2020-03-27	1	NA	yes	Venezuela (1)
+Venezuela	2020-03-27	1	NA	no	NA
+Venezuela	2020-03-28	2	NA	yes	Venezuela (2)
 Vermont, USA	2020-02-01	0	NA	no	NA
 Vermont, USA	2020-02-02	0	NA	no	NA
 Vermont, USA	2020-02-03	0	NA	no	NA
@@ -15230,7 +15558,8 @@ Vermont, USA	2020-03-23	5	NA	no	NA
 Vermont, USA	2020-03-24	7	NA	no	NA
 Vermont, USA	2020-03-25	8	NA	no	NA
 Vermont, USA	2020-03-26	9	NA	no	NA
-Vermont, USA	2020-03-27	10	NA	yes	Vermont, USA (10)
+Vermont, USA	2020-03-27	10	NA	no	NA
+Vermont, USA	2020-03-28	12	NA	yes	Vermont, USA (12)
 Viet Nam	2020-02-01	0	NA	no	NA
 Viet Nam	2020-02-02	0	NA	no	NA
 Viet Nam	2020-02-03	0	NA	no	NA
@@ -15286,7 +15615,8 @@ Viet Nam	2020-03-23	0	NA	no	NA
 Viet Nam	2020-03-24	0	NA	no	NA
 Viet Nam	2020-03-25	0	NA	no	NA
 Viet Nam	2020-03-26	0	NA	no	NA
-Viet Nam	2020-03-27	0	NA	yes	Viet Nam (0)
+Viet Nam	2020-03-27	0	NA	no	NA
+Viet Nam	2020-03-28	0	NA	yes	Viet Nam (0)
 Vietnam	2020-02-01	0	NA	no	NA
 Vietnam	2020-02-02	0	NA	no	NA
 Vietnam	2020-02-03	0	NA	no	NA
@@ -15342,7 +15672,8 @@ Vietnam	2020-03-23	0	NA	no	NA
 Vietnam	2020-03-24	0	NA	no	NA
 Vietnam	2020-03-25	0	NA	no	NA
 Vietnam	2020-03-26	0	NA	no	NA
-Vietnam	2020-03-27	0	NA	yes	Vietnam (0)
+Vietnam	2020-03-27	0	NA	no	NA
+Vietnam	2020-03-28	0	NA	yes	Vietnam (0)
 Virgin Islands, USA	2020-02-01	0	NA	no	NA
 Virgin Islands, USA	2020-02-02	0	NA	no	NA
 Virgin Islands, USA	2020-02-03	0	NA	no	NA
@@ -15398,7 +15729,8 @@ Virgin Islands, USA	2020-03-23	0	NA	no	NA
 Virgin Islands, USA	2020-03-24	0	NA	no	NA
 Virgin Islands, USA	2020-03-25	0	NA	no	NA
 Virgin Islands, USA	2020-03-26	0	NA	no	NA
-Virgin Islands, USA	2020-03-27	0	NA	yes	Virgin Islands, USA (0)
+Virgin Islands, USA	2020-03-27	0	NA	no	NA
+Virgin Islands, USA	2020-03-28	0	NA	yes	Virgin Islands, USA (0)
 Virginia, USA	2020-02-01	0	NA	no	NA
 Virginia, USA	2020-02-02	0	NA	no	NA
 Virginia, USA	2020-02-03	0	NA	no	NA
@@ -15454,7 +15786,8 @@ Virginia, USA	2020-03-23	6	NA	no	NA
 Virginia, USA	2020-03-24	9	NA	no	NA
 Virginia, USA	2020-03-25	9	NA	no	NA
 Virginia, USA	2020-03-26	10	NA	no	NA
-Virginia, USA	2020-03-27	10	NA	yes	Virginia, USA (10)
+Virginia, USA	2020-03-27	10	NA	no	NA
+Virginia, USA	2020-03-28	13	NA	yes	Virginia, USA (13)
 Washington, USA	2020-02-01	0	NA	no	NA
 Washington, USA	2020-02-02	0	NA	no	NA
 Washington, USA	2020-02-03	0	NA	no	NA
@@ -15510,7 +15843,8 @@ Washington, USA	2020-03-23	109	7	no	NA
 Washington, USA	2020-03-24	116	8	no	NA
 Washington, USA	2020-03-25	133	9	no	NA
 Washington, USA	2020-03-26	150	10	no	NA
-Washington, USA	2020-03-27	157	11	yes	Washington, USA (157)
+Washington, USA	2020-03-27	157	11	no	NA
+Washington, USA	2020-03-28	188	12	yes	Washington, USA (188)
 West Bank and Gaza	2020-02-01	0	NA	no	NA
 West Bank and Gaza	2020-02-02	0	NA	no	NA
 West Bank and Gaza	2020-02-03	0	NA	no	NA
@@ -15566,7 +15900,8 @@ West Bank and Gaza	2020-03-23	0	NA	no	NA
 West Bank and Gaza	2020-03-24	0	NA	no	NA
 West Bank and Gaza	2020-03-25	0	NA	no	NA
 West Bank and Gaza	2020-03-26	1	NA	no	NA
-West Bank and Gaza	2020-03-27	1	NA	yes	West Bank and Gaza (1)
+West Bank and Gaza	2020-03-27	1	NA	no	NA
+West Bank and Gaza	2020-03-28	1	NA	yes	West Bank and Gaza (1)
 West Virginia, USA	2020-02-01	0	NA	no	NA
 West Virginia, USA	2020-02-02	0	NA	no	NA
 West Virginia, USA	2020-02-03	0	NA	no	NA
@@ -15622,7 +15957,8 @@ West Virginia, USA	2020-03-23	0	NA	no	NA
 West Virginia, USA	2020-03-24	0	NA	no	NA
 West Virginia, USA	2020-03-25	0	NA	no	NA
 West Virginia, USA	2020-03-26	0	NA	no	NA
-West Virginia, USA	2020-03-27	0	NA	yes	West Virginia, USA (0)
+West Virginia, USA	2020-03-27	0	NA	no	NA
+West Virginia, USA	2020-03-28	0	NA	yes	West Virginia, USA (0)
 Wisconsin, USA	2020-02-01	0	NA	no	NA
 Wisconsin, USA	2020-02-02	0	NA	no	NA
 Wisconsin, USA	2020-02-03	0	NA	no	NA
@@ -15678,7 +16014,8 @@ Wisconsin, USA	2020-03-23	5	NA	no	NA
 Wisconsin, USA	2020-03-24	5	NA	no	NA
 Wisconsin, USA	2020-03-25	7	NA	no	NA
 Wisconsin, USA	2020-03-26	10	NA	no	NA
-Wisconsin, USA	2020-03-27	14	NA	yes	Wisconsin, USA (14)
+Wisconsin, USA	2020-03-27	14	NA	no	NA
+Wisconsin, USA	2020-03-28	17	NA	yes	Wisconsin, USA (17)
 Wuhan Evacuee, USA	2020-02-01	0	NA	no	NA
 Wuhan Evacuee, USA	2020-02-02	0	NA	no	NA
 Wuhan Evacuee, USA	2020-02-03	0	NA	no	NA
@@ -15734,7 +16071,8 @@ Wuhan Evacuee, USA	2020-03-23	0	NA	no	NA
 Wuhan Evacuee, USA	2020-03-24	0	NA	no	NA
 Wuhan Evacuee, USA	2020-03-25	0	NA	no	NA
 Wuhan Evacuee, USA	2020-03-26	0	NA	no	NA
-Wuhan Evacuee, USA	2020-03-27	0	NA	yes	Wuhan Evacuee, USA (0)
+Wuhan Evacuee, USA	2020-03-27	0	NA	no	NA
+Wuhan Evacuee, USA	2020-03-28	0	NA	yes	Wuhan Evacuee, USA (0)
 Wyoming, USA	2020-02-01	0	NA	no	NA
 Wyoming, USA	2020-02-02	0	NA	no	NA
 Wyoming, USA	2020-02-03	0	NA	no	NA
@@ -15790,7 +16128,8 @@ Wyoming, USA	2020-03-23	0	NA	no	NA
 Wyoming, USA	2020-03-24	0	NA	no	NA
 Wyoming, USA	2020-03-25	0	NA	no	NA
 Wyoming, USA	2020-03-26	0	NA	no	NA
-Wyoming, USA	2020-03-27	0	NA	yes	Wyoming, USA (0)
+Wyoming, USA	2020-03-27	0	NA	no	NA
+Wyoming, USA	2020-03-28	0	NA	yes	Wyoming, USA (0)
 Zambia	2020-02-01	0	NA	no	NA
 Zambia	2020-02-02	0	NA	no	NA
 Zambia	2020-02-03	0	NA	no	NA
@@ -15846,7 +16185,8 @@ Zambia	2020-03-23	0	NA	no	NA
 Zambia	2020-03-24	0	NA	no	NA
 Zambia	2020-03-25	0	NA	no	NA
 Zambia	2020-03-26	0	NA	no	NA
-Zambia	2020-03-27	0	NA	yes	Zambia (0)
+Zambia	2020-03-27	0	NA	no	NA
+Zambia	2020-03-28	0	NA	yes	Zambia (0)
 Zimbabwe	2020-02-01	0	NA	no	NA
 Zimbabwe	2020-02-02	0	NA	no	NA
 Zimbabwe	2020-02-03	0	NA	no	NA
@@ -15902,7 +16242,8 @@ Zimbabwe	2020-03-23	1	NA	no	NA
 Zimbabwe	2020-03-24	1	NA	no	NA
 Zimbabwe	2020-03-25	1	NA	no	NA
 Zimbabwe	2020-03-26	1	NA	no	NA
-Zimbabwe	2020-03-27	1	NA	yes	Zimbabwe (1)
+Zimbabwe	2020-03-27	1	NA	no	NA
+Zimbabwe	2020-03-28	1	NA	yes	Zimbabwe (1)
 occupied Palestinian territory	2020-02-01	0	NA	no	NA
 occupied Palestinian territory	2020-02-02	0	NA	no	NA
 occupied Palestinian territory	2020-02-03	0	NA	no	NA
@@ -15958,4 +16299,5 @@ occupied Palestinian territory	2020-03-23	0	NA	no	NA
 occupied Palestinian territory	2020-03-24	0	NA	no	NA
 occupied Palestinian territory	2020-03-25	0	NA	no	NA
 occupied Palestinian territory	2020-03-26	0	NA	no	NA
-occupied Palestinian territory	2020-03-27	0	NA	yes	occupied Palestinian territory (0)
+occupied Palestinian territory	2020-03-27	0	NA	no	NA
+occupied Palestinian territory	2020-03-28	0	NA	yes	occupied Palestinian territory (0)

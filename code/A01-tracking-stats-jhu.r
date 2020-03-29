@@ -53,9 +53,9 @@ geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.9) +
 geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
-                force         = 3,
-                xlim          = c(as.Date("2020-03-28"), as.Date("2020-04-17")),
-                size          = 3,
+                force         = 1,
+                xlim          = c(as.Date("2020-03-29"), as.Date("2020-04-17")),
+                size          = 2.5,
                 segment.size  = 0.25,
                 segment.alpha = 0.5) +
 theme_bw() +
@@ -85,14 +85,14 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_y       = 0,
-                nudge_x       = 32 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
+                nudge_x       = 36 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
                 xlim          = c(22,58),
-                force         = 2,
+                force         = 5,
                 direction     = "x",
                 angle         = 0,
-                size          = 2,
+                size          = 2.5,
                 segment.size  = 0.25,
-                segment.alpha = 0.5) +
+                segment.alpha = 0.25) +
 theme_bw() +
 scale_color_manual(values = adaptiveCols) +
 theme(axis.text.x  = element_text(size=10, colour="black"),

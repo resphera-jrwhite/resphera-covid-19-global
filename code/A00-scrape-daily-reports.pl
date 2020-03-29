@@ -24,8 +24,7 @@ if (-e $outDir){
 my $EXT = "../external/COVID-19";
 # --------------------------------------------------------------------
 # update CSSE covid repo pull ---
-print "Performing Hopkins covid repo pull...\n";
-`git --git-dir=$EXT/.git pull`;
+print "Remember to perform Hopkins covid repo pull...\n";
 # --------------------------------------------------------------------
 my $topDir = "$EXT/csse_covid_19_data/csse_covid_19_daily_reports";
 my $files  = `ls $topDir | grep "csv"`;
@@ -127,6 +126,9 @@ $data{"Washington, USA"}{"2020-03-06"}{"Cumulative.Deaths"} = 12;
 $data{"Washington, USA"}{"2020-03-07"}{"Cumulative.Deaths"} = 16;
 $data{"Washington, USA"}{"2020-03-08"}{"Cumulative.Deaths"} = 19;
 $data{"Washington, USA"}{"2020-03-09"}{"Cumulative.Deaths"} = 22;
+
+$data{"Japan"}{"2020-03-09"}{"Cumulative.Deaths"} = 7;
+
 
 # add days from 50
 foreach my $key (sort keys %data){
