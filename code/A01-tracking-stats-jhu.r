@@ -54,7 +54,7 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 1,
-                xlim          = c(as.Date("2020-03-30"), as.Date("2020-04-17")),
+                xlim          = c(as.Date("2020-03-31"), as.Date("2020-04-17")),
                 size          = 2.5,
                 segment.size  = 0.25,
                 segment.alpha = 0.5) +
@@ -86,7 +86,7 @@ geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_y       = 0,
                 nudge_x       = 36 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
-                xlim          = c(20,58),
+                xlim          = c(18,58),
                 force         = 5,
                 direction     = "x",
                 angle         = 0,
@@ -111,3 +111,34 @@ scale_x_continuous(breaks = seq(0, max(na.omit(visdat$Days.from.50th.Death)), by
 ggtitle(titleStr) +
 theme(aspect.ratio=0.75)
 ggsave(outfile1, plot=p2, height=6, width=8)
+
+# plot cumulative deaths and growth rate ---
+outfile1 = paste(analysisdir, "/covid-19.cumulative-deaths-vs-death-rate-increase.png", sep="")
+p2 <- ggplot(visdat[visdat$LastInSeries=="yes",], aes(x=Cumulative.Deaths, y=Prct.Increase.Death.2Day, group=Country.Region, label=Label, color=Country.Region)) +
+geom_point(aes(color=Country.Region), alpha=0.75, size=2.5) +
+geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
+                aes(label     = Label),
+                force         = 5,
+                angle         = 0,
+                nudge_y       = 1,
+                size          = 2.5,
+                segment.size  = 0.25,
+                segment.alpha = 0.25) +
+theme_bw() +
+scale_color_manual(values = adaptiveCols) +
+theme(axis.text.x  = element_text(size=10, colour="black"),
+      axis.text.y  = element_text(size=11, colour="black"),
+      axis.title.x = element_text(size=12, colour="black"),
+      axis.title.y = element_text(size=12, colour="black"),
+      plot.title   = element_text(size=12, colour="black"),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      legend.position  = "none") +
+xlab("Cumulative Deaths") +
+ylab("% Increase in Cumulative Deaths (Most Recent 2-Day Avg)") +
+scale_x_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
+coord_cartesian(xlim = c(45, max(visdat$Cumulative.Deaths))) +
+ggtitle(titleStr) +
+geom_hline(yintercept=0, color="black", linetype="dashed") +
+theme(aspect.ratio=1)
+ggsave(outfile1, plot=p2, height=6, width=6)

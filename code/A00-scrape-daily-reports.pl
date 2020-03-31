@@ -103,9 +103,10 @@ foreach my $date (sort keys %dates){
     if (!defined($data{$key}{$date}{"Cumulative.Deaths"})){
       $data{$key}{$date}{"Cumulative.Deaths"} = 0;
     }
-    $data{$key}{$date}{"Days.from.50th.Death"} = "NA";
-    $data{$key}{$date}{"LastInSeries"}         = "no";
-    $data{$key}{$date}{"Label"}                = "NA";
+    $data{$key}{$date}{"Days.from.50th.Death"}     = "NA";
+    $data{$key}{$date}{"Prct.Increase.Death.2Day"} = "NA";
+    $data{$key}{$date}{"LastInSeries"}             = "no";
+    $data{$key}{$date}{"Label"}                    = "NA";
   }
   $lastdate = $date;
 }
@@ -129,14 +130,18 @@ $data{"Washington, USA"}{"2020-03-09"}{"Cumulative.Deaths"} = 22;
 
 $data{"Japan"}{"2020-03-09"}{"Cumulative.Deaths"} = 7;
 
-
 # add days from 50
+my @sortedDates = sort keys %dates;
 foreach my $key (sort keys %data){
   my $daysfrom50 = 0;
-  foreach my $date (sort keys %dates){
+  foreach my $i (0 .. $#sortedDates){
+    my $date    = $sortedDates[$i];
     if ($data{$key}{$date}{"Cumulative.Deaths"} >= 50){
       $daysfrom50++;
-      $data{$key}{$date}{"Days.from.50th.Death"} = $daysfrom50;
+      my $dminus1 = $data{$key}{$sortedDates[($i-1)]}{"Cumulative.Deaths"};
+      my $dminus2 = $data{$key}{$sortedDates[($i-2)]}{"Cumulative.Deaths"};
+      $data{$key}{$date}{"Days.from.50th.Death"}     = $daysfrom50;
+      $data{$key}{$date}{"Prct.Increase.Death.2Day"} = 100*((($data{$key}{$date}{"Cumulative.Deaths"}/$dminus1)-1)+(($dminus1/$dminus2)-1))/2;
     }
   }
 }
@@ -147,10 +152,10 @@ foreach my $key (sort keys %data){
 }
 
 open OUT, ">$outDir/A00.covid19-long-form.txt" or die "Error: cannot write to $outDir/A00.covid19-long-form.txt\n";
-print OUT "Country.Region\tDateFormatted\tCumulative.Deaths\tDays.from.50th.Death\tLastInSeries\tLabel\n";
+print OUT "Country.Region\tDateFormatted\tCumulative.Deaths\tDays.from.50th.Death\tLastInSeries\tLabel\tPrct.Increase.Death.2Day\n";
 foreach my $key (sort keys %data){
   foreach my $date (sort keys %dates){
-    print OUT "$key\t$date\t$data{$key}{$date}{'Cumulative.Deaths'}\t$data{$key}{$date}{'Days.from.50th.Death'}\t$data{$key}{$date}{LastInSeries}\t$data{$key}{$date}{Label}\n";
+    print OUT "$key\t$date\t$data{$key}{$date}{'Cumulative.Deaths'}\t$data{$key}{$date}{'Days.from.50th.Death'}\t$data{$key}{$date}{LastInSeries}\t$data{$key}{$date}{Label}\t$data{$key}{$date}{'Prct.Increase.Death.2Day'}\n";
   }
 }
 close OUT;
