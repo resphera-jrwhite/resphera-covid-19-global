@@ -37,9 +37,9 @@ foreach my $f (@files){
   my $prefix    = $f;
   print "$prefix...\n";
   $prefix       =~ s/\.csv//g;
-  if ($prefix =~ /^01/){
-    next;
-  }
+  # if ($prefix =~ /^01/){
+  #   next;
+  # }
   my @prefix    = split /\-/, $prefix; # 03-23-2020
   my $date      = $prefix[2]."-".$prefix[0]."-".$prefix[1];
   $dates{$date} = 1;

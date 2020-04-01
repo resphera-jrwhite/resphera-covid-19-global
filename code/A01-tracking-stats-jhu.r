@@ -53,9 +53,9 @@ geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.9) +
 geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
-                force         = 1,
-                xlim          = c(as.Date("2020-03-31"), as.Date("2020-04-17")),
-                size          = 2.5,
+                force         = 3,
+                xlim          = c(as.Date("2020-04-01"), as.Date("2020-04-30")),
+                size          = 2,
                 segment.size  = 0.25,
                 segment.alpha = 0.5) +
 theme_bw() +
@@ -70,7 +70,7 @@ theme(axis.text.x  = element_text(size=9, colour="black"),
       legend.position  = "none") +
 xlab("Date") +
 scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-03-01",NA))) +
-expand_limits(x = as.Date("2020-04-17")) +
+expand_limits(x = as.Date("2020-04-30")) +
 ylab("Cumulative Deaths") +
 ggtitle(titleStr) +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
@@ -85,12 +85,12 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_y       = 0,
-                nudge_x       = 36 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
-                xlim          = c(18,58),
-                force         = 5,
+                nudge_x       = 38 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
+                xlim          = c(18,66),
+                force         = 2,
                 direction     = "x",
                 angle         = 0,
-                size          = 2.5,
+                size          = 2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
 theme_bw() +
@@ -121,7 +121,7 @@ geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 force         = 5,
                 angle         = 0,
                 nudge_y       = 1,
-                size          = 2.5,
+                size          = 2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
 theme_bw() +
