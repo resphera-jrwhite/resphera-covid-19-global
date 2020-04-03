@@ -54,10 +54,10 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 3,
-                xlim          = c(as.Date("2020-04-01"), as.Date("2020-04-30")),
+                xlim          = c(as.Date("2020-04-04"), as.Date("2020-04-30")),
                 size          = 2,
                 segment.size  = 0.25,
-                segment.alpha = 0.5) +
+                segment.alpha = 0.25) +
 theme_bw() +
 scale_color_manual(values = adaptiveCols) +
 theme(axis.text.x  = element_text(size=9, colour="black"),
@@ -85,8 +85,8 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_y       = 0,
-                nudge_x       = 38 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
-                xlim          = c(18,66),
+                nudge_x       = 44 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
+                xlim          = c(18,68),
                 force         = 2,
                 direction     = "x",
                 angle         = 0,
@@ -146,9 +146,9 @@ ggsave(outfile1, plot=p2, height=6, width=6)
 
 # deaths per day ---
 # sort by most deaths ---
-aggres = aggregate(Cumulative.Deaths ~ Country.Region, visdat, FUN=max)
-# select those places with >= 50 deaths
-aggres = aggres[aggres[,2]>=250,]
+aggres = aggregate(Deaths.per.Day.3DayMA ~ Country.Region, visdat, FUN=max)
+# select those places with >= 25 deaths per day
+aggres = aggres[aggres[,2]>=25,]
 visdat = visdat[visdat$Country.Region %in% aggres[,1],]
 visdat$Country.Region = as.character(visdat$Country.Region)
 visdat$Country.Region = factor(visdat$Country.Region,levels=c(as.character(aggres[order(aggres[,2],decreasing=TRUE),1])))
@@ -160,16 +160,16 @@ adaptiveCols = colorRampPalette(colscheme)(length(levels(visdat$Country.Region))
 outfile1 = paste(analysisdir, "/covid-19.deaths-per-day-3dma.png", sep="")
 p2 <- ggplot(visdat, aes(x=Days.from.50th.Death, y=Deaths.per.Day.3DayMA, group=Country.Region, label=Label, color=Country.Region)) +
 geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.25) +
-geom_point(aes(color=Country.Region), alpha=0.5, size=1.5) +
-geom_point(data=subset(visdat, LastInSeries=="yes"), aes(color=Country.Region), alpha=0.95, size=1.8) +
+geom_point(aes(color=Country.Region), alpha=0.75, size=1.9) +
+geom_point(data=subset(visdat, LastInSeries=="yes"), aes(color=Country.Region), alpha=0.75, size=1.9) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
-                nudge_x       = 1,
-                force         = 1,
+                nudge_x       = 0,
+                force         = 4,
                 angle         = 0,
                 direction     = "x",
-                xlim          = c(32,60),
-                size          = 2.2,
+                xlim          = c(38,66),
+                size          = 2.6,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
 theme_bw() +
