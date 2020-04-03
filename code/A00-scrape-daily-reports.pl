@@ -37,9 +37,7 @@ foreach my $f (@files){
   my $prefix    = $f;
   print "$prefix...\n";
   $prefix       =~ s/\.csv//g;
-  # if ($prefix =~ /^01/){
-  #   next;
-  # }
+
   my @prefix    = split /\-/, $prefix; # 03-23-2020
   my $date      = $prefix[2]."-".$prefix[0]."-".$prefix[1];
   $dates{$date} = 1;
@@ -105,6 +103,8 @@ foreach my $date (sort keys %dates){
     }
     $data{$key}{$date}{"Days.from.50th.Death"}     = "NA";
     $data{$key}{$date}{"Prct.Increase.Death.2Day"} = "NA";
+    $data{$key}{$date}{"Deaths.per.Day"}           = "NA";
+    $data{$key}{$date}{"Deaths.per.Day.3DayMA"}    = "NA";
     $data{$key}{$date}{"LastInSeries"}             = "no";
     $data{$key}{$date}{"Label"}                    = "NA";
   }
@@ -130,6 +130,11 @@ $data{"Washington, USA"}{"2020-03-09"}{"Cumulative.Deaths"} = 22;
 
 $data{"Japan"}{"2020-03-09"}{"Cumulative.Deaths"} = 7;
 
+$data{"China"}{"2020-02-12"}{"Cumulative.Deaths"} = 1213;
+$data{"China"}{"2020-02-21"}{"Cumulative.Deaths"} = 2345;
+$data{"China"}{"2020-02-23"}{"Cumulative.Deaths"} = 2510;
+
+
 # add days from 50
 my @sortedDates = sort keys %dates;
 foreach my $key (sort keys %data){
@@ -140,8 +145,12 @@ foreach my $key (sort keys %data){
       $daysfrom50++;
       my $dminus1 = $data{$key}{$sortedDates[($i-1)]}{"Cumulative.Deaths"};
       my $dminus2 = $data{$key}{$sortedDates[($i-2)]}{"Cumulative.Deaths"};
+      my $dminus3 = $data{$key}{$sortedDates[($i-3)]}{"Cumulative.Deaths"};
+
       $data{$key}{$date}{"Days.from.50th.Death"}     = $daysfrom50;
       $data{$key}{$date}{"Prct.Increase.Death.2Day"} = 100*((($data{$key}{$date}{"Cumulative.Deaths"}/$dminus1)-1)+(($dminus1/$dminus2)-1))/2;
+      $data{$key}{$date}{"Deaths.per.Day"}           = $data{$key}{$date}{"Cumulative.Deaths"}-$dminus1;
+      $data{$key}{$date}{"Deaths.per.Day.3DayMA"}    = (($data{$key}{$date}{"Cumulative.Deaths"}-$dminus1) + ($dminus1-$dminus2) + ($dminus2-$dminus3))/3;
     }
   }
 }
@@ -152,10 +161,10 @@ foreach my $key (sort keys %data){
 }
 
 open OUT, ">$outDir/A00.covid19-long-form.txt" or die "Error: cannot write to $outDir/A00.covid19-long-form.txt\n";
-print OUT "Country.Region\tDateFormatted\tCumulative.Deaths\tDays.from.50th.Death\tLastInSeries\tLabel\tPrct.Increase.Death.2Day\n";
+print OUT "Country.Region\tDateFormatted\tCumulative.Deaths\tDays.from.50th.Death\tLastInSeries\tLabel\tPrct.Increase.Death.2Day\tDeaths.per.Day\tDeaths.per.Day.3DayMA\n";
 foreach my $key (sort keys %data){
   foreach my $date (sort keys %dates){
-    print OUT "$key\t$date\t$data{$key}{$date}{'Cumulative.Deaths'}\t$data{$key}{$date}{'Days.from.50th.Death'}\t$data{$key}{$date}{LastInSeries}\t$data{$key}{$date}{Label}\t$data{$key}{$date}{'Prct.Increase.Death.2Day'}\n";
+    print OUT "$key\t$date\t$data{$key}{$date}{'Cumulative.Deaths'}\t$data{$key}{$date}{'Days.from.50th.Death'}\t$data{$key}{$date}{LastInSeries}\t$data{$key}{$date}{Label}\t$data{$key}{$date}{'Prct.Increase.Death.2Day'}\t$data{$key}{$date}{'Deaths.per.Day'}\t$data{$key}{$date}{'Deaths.per.Day.3DayMA'}\n";
   }
 }
 close OUT;

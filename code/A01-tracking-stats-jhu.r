@@ -142,3 +142,50 @@ ggtitle(titleStr) +
 geom_hline(yintercept=0, color="black", linetype="dashed") +
 theme(aspect.ratio=1)
 ggsave(outfile1, plot=p2, height=6, width=6)
+
+
+# deaths per day ---
+# sort by most deaths ---
+aggres = aggregate(Cumulative.Deaths ~ Country.Region, visdat, FUN=max)
+# select those places with >= 50 deaths
+aggres = aggres[aggres[,2]>=250,]
+visdat = visdat[visdat$Country.Region %in% aggres[,1],]
+visdat$Country.Region = as.character(visdat$Country.Region)
+visdat$Country.Region = factor(visdat$Country.Region,levels=c(as.character(aggres[order(aggres[,2],decreasing=TRUE),1])))
+
+# adaptive color scheme ---
+colscheme    = c("#d72123", "#d87632", "#cac654", "#589A5D", "#4781A7", "#816fa3", "#d368a1", "grey50")
+adaptiveCols = colorRampPalette(colscheme)(length(levels(visdat$Country.Region)))
+
+outfile1 = paste(analysisdir, "/covid-19.deaths-per-day-3dma.png", sep="")
+p2 <- ggplot(visdat, aes(x=Days.from.50th.Death, y=Deaths.per.Day.3DayMA, group=Country.Region, label=Label, color=Country.Region)) +
+geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.25) +
+geom_point(aes(color=Country.Region), alpha=0.5, size=1.5) +
+geom_point(data=subset(visdat, LastInSeries=="yes"), aes(color=Country.Region), alpha=0.95, size=1.8) +
+geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
+                aes(label     = Label),
+                nudge_x       = 1,
+                force         = 1,
+                angle         = 0,
+                direction     = "x",
+                xlim          = c(32,60),
+                size          = 2.2,
+                segment.size  = 0.25,
+                segment.alpha = 0.25) +
+theme_bw() +
+scale_color_manual(values = adaptiveCols) +
+theme(axis.text.x  = element_text(size=10, colour="black"),
+      axis.text.y  = element_text(size=11, colour="black"),
+      axis.title.x = element_text(size=12, colour="black"),
+      axis.title.y = element_text(size=12, colour="black"),
+      plot.title   = element_text(size=12, colour="black"),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      legend.position  = "none") +
+xlab(bquote("Days from 50"^"th"*" Death")) +
+ylab("Deaths per Day (3 Day Avg)") +
+scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
+scale_x_continuous(breaks = seq(0, max(na.omit(visdat$Days.from.50th.Death)+2), by = 4)) +
+ggtitle(titleStr) +
+theme(aspect.ratio=0.75)
+ggsave(outfile1, plot=p2, height=6, width=8)
