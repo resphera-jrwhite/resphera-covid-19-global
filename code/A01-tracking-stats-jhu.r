@@ -85,9 +85,9 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_y       = 0,
-                nudge_x       = 44 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
-                xlim          = c(18,68),
-                force         = 2,
+                nudge_x       = 40 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
+                xlim          = c(16,max(subset(visdat, LastInSeries=="yes")$Days.from.50th.Death)+4),
+                force         = 1,
                 direction     = "x",
                 angle         = 0,
                 size          = 2,
@@ -107,7 +107,7 @@ xlab(bquote("Days from 50"^"th"*" Death")) +
 ylab("Cumulative Deaths") +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
 coord_cartesian(ylim = c(45, max(visdat$Cumulative.Deaths))) +
-scale_x_continuous(breaks = seq(0, max(na.omit(visdat$Days.from.50th.Death)), by = 4)) +
+scale_x_continuous(breaks = seq(0, max(na.omit(visdat$Days.from.50th.Death)+4), by = 4)) +
 ggtitle(titleStr) +
 theme(aspect.ratio=0.75)
 ggsave(outfile1, plot=p2, height=6, width=8)
@@ -168,8 +168,8 @@ geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 force         = 4,
                 angle         = 0,
                 direction     = "x",
-                xlim          = c(38,66),
-                size          = 2.6,
+                xlim          = c(44,max(na.omit(visdat$Days.from.50th.Death))+2),
+                size          = 2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
 theme_bw() +
@@ -185,7 +185,7 @@ theme(axis.text.x  = element_text(size=10, colour="black"),
 xlab(bquote("Days from 50"^"th"*" Death")) +
 ylab("Deaths per Day (3 Day Avg)") +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
-scale_x_continuous(breaks = seq(0, max(na.omit(visdat$Days.from.50th.Death)+2), by = 4)) +
+scale_x_continuous(breaks = seq(0, max(na.omit(visdat$Days.from.50th.Death))+4, by = 4)) +
 ggtitle(titleStr) +
 theme(aspect.ratio=0.75)
 ggsave(outfile1, plot=p2, height=6, width=8)
