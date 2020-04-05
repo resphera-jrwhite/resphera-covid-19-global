@@ -54,7 +54,7 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 3,
-                xlim          = c(as.Date("2020-04-04"), as.Date("2020-04-30")),
+                xlim          = c(as.Date("2020-04-05"), as.Date("2020-04-30")),
                 size          = 2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
@@ -78,23 +78,29 @@ theme(aspect.ratio=0.75)
 ggsave(outfile1, plot=p1, height=6, width=8)
 
 # plot by country post 50th death ---
+aggres  = aggres[aggres[,2]>=150,]
+visdat2 = visdat[visdat$Country.Region %in% aggres[,1],]
+visdat2$Country.Region = as.character(visdat2$Country.Region)
+visdat2$Country.Region = factor(visdat2$Country.Region,levels=c(as.character(aggres[order(aggres[,2],decreasing=TRUE),1])))
+adaptiveCols2 = colorRampPalette(rep(colscheme,3))(length(levels(visdat2$Country.Region)))
+
 outfile1 = paste(analysisdir, "/covid-19.cumulative-deaths-from-50th-death-log10.png", sep="")
-p2 <- ggplot(visdat, aes(x=Days.from.50th.Death, y=Cumulative.Deaths, group=Country.Region, label=Label, color=Country.Region)) +
+p2 <- ggplot(visdat2, aes(x=Days.from.50th.Death, y=Cumulative.Deaths, group=Country.Region, label=Label, color=Country.Region)) +
 geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.9) +
 geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
-geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
+geom_text_repel(data          = subset(visdat2, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_y       = 0,
-                nudge_x       = 40 - subset(visdat, LastInSeries=="yes")$Days.from.50th.Death,
-                xlim          = c(16,max(subset(visdat, LastInSeries=="yes")$Days.from.50th.Death)+4),
-                force         = 1,
+                nudge_x       = 38 - subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death,
+                xlim          = c(24,max(subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death)+4),
+                force         = 2,
                 direction     = "x",
                 angle         = 0,
-                size          = 2,
+                size          = 2.25,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
 theme_bw() +
-scale_color_manual(values = adaptiveCols) +
+scale_color_manual(values = adaptiveCols2) +
 theme(axis.text.x  = element_text(size=10, colour="black"),
       axis.text.y  = element_text(size=11, colour="black"),
       axis.title.x = element_text(size=12, colour="black"),
@@ -106,11 +112,12 @@ theme(axis.text.x  = element_text(size=10, colour="black"),
 xlab(bquote("Days from 50"^"th"*" Death")) +
 ylab("Cumulative Deaths") +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
-coord_cartesian(ylim = c(45, max(visdat$Cumulative.Deaths))) +
-scale_x_continuous(breaks = seq(0, max(na.omit(visdat$Days.from.50th.Death)+4), by = 4)) +
+coord_cartesian(ylim = c(45, max(visdat2$Cumulative.Deaths))) +
+scale_x_continuous(breaks = seq(0, max(na.omit(visdat2$Days.from.50th.Death)+4), by = 4)) +
 ggtitle(titleStr) +
 theme(aspect.ratio=0.75)
 ggsave(outfile1, plot=p2, height=6, width=8)
+
 
 # plot cumulative deaths and growth rate ---
 outfile1 = paste(analysisdir, "/covid-19.cumulative-deaths-vs-death-rate-increase.png", sep="")
@@ -144,7 +151,7 @@ theme(aspect.ratio=1)
 ggsave(outfile1, plot=p2, height=6, width=6)
 
 
-# deaths per day ---
+# deaths per day --- peak analysis ---
 # sort by most deaths ---
 aggres = aggregate(Deaths.per.Day.3DayMA ~ Country.Region, visdat, FUN=max)
 # select those places with >= 25 deaths per day
