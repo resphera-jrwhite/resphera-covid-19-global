@@ -82,7 +82,7 @@ aggres  = aggres[aggres[,2]>=150,]
 visdat2 = visdat[visdat$Country.Region %in% aggres[,1],]
 visdat2$Country.Region = as.character(visdat2$Country.Region)
 visdat2$Country.Region = factor(visdat2$Country.Region,levels=c(as.character(aggres[order(aggres[,2],decreasing=TRUE),1])))
-adaptiveCols2 = colorRampPalette(rep(colscheme,3))(length(levels(visdat2$Country.Region)))
+adaptiveCols2 = colorRampPalette(rep(colscheme,2))(length(levels(visdat2$Country.Region)))
 
 outfile1 = paste(analysisdir, "/covid-19.cumulative-deaths-from-50th-death-log10.png", sep="")
 p2 <- ggplot(visdat2, aes(x=Days.from.50th.Death, y=Cumulative.Deaths, group=Country.Region, label=Label, color=Country.Region)) +
@@ -155,20 +155,19 @@ ggsave(outfile1, plot=p2, height=6, width=6)
 # sort by most deaths ---
 aggres = aggregate(Deaths.per.Day.3DayMA ~ Country.Region, visdat, FUN=max)
 # select those places with >= 25 deaths per day
-aggres = aggres[aggres[,2]>=25,]
+aggres = aggres[aggres[,2]>=35,]
 visdat = visdat[visdat$Country.Region %in% aggres[,1],]
 visdat$Country.Region = as.character(visdat$Country.Region)
 visdat$Country.Region = factor(visdat$Country.Region,levels=c(as.character(aggres[order(aggres[,2],decreasing=TRUE),1])))
 
 # adaptive color scheme ---
 colscheme    = c("#d72123", "#d87632", "#cac654", "#589A5D", "#4781A7", "#816fa3", "#d368a1", "grey50")
-adaptiveCols = colorRampPalette(colscheme)(length(levels(visdat$Country.Region)))
+adaptiveCols = colorRampPalette(rep(colscheme,1))(length(levels(visdat$Country.Region)))
 
 outfile1 = paste(analysisdir, "/covid-19.deaths-per-day-3dma.png", sep="")
 p2 <- ggplot(visdat, aes(x=Days.from.50th.Death, y=Deaths.per.Day.3DayMA, group=Country.Region, label=Label, color=Country.Region)) +
 geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.25) +
 geom_point(aes(color=Country.Region), alpha=0.75, size=1.9) +
-geom_point(data=subset(visdat, LastInSeries=="yes"), aes(color=Country.Region), alpha=0.75, size=1.9) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_x       = 0,
