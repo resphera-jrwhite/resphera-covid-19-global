@@ -54,7 +54,7 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 3,
-                xlim          = c(as.Date("2020-04-05"), as.Date("2020-04-30")),
+                xlim          = c(as.Date("2020-04-06"), as.Date("2020-05-05")),
                 size          = 2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
@@ -91,7 +91,7 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat2, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_y       = 0,
-                nudge_x       = 38 - subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death,
+                nudge_x       = 48 - subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death,
                 xlim          = c(24,max(subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death)+4),
                 force         = 2,
                 direction     = "x",
@@ -113,7 +113,7 @@ xlab(bquote("Days from 50"^"th"*" Death")) +
 ylab("Cumulative Deaths") +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
 coord_cartesian(ylim = c(45, max(visdat2$Cumulative.Deaths))) +
-scale_x_continuous(breaks = seq(0, max(na.omit(visdat2$Days.from.50th.Death)+4), by = 4)) +
+scale_x_continuous(breaks = seq(0, max(na.omit(visdat2$Days.from.50th.Death)+4), by = 4), limits=c(0,max(subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death)+4)) +
 ggtitle(titleStr) +
 theme(aspect.ratio=0.75)
 ggsave(outfile1, plot=p2, height=6, width=8)
@@ -127,7 +127,7 @@ geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 5,
                 angle         = 0,
-                nudge_y       = 1,
+                nudge_y       = 0.5,
                 size          = 2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
