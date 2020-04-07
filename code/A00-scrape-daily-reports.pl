@@ -147,13 +147,28 @@ foreach my $key (sort keys %data){
       my $dminus2 = $data{$key}{$sortedDates[($i-2)]}{"Cumulative.Deaths"};
       my $dminus3 = $data{$key}{$sortedDates[($i-3)]}{"Cumulative.Deaths"};
 
-      $data{$key}{$date}{"Days.from.50th.Death"}     = $daysfrom50;
+      $data{$key}{$date}{"Days.from.50th.Death"} = $daysfrom50;
       $data{$key}{$date}{"Prct.Increase.Death.2Day"} = 100*((($data{$key}{$date}{"Cumulative.Deaths"}/$dminus1)-1)+(($dminus1/$dminus2)-1))/2;
+
+    }
+  }
+}
+
+foreach my $key (sort keys %data){
+  foreach my $i (3 .. $#sortedDates){
+    my $date    = $sortedDates[$i];
+    if ($data{$key}{$sortedDates[($i-3)]}{"Cumulative.Deaths"} ne "NA"){
+      my $dminus1 = $data{$key}{$sortedDates[($i-1)]}{"Cumulative.Deaths"};
+      my $dminus2 = $data{$key}{$sortedDates[($i-2)]}{"Cumulative.Deaths"};
+      my $dminus3 = $data{$key}{$sortedDates[($i-3)]}{"Cumulative.Deaths"};
+
       $data{$key}{$date}{"Deaths.per.Day"}           = $data{$key}{$date}{"Cumulative.Deaths"}-$dminus1;
       $data{$key}{$date}{"Deaths.per.Day.3DayMA"}    = (($data{$key}{$date}{"Cumulative.Deaths"}-$dminus1) + ($dminus1-$dminus2) + ($dminus2-$dminus3))/3;
     }
   }
 }
+
+
 # add last in series info
 foreach my $key (sort keys %data){
   $data{$key}{$lastdate}{"LastInSeries"} = "yes";
