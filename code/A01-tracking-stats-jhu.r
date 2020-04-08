@@ -54,8 +54,8 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 2,
-                xlim          = c(as.Date("2020-04-07"), as.Date("2020-05-10")),
-                size          = 2,
+                xlim          = c(as.Date("2020-04-08"), as.Date("2020-05-10")),
+                size          = 1.75,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
 theme_bw() +
@@ -78,7 +78,7 @@ theme(aspect.ratio=0.75)
 ggsave(outfile1, plot=p1, height=6, width=8)
 
 # plot by country post 50th death ---
-aggres  = aggres[aggres[,2]>=150,]
+aggres  = aggres[aggres[,2]>=250,]
 visdat2 = visdat[visdat$Country.Region %in% aggres[,1],]
 visdat2$Country.Region = as.character(visdat2$Country.Region)
 visdat2$Country.Region = factor(visdat2$Country.Region,levels=c(as.character(aggres[order(aggres[,2],decreasing=TRUE),1])))
@@ -86,8 +86,8 @@ adaptiveCols2 = colorRampPalette(rep(colscheme,2))(length(levels(visdat2$Country
 
 outfile1 = paste(analysisdir, "/covid-19.cumulative-deaths-from-50th-death-log10.png", sep="")
 p2 <- ggplot(visdat2, aes(x=Days.from.50th.Death, y=Cumulative.Deaths, group=Country.Region, label=Label, color=Country.Region)) +
-geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.9) +
-geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
+geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.5) +
+geom_point(aes(color=Country.Region), alpha=0.5, size=1.5) +
 geom_text_repel(data          = subset(visdat2, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_y       = 0,
@@ -96,7 +96,7 @@ geom_text_repel(data          = subset(visdat2, LastInSeries=="yes"),
                 force         = 2,
                 direction     = "x",
                 angle         = 0,
-                size          = 2.25,
+                size          = 2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
 theme_bw() +
@@ -125,10 +125,10 @@ p2 <- ggplot(visdat[visdat$LastInSeries=="yes",], aes(x=Cumulative.Deaths, y=Prc
 geom_point(aes(color=Country.Region), alpha=0.75, size=2.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
-                force         = 5,
+                force         = 2,
                 angle         = 0,
                 nudge_y       = 0.5,
-                size          = 2,
+                size          = 1.75,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
 theme_bw() +
@@ -175,8 +175,8 @@ geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 nudge_x       = 1,
                 force         = 2,
                 angle         = 0,
-                xlim          = c(as.Date("2020-04-07"), as.Date("2020-04-18")),
-                size          = 2.25,
+                xlim          = c(as.Date("2020-04-08"), as.Date("2020-04-18")),
+                size          = 2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
 theme_bw() +
