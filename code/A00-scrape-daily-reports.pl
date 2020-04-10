@@ -128,6 +128,8 @@ $data{"Washington, USA"}{"2020-03-07"}{"Cumulative.Deaths"} = 16;
 $data{"Washington, USA"}{"2020-03-08"}{"Cumulative.Deaths"} = 19;
 $data{"Washington, USA"}{"2020-03-09"}{"Cumulative.Deaths"} = 22;
 
+$data{"Virginia, USA"}{"2020-04-08"}{"Cumulative.Deaths"} = 75;
+
 $data{"Japan"}{"2020-03-09"}{"Cumulative.Deaths"} = 7;
 
 $data{"China"}{"2020-02-12"}{"Cumulative.Deaths"} = 1213;
