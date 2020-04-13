@@ -155,7 +155,7 @@ ggsave(outfile1, plot=p2, height=6, width=6)
 # sort by most deaths ---
 aggres = aggregate(Deaths.per.Day.3DayMA ~ Country.Region, visdat, FUN=max)
 # select those places with >= 25 deaths per day
-aggres = aggres[aggres[,2]>=60,]
+aggres = aggres[aggres[,2]>=80,]
 aggres = aggregate(Deaths.per.Day.3DayMA ~ Country.Region, visdat[visdat$Country.Region %in% aggres[,1] & visdat$LastInSeries=="yes", ], FUN=max)
 
 visdat = visdat[visdat$Country.Region %in% aggres[,1],]
