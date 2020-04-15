@@ -54,7 +54,7 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 2,
-                xlim          = c(as.Date("2020-04-14"), as.Date("2020-05-10")),
+                xlim          = c(as.Date("2020-04-15"), as.Date("2020-05-20")),
                 size          = 1.75,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
@@ -70,7 +70,7 @@ theme(axis.text.x  = element_text(size=9, colour="black"),
       legend.position  = "none") +
 xlab("Date") +
 scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-03-15",NA))) +
-expand_limits(x = as.Date("2020-05-10")) +
+expand_limits(x = as.Date("2020-05-20")) +
 ylab("Cumulative Deaths") +
 ggtitle(titleStr) +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
@@ -169,14 +169,14 @@ adaptiveCols = colorRampPalette(rep(colscheme,1))(length(levels(visdat$Country.R
 outfile1 = paste(analysisdir, "/covid-19.deaths-per-day-3dma.png", sep="")
 p2 <- ggplot(visdat, aes(x=DateFormatted, y=Deaths.per.Day.3DayMA, group=Country.Region, label=Label, color=Country.Region)) +
 geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.5) +
-geom_point(aes(color=Country.Region), alpha=0.85, size=1.9) +
+geom_point(aes(color=Country.Region), alpha=0.85, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_x       = 1,
                 force         = 2,
                 angle         = 0,
-                xlim          = c(as.Date("2020-04-14"), as.Date("2020-05-05")),
-                size          = 2,
+                xlim          = c(as.Date("2020-04-15"), as.Date("2020-05-01")),
+                size          = 2.2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
 theme_bw() +
