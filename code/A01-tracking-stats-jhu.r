@@ -54,7 +54,7 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 2,
-                xlim          = c(as.Date("2020-04-15"), as.Date("2020-05-20")),
+                xlim          = c(as.Date("2020-04-16"), as.Date("2020-05-30")),
                 size          = 1.75,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
@@ -70,7 +70,7 @@ theme(axis.text.x  = element_text(size=9, colour="black"),
       legend.position  = "none") +
 xlab("Date") +
 scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-03-15",NA))) +
-expand_limits(x = as.Date("2020-05-20")) +
+expand_limits(x = as.Date("2020-05-30")) +
 ylab("Cumulative Deaths") +
 ggtitle(titleStr) +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
@@ -155,7 +155,7 @@ ggsave(outfile1, plot=p2, height=6, width=6)
 # sort by most deaths ---
 aggres = aggregate(Deaths.per.Day.3DayMA ~ Country.Region, visdat, FUN=max)
 # select those places with >= 25 deaths per day
-aggres = aggres[aggres[,2]>=80,]
+aggres = aggres[aggres[,2]>=40,]
 aggres = aggregate(Deaths.per.Day.3DayMA ~ Country.Region, visdat[visdat$Country.Region %in% aggres[,1] & visdat$LastInSeries=="yes", ], FUN=max)
 
 visdat = visdat[visdat$Country.Region %in% aggres[,1],]
@@ -175,7 +175,7 @@ geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 nudge_x       = 1,
                 force         = 2,
                 angle         = 0,
-                xlim          = c(as.Date("2020-04-15"), as.Date("2020-05-01")),
+                xlim          = c(as.Date("2020-04-16"), as.Date("2020-05-10")),
                 size          = 2.2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
@@ -193,7 +193,7 @@ ylab("Deaths per Day (3 Day Avg)") +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
 xlab("Date") +
 scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-03-16",NA))) +
-expand_limits(x = as.Date("2020-05-05")) +
+expand_limits(x = as.Date("2020-05-10")) +
 ggtitle(titleStr) +
 theme(aspect.ratio=0.75)
 ggsave(outfile1, plot=p2, height=6, width=8)
