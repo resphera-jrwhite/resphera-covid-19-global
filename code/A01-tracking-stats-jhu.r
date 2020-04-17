@@ -54,7 +54,7 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 2,
-                xlim          = c(as.Date("2020-04-16"), as.Date("2020-05-30")),
+                xlim          = c(as.Date("2020-04-17"), as.Date("2020-05-30")),
                 size          = 1.75,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
@@ -91,7 +91,7 @@ geom_point(aes(color=Country.Region), alpha=0.5, size=1.5) +
 geom_text_repel(data          = subset(visdat2, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_y       = 0,
-                nudge_x       = 48 - subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death,
+                nudge_x       = 56 - subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death,
                 xlim          = c(24,max(subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death)+4),
                 force         = 2,
                 direction     = "x",
@@ -127,8 +127,8 @@ geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 2,
                 angle         = 0,
-                nudge_y       = 0.5,
-                size          = 1.75,
+                nudge_y       = 0.25,
+                size          = 1.5,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
 theme_bw() +
@@ -144,7 +144,7 @@ theme(axis.text.x  = element_text(size=10, colour="black"),
 xlab("Cumulative Deaths") +
 ylab("% Increase in Cumulative Deaths (Most Recent 2-Day Avg)") +
 scale_x_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
-coord_cartesian(xlim = c(45, max(visdat$Cumulative.Deaths))) +
+coord_cartesian(xlim = c(25, max(visdat$Cumulative.Deaths))) +
 ggtitle(titleStr) +
 geom_hline(yintercept=0, color="black", linetype="dashed") +
 theme(aspect.ratio=1)
@@ -175,7 +175,7 @@ geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 nudge_x       = 1,
                 force         = 2,
                 angle         = 0,
-                xlim          = c(as.Date("2020-04-16"), as.Date("2020-05-10")),
+                xlim          = c(as.Date("2020-04-17"), as.Date("2020-05-10")),
                 size          = 2.2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
