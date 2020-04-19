@@ -54,7 +54,7 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 3,
-                xlim          = c(as.Date("2020-04-18"), as.Date("2020-06-04")),
+                xlim          = c(as.Date("2020-04-19"), as.Date("2020-06-04")),
                 size          = 1.75,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
@@ -175,7 +175,7 @@ geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 nudge_x       = 1,
                 force         = 2,
                 angle         = 0,
-                xlim          = c(as.Date("2020-04-18"), as.Date("2020-05-10")),
+                xlim          = c(as.Date("2020-04-19"), as.Date("2020-05-10")),
                 size          = 2.2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
