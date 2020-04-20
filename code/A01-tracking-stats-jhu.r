@@ -54,7 +54,7 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 3,
-                xlim          = c(as.Date("2020-04-19"), as.Date("2020-06-04")),
+                xlim          = c(as.Date("2020-04-20"), as.Date("2020-06-04")),
                 size          = 1.75,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
@@ -162,21 +162,23 @@ visdat = visdat[visdat$Country.Region %in% aggres[,1],]
 visdat$Country.Region = as.character(visdat$Country.Region)
 visdat$Country.Region = factor(visdat$Country.Region,levels=c(as.character(aggres[order(aggres[,2],decreasing=TRUE),1])))
 
+outfile1   = paste(analysisdir, "/covid-19.deaths-per-day-3dma.png", sep="")
+thisvisdat = visdat[grepl("Italy|Spain|France|United|Belgium|Netherlands|Portugal|Germany|Switzerland|Sweden", visdat$Country.Region),]
+thisvisdat$Country.Region = droplevels(thisvisdat$Country.Region)
+
 # adaptive color scheme ---
 colscheme    = c("#d72123", "#d87632", "#cac654", "#589A5D", "#4781A7", "#816fa3", "#d368a1", "grey50")
-adaptiveCols = colorRampPalette(rep(colscheme,1))(length(levels(visdat$Country.Region)))
-
-outfile1 = paste(analysisdir, "/covid-19.deaths-per-day-3dma.png", sep="")
-p2 <- ggplot(visdat, aes(x=DateFormatted, y=Deaths.per.Day.3DayMA, group=Country.Region, label=Label, color=Country.Region)) +
+adaptiveCols = colorRampPalette(rep(colscheme,1))(length(levels(thisvisdat$Country.Region)))
+p2 <- ggplot(thisvisdat, aes(x=DateFormatted, y=Deaths.per.Day.3DayMA, group=Country.Region, label=Label, color=Country.Region)) +
 geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.5) +
-geom_point(aes(color=Country.Region), alpha=0.85, size=1.5) +
-geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
+geom_point(aes(color=Country.Region), alpha=0.95, size=2) +
+geom_text_repel(data          = subset(thisvisdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_x       = 1,
                 force         = 2,
                 angle         = 0,
-                xlim          = c(as.Date("2020-04-19"), as.Date("2020-05-10")),
-                size          = 2.2,
+                xlim          = c(as.Date("2020-04-20"), as.Date("2020-05-10")),
+                size          = 3,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
 theme_bw() +
@@ -192,7 +194,7 @@ theme(axis.text.x  = element_text(size=10, colour="black"),
 ylab("Deaths per Day (3 Day Avg)") +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
 xlab("Date") +
-scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-03-16",NA))) +
+scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-03-01",NA))) +
 expand_limits(x = as.Date("2020-05-10")) +
 ggtitle(titleStr) +
 theme(aspect.ratio=0.75)
