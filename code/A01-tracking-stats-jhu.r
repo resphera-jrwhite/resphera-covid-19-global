@@ -54,7 +54,7 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 3,
-                xlim          = c(as.Date("2020-04-24"), as.Date("2020-06-14")),
+                xlim          = c(as.Date("2020-04-26"), as.Date("2020-06-14")),
                 size          = 1.75,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
@@ -78,9 +78,10 @@ theme(aspect.ratio=0.75)
 ggsave(outfile1, plot=p1, height=6, width=8)
 
 # plot by country post 50th death ---
-aggres  = aggres[aggres[,2]>=600,]
+aggres  = aggres[aggres[,2]>=100,]
 visdat2 = visdat[visdat$Country.Region %in% aggres[,1],]
 visdat2$Country.Region = as.character(visdat2$Country.Region)
+visdat2 = visdat2[grepl("USA",visdat2$Country.Region),]
 visdat2$Country.Region = factor(visdat2$Country.Region,levels=c(as.character(aggres[order(aggres[,2],decreasing=TRUE),1])))
 adaptiveCols2 = colorRampPalette(rep(colscheme,2))(length(levels(visdat2$Country.Region)))
 
@@ -91,8 +92,8 @@ geom_point(aes(color=Country.Region), alpha=0.5, size=1.5) +
 geom_text_repel(data          = subset(visdat2, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_y       = 0,
-                nudge_x       = 58 - subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death,
-                xlim          = c(52,max(subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death)+12),
+                nudge_x       = 44 - subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death,
+                xlim          = c(36,max(subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death)+50),
                 force         = 3,
                 direction     = "x",
                 angle         = 0,
@@ -113,7 +114,7 @@ xlab(bquote("Days from 50"^"th"*" Death")) +
 ylab("Cumulative Deaths") +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
 coord_cartesian(ylim = c(45, max(visdat2$Cumulative.Deaths))) +
-scale_x_continuous(breaks = seq(0, max(na.omit(visdat2$Days.from.50th.Death)+12), by = 4), limits=c(0,max(subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death)+12)) +
+scale_x_continuous(breaks = seq(0, max(na.omit(visdat2$Days.from.50th.Death)+50), by = 4), limits=c(0,max(subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death)+50)) +
 ggtitle(titleStr) +
 theme(aspect.ratio=0.75)
 ggsave(outfile1, plot=p2, height=6, width=8)
@@ -164,7 +165,7 @@ visdat$Country.Region = as.character(visdat$Country.Region)
 visdat$Country.Region = factor(visdat$Country.Region,levels=c(as.character(aggres[order(aggres[,2],decreasing=TRUE),1])))
 
 outfile1   = paste(analysisdir, "/covid-19.deaths-per-day-3dma.png", sep="")
-thisvisdat = visdat[grepl("USA|Brazil|Iran|Italy|Spain|France|United|Belgium|Netherlands|Portugal|Germany|Switzerland|Sweden", visdat$Country.Region),]
+thisvisdat = visdat[grepl("", visdat$Country.Region),]
 thisvisdat$Country.Region = droplevels(thisvisdat$Country.Region)
 
 # adaptive color scheme ---
@@ -178,7 +179,7 @@ geom_text_repel(data          = subset(thisvisdat, LastInSeries=="yes"),
                 nudge_x       = 1,
                 force         = 2,
                 angle         = 0,
-                xlim          = c(as.Date("2020-04-24"), as.Date("2020-05-10")),
+                xlim          = c(as.Date("2020-04-26"), as.Date("2020-05-10")),
                 size          = 2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
