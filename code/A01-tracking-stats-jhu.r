@@ -54,7 +54,7 @@ geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 3,
-                xlim          = c(as.Date("2020-05-03"), as.Date("2020-06-14")),
+                xlim          = c(as.Date("2020-05-10"), as.Date("2020-06-14")),
                 size          = 1.75,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
@@ -178,7 +178,7 @@ geom_text_repel(data          = subset(thisvisdat, LastInSeries=="yes"),
                 nudge_x       = 1,
                 force         = 2,
                 angle         = 0,
-                xlim          = c(as.Date("2020-05-03"), as.Date("2020-05-30")),
+                xlim          = c(as.Date("2020-05-10"), as.Date("2020-05-30")),
                 size          = 2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
@@ -196,7 +196,7 @@ ylab("Deaths per Day (3 Day Avg)") +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
 xlab("Date") +
 scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-03-30",NA))) +
-expand_limits(x = as.Date("2020-05-30")) +
+expand_limits(x = as.Date("2020-06-15")) +
 ggtitle(titleStr) +
 theme(aspect.ratio=0.75)
 ggsave(outfile1, plot=p2, height=6, width=8)
