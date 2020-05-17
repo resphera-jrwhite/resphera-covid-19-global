@@ -49,12 +49,12 @@ adaptiveCols = colorRampPalette(colscheme)(length(levels(visdat$Country.Region))
 # plot by country by date ---
 outfile1 = paste(analysisdir, "/covid-19.cumulative-deaths-by-date-log10.png", sep="")
 p1 <- ggplot(visdat, aes(x=DateFormatted, y=Cumulative.Deaths, group=Country.Region, label=Label, color=Country.Region)) +
-geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.9) +
-geom_point(aes(color=Country.Region), alpha=0.9, size=1.5) +
+geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.75) +
+geom_point(aes(color=Country.Region), alpha=0.75, size=0.8) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 3,
-                xlim          = c(as.Date("2020-05-10"), as.Date("2020-06-14")),
+                xlim          = c(as.Date("2020-05-17"), as.Date("2020-07-14")),
                 size          = 1.75,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
@@ -70,7 +70,7 @@ theme(axis.text.x  = element_text(size=9, colour="black"),
       legend.position  = "none") +
 xlab("Date") +
 scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-03-15",NA))) +
-expand_limits(x = as.Date("2020-06-14")) +
+expand_limits(x = as.Date("2020-07-14")) +
 ylab("Cumulative Deaths") +
 ggtitle(titleStr) +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
@@ -164,22 +164,26 @@ visdat$Country.Region = as.character(visdat$Country.Region)
 visdat$Country.Region = factor(visdat$Country.Region,levels=c(as.character(aggres[order(aggres[,2],decreasing=TRUE),1])))
 
 outfile1   = paste(analysisdir, "/covid-19.deaths-per-day-3dma.png", sep="")
-thisvisdat = visdat[grepl("USA", visdat$Country.Region),]
+thisvisdat = visdat[grepl("^(Brazil|USA|United|Italy|Spain|Peru|Canada|Argentina|Chile|France|Belgium|Mexico|India|Russia)$", visdat$Country.Region),]
 thisvisdat$Country.Region = droplevels(thisvisdat$Country.Region)
+
+daydex = thisvisdat[thisvisdat$DateFormatted == "2020-03-30",]
+
+thisvisdat$Country.Region = factor(thisvisdat$Country.Region,levels=c(as.character(daydex[order(daydex$Deaths.per.Day.3DayMA, decreasing=TRUE),"Country.Region"])))
 
 # adaptive color scheme ---
 colscheme    = c("#d72123", "#d87632", "#cac654", "#589A5D", "#4781A7", "#816fa3", "#d368a1", "grey50")
 adaptiveCols = colorRampPalette(rep(colscheme,1))(length(levels(thisvisdat$Country.Region)))
-p2 <- ggplot(thisvisdat, aes(x=DateFormatted, y=Deaths.per.Day.3DayMA, group=Country.Region, label=Label, color=Country.Region)) +
-geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.5) +
-geom_point(aes(color=Country.Region), alpha=0.5, size=2) +
+p2 <- ggplot(thisvisdat[thisvisdat$Deaths.per.Day.3DayMA >=2, ], aes(x=DateFormatted, y=Deaths.per.Day.3DayMA, group=Country.Region, label=Label, color=Country.Region)) +
+geom_path(mapping=aes(group=Country.Region, color=Country.Region), alpha=0.6) +
+geom_point(aes(color=Country.Region), alpha=0.6, size=2) +
 geom_text_repel(data          = subset(thisvisdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 nudge_x       = 1,
-                force         = 2,
+                force         = 3,
                 angle         = 0,
-                xlim          = c(as.Date("2020-05-10"), as.Date("2020-05-30")),
-                size          = 2,
+                xlim          = c(as.Date("2020-05-17"), as.Date("2020-06-10")),
+                size          = 2.2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
 theme_bw() +
@@ -193,10 +197,10 @@ theme(axis.text.x  = element_text(size=10, colour="black"),
       panel.grid.minor = element_blank(),
       legend.position  = "none") +
 ylab("Deaths per Day (3 Day Avg)") +
-scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
+scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000), limits=c(2,4000)) +
 xlab("Date") +
-scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-03-30",NA))) +
-expand_limits(x = as.Date("2020-06-15")) +
+scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-03-15",NA))) +
+expand_limits(x = as.Date("2020-06-07")) +
 ggtitle(titleStr) +
 theme(aspect.ratio=0.75)
 ggsave(outfile1, plot=p2, height=6, width=8)
