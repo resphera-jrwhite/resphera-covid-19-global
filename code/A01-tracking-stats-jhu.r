@@ -54,7 +54,7 @@ geom_point(aes(color=Country.Region), alpha=0.75, size=0.8) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 3,
-                xlim          = c(as.Date("2020-05-17"), as.Date("2020-07-14")),
+                xlim          = c(as.Date("2020-05-24"), as.Date("2020-07-14")),
                 size          = 1.75,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
@@ -145,7 +145,7 @@ theme(axis.text.x  = element_text(size=10, colour="black"),
 xlab("Cumulative Deaths") +
 ylab("% Increase in Cumulative Deaths (Most Recent 2-Day Avg)") +
 scale_x_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
-coord_cartesian(xlim = c(25, max(visdat$Cumulative.Deaths)), ylim=c(0,10)) +
+coord_cartesian(xlim = c(25, max(visdat$Cumulative.Deaths)), ylim=c(0,6)) +
 ggtitle(titleStr) +
 geom_hline(yintercept=0, color="black", linetype="dashed") +
 theme(aspect.ratio=1)
@@ -156,7 +156,7 @@ ggsave(outfile1, plot=p2, height=6, width=6)
 # sort by most deaths ---
 aggres = aggregate(Deaths.per.Day.3DayMA ~ Country.Region, visdat, FUN=max)
 # select those places with >= 25 deaths per day
-aggres = aggres[aggres[,2]>=20,]
+aggres = aggres[aggres[,2]>=10,]
 aggres = aggregate(Deaths.per.Day.3DayMA ~ Country.Region, visdat[visdat$Country.Region %in% aggres[,1] & visdat$LastInSeries=="yes", ], FUN=max)
 
 visdat = visdat[visdat$Country.Region %in% aggres[,1],]
@@ -164,7 +164,7 @@ visdat$Country.Region = as.character(visdat$Country.Region)
 visdat$Country.Region = factor(visdat$Country.Region,levels=c(as.character(aggres[order(aggres[,2],decreasing=TRUE),1])))
 
 outfile1   = paste(analysisdir, "/covid-19.deaths-per-day-3dma.png", sep="")
-thisvisdat = visdat[grepl("^(Brazil|USA|United|Italy|Spain|Peru|Canada|Argentina|Chile|France|Belgium|Mexico|India|Russia)$", visdat$Country.Region),]
+thisvisdat = visdat[grepl("^(Spain|Germany|Brazil|USA|United|Italy|Peru|Canada|Argentina|Chile|Belgium|Mexico|India|Russia)$", visdat$Country.Region),]
 thisvisdat$Country.Region = droplevels(thisvisdat$Country.Region)
 
 daydex = thisvisdat[thisvisdat$DateFormatted == "2020-03-30",]
@@ -182,7 +182,7 @@ geom_text_repel(data          = subset(thisvisdat, LastInSeries=="yes"),
                 nudge_x       = 1,
                 force         = 3,
                 angle         = 0,
-                xlim          = c(as.Date("2020-05-17"), as.Date("2020-06-10")),
+                xlim          = c(as.Date("2020-05-24"), as.Date("2020-06-10")),
                 size          = 2.2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
