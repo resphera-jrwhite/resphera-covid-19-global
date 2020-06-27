@@ -37,7 +37,7 @@ visdat$Label         = as.character(visdat$Label)
 # sort by most deaths ---
 aggres = aggregate(Cumulative.Deaths ~ Country.Region, visdat, FUN=max)
 # select those places with >= 50 deaths
-aggres = aggres[aggres[,2]>=50,]
+aggres = aggres[aggres[,2]>=500,]
 visdat = visdat[visdat$Country.Region %in% aggres[,1],]
 visdat$Country.Region = as.character(visdat$Country.Region)
 visdat$Country.Region = factor(visdat$Country.Region,levels=c(as.character(aggres[order(aggres[,2],decreasing=TRUE),1])))
@@ -54,13 +54,13 @@ geom_point(aes(color=Country.Region), alpha=0.75, size=0.8) +
 geom_text_repel(data          = subset(visdat, LastInSeries=="yes"),
                 aes(label     = Label),
                 force         = 3,
-                xlim          = c(as.Date("2020-06-01"), as.Date("2020-08-14")),
+                xlim          = c(as.Date("2020-07-01"), as.Date("2020-09-14")),
                 size          = 1.75,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
 theme_bw() +
 scale_color_manual(values = adaptiveCols) +
-theme(axis.text.x  = element_text(size=9, colour="black"),
+theme(axis.text.x  = element_text(size=6, colour="black"),
       axis.text.y  = element_text(size=11, colour="black"),
       axis.title.x = element_text(size=12, colour="black"),
       axis.title.y = element_text(size=12, colour="black"),
@@ -69,8 +69,8 @@ theme(axis.text.x  = element_text(size=9, colour="black"),
       panel.grid.minor = element_blank(),
       legend.position  = "none") +
 xlab("Date") +
-scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-03-15",NA))) +
-expand_limits(x = as.Date("2020-08-14")) +
+scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-04-01",NA))) +
+expand_limits(x = as.Date("2020-09-14")) +
 ylab("Cumulative Deaths") +
 ggtitle(titleStr) +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
@@ -94,7 +94,7 @@ geom_text_repel(data          = subset(visdat2, LastInSeries=="yes"),
                 nudge_y       = 0,
                 nudge_x       = 20 + 0.25*subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death,
                 force         = 1,
-                xlim          = c(40,max(subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death)+70),
+                xlim          = c(100,max(subset(visdat2, LastInSeries=="yes")$Days.from.50th.Death)+70),
                 direction     = "x",
                 angle         = 0,
                 size          = 1.85,
@@ -102,7 +102,7 @@ geom_text_repel(data          = subset(visdat2, LastInSeries=="yes"),
                 segment.alpha = 0.25) +
 theme_bw() +
 scale_color_manual(values = adaptiveCols2) +
-theme(axis.text.x  = element_text(size=10, colour="black"),
+theme(axis.text.x  = element_text(size=8, colour="black"),
       axis.text.y  = element_text(size=11, colour="black"),
       axis.title.x = element_text(size=12, colour="black"),
       axis.title.y = element_text(size=12, colour="black"),
@@ -144,8 +144,8 @@ theme(axis.text.x  = element_text(size=10, colour="black"),
       legend.position  = "none") +
 xlab("Cumulative Deaths") +
 ylab("% Increase in Cumulative Deaths (Most Recent 2-Day Avg)") +
-scale_x_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000)) +
-coord_cartesian(xlim = c(25, max(visdat$Cumulative.Deaths)), ylim=c(0,6)) +
+scale_x_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000, 100000, 250000)) +
+coord_cartesian(xlim = c(250, max(visdat$Cumulative.Deaths)), ylim=c(0,5)) +
 ggtitle(titleStr) +
 geom_hline(yintercept=0, color="black", linetype="dashed") +
 theme(aspect.ratio=1)
@@ -164,10 +164,10 @@ visdat$Country.Region = as.character(visdat$Country.Region)
 visdat$Country.Region = factor(visdat$Country.Region,levels=c(as.character(aggres[order(aggres[,2],decreasing=TRUE),1])))
 
 outfile1   = paste(analysisdir, "/covid-19.deaths-per-day-3dma.png", sep="")
-thisvisdat = visdat[grepl("^(France|Germany|Brazil|USA|United|Italy|Peru|Canada|Argentina|Chile|Belgium|Mexico|India|Russia)$", visdat$Country.Region),]
+thisvisdat = visdat[grepl("^(China|France|Germany|Brazil|USA|United|Italy|Peru|Canada|Argentina|Chile|Belgium|Mexico|India|Russia)$", visdat$Country.Region),]
 thisvisdat$Country.Region = droplevels(thisvisdat$Country.Region)
 
-daydex = thisvisdat[thisvisdat$DateFormatted == "2020-03-30",]
+daydex = thisvisdat[thisvisdat$DateFormatted == "2020-06-22",]
 
 thisvisdat$Country.Region = factor(thisvisdat$Country.Region,levels=c(as.character(daydex[order(daydex$Deaths.per.Day.3DayMA, decreasing=TRUE),"Country.Region"])))
 
@@ -182,7 +182,7 @@ geom_text_repel(data          = subset(thisvisdat, LastInSeries=="yes"),
                 nudge_x       = 1,
                 force         = 3,
                 angle         = 0,
-                xlim          = c(as.Date("2020-06-01"), as.Date("2020-06-10")),
+                xlim          = c(as.Date("2020-07-01"), as.Date("2020-07-10")),
                 size          = 2.2,
                 segment.size  = 0.25,
                 segment.alpha = 0.25) +
@@ -199,8 +199,8 @@ theme(axis.text.x  = element_text(size=10, colour="black"),
 ylab("Deaths per Day (3 Day Avg)") +
 scale_y_log10(breaks=c(0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000), limits=c(2,4000)) +
 xlab("Date") +
-scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-03-15",NA))) +
-expand_limits(x = as.Date("2020-06-07")) +
+scale_x_date(date_labels = "%b %d", date_breaks = "1 week", limits=as.Date(c("2020-04-15",NA))) +
+expand_limits(x = as.Date("2020-07-10")) +
 ggtitle(titleStr) +
 theme(aspect.ratio=0.75)
 ggsave(outfile1, plot=p2, height=6, width=8)
